@@ -1,4 +1,4 @@
-<img width="1774" height="887" alt="image" src="https://github.com/user-attachments/assets/ce0fb99a-7cca-46a7-a556-242c9d0e3e22" /># AI Engineering Insight Atlas
+# AI Engineering Insight Atlas
 
 As busy professionals and developers, there are more AI engineering talks than most have time to watch. Sometimes a promising title may turn out into an uninspiring video; or a video description may not give enough context to tell if the video is worth the time investment.
 
