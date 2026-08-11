@@ -632,12 +632,8 @@ export function AtlasDashboard() {
           aria-label="AI Engineering Insight Atlas introduction"
           className="mx-auto max-w-[1400px] px-6 pt-4"
         >
-          <div className="crosshair grid overflow-hidden rounded-xl border border-ink/90 bg-paper shadow-[0_20px_60px_-20px_rgba(20,20,40,0.25)] md:grid-cols-[minmax(0,0.8fr)_minmax(0,1.2fr)]">
-            <div className="flex min-h-[220px] items-center border-b border-ink/20 p-8 md:min-h-[310px] md:border-b-0 md:border-r md:p-12 lg:p-16">
-              <h1 className="max-w-[9ch] font-display text-5xl leading-[0.92] tracking-[-0.045em] sm:text-6xl lg:text-7xl">
-                AI Engineering Insights
-              </h1>
-            </div>
+          <h1 className="sr-only">AI Engineering Insights</h1>
+          <div className="crosshair overflow-hidden rounded-xl border border-ink/90 bg-paper shadow-[0_20px_60px_-20px_rgba(20,20,40,0.25)]">
             <picture className="block bg-card">
               <source srcSet="/hero-themes-v2.webp" type="image/webp" />
               <img
@@ -648,7 +644,7 @@ export function AtlasDashboard() {
                 loading="eager"
                 fetchPriority="high"
                 decoding="async"
-                className="block h-full min-h-[240px] w-full object-cover md:min-h-[310px]"
+                className="block h-auto w-full"
               />
             </picture>
           </div>
