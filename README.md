@@ -1,4 +1,4 @@
-# AI Engineering Insight Atlas
+<img width="1774" height="887" alt="image" src="https://github.com/user-attachments/assets/ce0fb99a-7cca-46a7-a556-242c9d0e3e22" /># AI Engineering Insight Atlas
 
 As busy professionals and developers, there are more AI engineering talks than most have time to watch. Sometimes a promising title may turn out into an uninspiring video; or a video description may not give enough context to tell if the video is worth the time investment.
 
@@ -15,7 +15,8 @@ The Atlas currently covers nine themes: System Design, Data & Eval, Reliability,
 - A responsive detail view with direct links back to the original YouTube talk
 - Lightweight tags for cross-cutting topics such as retrieval, agentic coding and model training
 
-<img width="1774" height="887" alt="image" src="https://github.com/user-attachments/assets/ff66bf69-d2da-4cb8-866a-436840c3a159" />
+<img width="1774" height="887" alt="image" src="https://github.com/user-attachments/assets/0196611f-dd1a-4d2b-bc69-6b675859782d" />
+
 
 ## Source and rights boundary
 
