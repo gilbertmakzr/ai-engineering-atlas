@@ -30,6 +30,7 @@ describe("verified video catalog", () => {
     expect(
       LAST_KNOWN_GOOD_CATALOG.some((video) => videoThemes(video).includes("Models & Training")),
     ).toBe(true);
+    expect(LAST_KNOWN_GOOD_CATALOG.every((video) => (video.themes ?? []).length > 0)).toBe(true);
     expect(LAST_KNOWN_GOOD_CATALOG.every((video) => videoTags(video).length > 0)).toBe(true);
   });
 
@@ -119,6 +120,11 @@ describe("verified video catalog", () => {
     expect(result.catalog.records[0]?.youtubeId).toBe("newvideo000");
     expect(result.catalog.records[0]?.insightReviewStatus).toBe("unmapped");
     expect(result.catalog.records[0]?.contentStatus).toBe("metadata_only");
+    expect(result.catalog.records[0]?.themes).toEqual(["System Design"]);
+    expect(result.catalog.records[0]?.themeClassification).toMatchObject({
+      source: "metadata_taxonomy",
+      basis: "generic_fallback",
+    });
     expect(result.catalog.manifest.recordCount).toBe(2);
   });
 });

@@ -1,6 +1,7 @@
 import { mkdir, readFile, rename, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 
+import { inferredThemesFromTitle } from "../src/data/catalog-taxonomy";
 import { MIN_DISCOVERY_PACE_MS } from "./discover-video-sources";
 
 export const YOUTUBE_RECONCILIATION_PAGE_SIZE = 50;
@@ -14,6 +15,11 @@ type CatalogRecord = {
   track: null;
   tracks: string[];
   themes: string[];
+  themeClassification: {
+    source: "metadata_taxonomy";
+    basis: "title_rules" | "generic_fallback";
+    classifiedAt: string;
+  };
   publishedAt: string;
   durationSeconds: number;
   youtubeId: string;
@@ -118,14 +124,21 @@ async function youtubeGet<T>(resource: string, params: Record<string, string>, f
 }
 
 export function asCatalogRecord(candidate: Candidate): CatalogRecord {
+  const inferredThemes = inferredThemesFromTitle(candidate.title);
+  const themes = inferredThemes.length ? inferredThemes : ["System Design"];
   return {
     id: `youtube-${candidate.youtubeId}`,
     code: safeCode(candidate.youtubeId),
     title: candidate.title,
     sourceChannel: candidate.channel,
     track: null,
-    tracks: [],
-    themes: [],
+    tracks: themes,
+    themes,
+    themeClassification: {
+      source: "metadata_taxonomy",
+      basis: inferredThemes.length ? "title_rules" : "generic_fallback",
+      classifiedAt: candidate.provenance.retrievedAt,
+    },
     publishedAt: candidate.publishedAt,
     durationSeconds: candidate.durationSeconds,
     youtubeId: candidate.youtubeId,

@@ -28,10 +28,10 @@
         "Deployment"
       ],
       "themeClassification": {
-        "source": "approved_local_metadata",
-        "basis": "metadata_review",
-        "reviewedAt": "2026-08-14T17:10:36.932Z",
-        "reviewerVersion": "atlas-metadata-review-2026-08-15"
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
       },
       "publishedAt": "2026-08-14T17:00:37Z",
       "durationSeconds": 1143,
@@ -56,10 +56,10 @@
         "Deployment"
       ],
       "themeClassification": {
-        "source": "approved_local_metadata",
-        "basis": "metadata_review",
-        "reviewedAt": "2026-08-14T17:10:36.932Z",
-        "reviewerVersion": "atlas-metadata-review-2026-08-15"
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
       },
       "publishedAt": "2026-08-14T16:30:36Z",
       "durationSeconds": 1340,
@@ -86,10 +86,10 @@
         "Reliability"
       ],
       "themeClassification": {
-        "source": "approved_local_metadata",
-        "basis": "metadata_review",
-        "reviewedAt": "2026-08-14T17:10:36.932Z",
-        "reviewerVersion": "atlas-metadata-review-2026-08-15"
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
       },
       "publishedAt": "2026-08-14T16:00:06Z",
       "durationSeconds": 1066,
@@ -114,10 +114,10 @@
         "Reliability"
       ],
       "themeClassification": {
-        "source": "approved_local_metadata",
-        "basis": "metadata_review",
-        "reviewedAt": "2026-08-14T17:10:36.932Z",
-        "reviewerVersion": "atlas-metadata-review-2026-08-15"
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
       },
       "publishedAt": "2026-08-14T15:30:00Z",
       "durationSeconds": 1298,
@@ -144,10 +144,10 @@
         "Reliability"
       ],
       "themeClassification": {
-        "source": "approved_local_metadata",
-        "basis": "metadata_review",
-        "reviewedAt": "2026-08-14T17:10:36.932Z",
-        "reviewerVersion": "atlas-metadata-review-2026-08-15"
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
       },
       "publishedAt": "2026-08-14T15:00:31Z",
       "durationSeconds": 1106,
@@ -172,10 +172,10 @@
         "Models & Training"
       ],
       "themeClassification": {
-        "source": "approved_local_metadata",
-        "basis": "metadata_review",
-        "reviewedAt": "2026-08-14T17:10:36.932Z",
-        "reviewerVersion": "atlas-metadata-review-2026-08-15"
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
       },
       "publishedAt": "2026-08-14T14:30:31Z",
       "durationSeconds": 1048,
@@ -200,10 +200,10 @@
         "Deployment"
       ],
       "themeClassification": {
-        "source": "approved_local_metadata",
-        "basis": "metadata_review",
-        "reviewedAt": "2026-08-14T17:10:36.932Z",
-        "reviewerVersion": "atlas-metadata-review-2026-08-15"
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
       },
       "publishedAt": "2026-08-14T14:00:06Z",
       "durationSeconds": 1260,
@@ -230,10 +230,10 @@
         "Developer Workflows"
       ],
       "themeClassification": {
-        "source": "approved_local_metadata",
-        "basis": "metadata_review",
-        "reviewedAt": "2026-08-14T17:10:36.932Z",
-        "reviewerVersion": "atlas-metadata-review-2026-08-15"
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
       },
       "publishedAt": "2026-08-12T19:00:01Z",
       "durationSeconds": 1202,
@@ -258,10 +258,10 @@
         "System Design"
       ],
       "themeClassification": {
-        "source": "approved_local_metadata",
-        "basis": "metadata_review",
-        "reviewedAt": "2026-08-14T17:10:36.932Z",
-        "reviewerVersion": "atlas-metadata-review-2026-08-15"
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
       },
       "publishedAt": "2026-08-12T18:30:06Z",
       "durationSeconds": 1171,
@@ -286,10 +286,10 @@
         "Developer Workflows"
       ],
       "themeClassification": {
-        "source": "approved_local_metadata",
-        "basis": "metadata_review",
-        "reviewedAt": "2026-08-14T17:10:36.932Z",
-        "reviewerVersion": "atlas-metadata-review-2026-08-15"
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
       },
       "publishedAt": "2026-08-12T18:00:34Z",
       "durationSeconds": 1186,
@@ -303,13 +303,25 @@
       "title": "Bringing Continual Learning into Enterprises — Samuel Denton, Applied Compute",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Knowledge",
+        "Models & Training"
+      ],
+      "themes": [
+        "Knowledge",
+        "Models & Training"
+      ],
       "publishedAt": "2026-08-12T17:30:06Z",
       "durationSeconds": 1143,
       "youtubeId": "ZTA0GwpAUak",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-I3bpdgFJCUY",
@@ -317,13 +329,23 @@
       "title": "LLM Knowledge Bases: a practical guide — Ben Holmes, Warp",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Knowledge"
+      ],
+      "themes": [
+        "Knowledge"
+      ],
       "publishedAt": "2026-08-12T17:00:22Z",
       "durationSeconds": 1277,
       "youtubeId": "I3bpdgFJCUY",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-XEd_SRVHBgU",
@@ -331,13 +353,23 @@
       "title": "Adaption Labs: Gradient-Free Continual Learning — Sara Hooker, Adaption",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Models & Training"
+      ],
+      "themes": [
+        "Models & Training"
+      ],
       "publishedAt": "2026-08-12T16:30:19Z",
       "durationSeconds": 1251,
       "youtubeId": "XEd_SRVHBgU",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-I6aiEf3aEFQ",
@@ -345,13 +377,25 @@
       "title": "Intelligence + Continual Learning = Expertise — Yu Su, NeoCognition",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Knowledge",
+        "Models & Training"
+      ],
+      "themes": [
+        "Knowledge",
+        "Models & Training"
+      ],
       "publishedAt": "2026-08-12T16:00:08Z",
       "durationSeconds": 1183,
       "youtubeId": "I6aiEf3aEFQ",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-WiqDvX6isc4",
@@ -359,13 +403,25 @@
       "title": "Scaling Compute on Context — Jack Morris, Engram",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Knowledge",
+        "Models & Training"
+      ],
+      "themes": [
+        "Knowledge",
+        "Models & Training"
+      ],
       "publishedAt": "2026-08-12T15:30:14Z",
       "durationSeconds": 1182,
       "youtubeId": "WiqDvX6isc4",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-R3-anFK1YM8",
@@ -373,13 +429,25 @@
       "title": "Memory Harnesses for Long-Running Research Agents — Stefania Druga, Sakana.ai",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Knowledge",
+        "Developer Workflows"
+      ],
+      "themes": [
+        "Knowledge",
+        "Developer Workflows"
+      ],
       "publishedAt": "2026-08-12T15:00:06Z",
       "durationSeconds": 784,
       "youtubeId": "R3-anFK1YM8",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-zL1kLftVTlo",
@@ -387,13 +455,23 @@
       "title": "Scaling up Continual Learning — Ronak Malde, Trajectory",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Models & Training"
+      ],
+      "themes": [
+        "Models & Training"
+      ],
       "publishedAt": "2026-08-12T14:30:11Z",
       "durationSeconds": 1383,
       "youtubeId": "zL1kLftVTlo",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-iqloyWCGYQQ",
@@ -401,13 +479,25 @@
       "title": "Beyond Static Intelligence: Evaluating Continual Learning — Parth Asawa, UC Berkeley",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Data & Eval",
+        "Models & Training"
+      ],
+      "themes": [
+        "Data & Eval",
+        "Models & Training"
+      ],
       "publishedAt": "2026-08-12T14:00:19Z",
       "durationSeconds": 1230,
       "youtubeId": "iqloyWCGYQQ",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-K0X9QDRkIdg",
@@ -415,13 +505,25 @@
       "title": "Evolution of agentic surfaces — Gagan Bhat & Isabella Kai He, Anthropic",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "System Design",
+        "Developer Workflows"
+      ],
+      "themes": [
+        "System Design",
+        "Developer Workflows"
+      ],
       "publishedAt": "2026-08-11T16:00:06Z",
       "durationSeconds": 1884,
       "youtubeId": "K0X9QDRkIdg",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-aeTb5BdmTTc",
@@ -429,13 +531,25 @@
       "title": "Agents, codebases, and teams — Aditya Khandelwal, Amazon AGI Lab",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Developer Workflows",
+        "System Design"
+      ],
+      "themes": [
+        "Developer Workflows",
+        "System Design"
+      ],
       "publishedAt": "2026-08-11T00:03:17Z",
       "durationSeconds": 1017,
       "youtubeId": "aeTb5BdmTTc",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-maRzp4kImJ4",
@@ -443,13 +557,25 @@
       "title": "Taking Reinforcement Learning Cross Datacenter — Nan Jiang, Modal",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Models & Training",
+        "Deployment"
+      ],
+      "themes": [
+        "Models & Training",
+        "Deployment"
+      ],
       "publishedAt": "2026-08-10T17:30:30Z",
       "durationSeconds": 1190,
       "youtubeId": "maRzp4kImJ4",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-shRR1e2HXMk",
@@ -457,13 +583,25 @@
       "title": "Codex, Behind the Harness — Dominik Kundel, OpenAI",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Developer Workflows",
+        "Reliability"
+      ],
+      "themes": [
+        "Developer Workflows",
+        "Reliability"
+      ],
       "publishedAt": "2026-08-10T16:00:06Z",
       "durationSeconds": 1255,
       "youtubeId": "shRR1e2HXMk",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-OL7kfezynJM",
@@ -471,13 +609,25 @@
       "title": "Multiplayer agentic engineering — Arjun Singh, Superconductor",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Developer Workflows",
+        "System Design"
+      ],
+      "themes": [
+        "Developer Workflows",
+        "System Design"
+      ],
       "publishedAt": "2026-08-09T20:30:34Z",
       "durationSeconds": 1124,
       "youtubeId": "OL7kfezynJM",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-03l29gJXpCE",
@@ -485,13 +635,25 @@
       "title": "Guide, Verify, Solve — Anirban Chatterjee, Sonar",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Data & Eval",
+        "Safety & Control"
+      ],
+      "themes": [
+        "Data & Eval",
+        "Safety & Control"
+      ],
       "publishedAt": "2026-08-09T17:45:13Z",
       "durationSeconds": 1351,
       "youtubeId": "03l29gJXpCE",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-Kz4QJmNrVXU",
@@ -499,13 +661,23 @@
       "title": "Velocity Sickness: What Happens When Your Whole Team Gets 10x Faster — Matt Dailey, Ref.",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Developer Workflows"
+      ],
+      "themes": [
+        "Developer Workflows"
+      ],
       "publishedAt": "2026-08-09T16:30:28Z",
       "durationSeconds": 1237,
       "youtubeId": "Kz4QJmNrVXU",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-vSx5IULvBns",
@@ -513,13 +685,25 @@
       "title": "Always-on agents run production without the on-call tax — Justin Smith, Resolve AI",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Reliability",
+        "Deployment"
+      ],
+      "themes": [
+        "Reliability",
+        "Deployment"
+      ],
       "publishedAt": "2026-08-09T14:45:06Z",
       "durationSeconds": 1496,
       "youtubeId": "vSx5IULvBns",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-iQ5xldZ9StU",
@@ -527,13 +711,25 @@
       "title": "Realtime multiplayer, automation, and you! — Idan Gazit, GitHub",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Developer Workflows",
+        "System Design"
+      ],
+      "themes": [
+        "Developer Workflows",
+        "System Design"
+      ],
       "publishedAt": "2026-08-08T21:30:06Z",
       "durationSeconds": 1301,
       "youtubeId": "iQ5xldZ9StU",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-7vn4WpqNpck",
@@ -541,13 +737,25 @@
       "title": "Benchmarking Coding Agents on New vs Legacy Codebases — Denys Linkov, Wisedocs",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Data & Eval",
+        "Developer Workflows"
+      ],
+      "themes": [
+        "Data & Eval",
+        "Developer Workflows"
+      ],
       "publishedAt": "2026-08-08T19:00:06Z",
       "durationSeconds": 1088,
       "youtubeId": "7vn4WpqNpck",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-Z-c11pV_uvU",
@@ -555,13 +763,25 @@
       "title": "Anthropic's CCA Exam as a Field-Guide for Agentic Engineering — Frank Coyle, UC Berkeley",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Data & Eval",
+        "Safety & Control"
+      ],
+      "themes": [
+        "Data & Eval",
+        "Safety & Control"
+      ],
       "publishedAt": "2026-08-08T16:00:06Z",
       "durationSeconds": 1208,
       "youtubeId": "Z-c11pV_uvU",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-LZuWZRze3MU",
@@ -569,13 +789,25 @@
       "title": "The New Primitives: Building AI Native Software — Kwindla Kramer, Daily",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "System Design",
+        "Developer Workflows"
+      ],
+      "themes": [
+        "System Design",
+        "Developer Workflows"
+      ],
       "publishedAt": "2026-08-07T23:53:33Z",
       "durationSeconds": 1274,
       "youtubeId": "LZuWZRze3MU",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-CoEIs6Xm8m8",
@@ -583,13 +815,23 @@
       "title": "Open Source Is Dead. Long Live Open Source. — Saoud Rizwan, Cline",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Developer Workflows"
+      ],
+      "themes": [
+        "Developer Workflows"
+      ],
       "publishedAt": "2026-08-07T23:26:51Z",
       "durationSeconds": 1050,
       "youtubeId": "CoEIs6Xm8m8",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-FWMJQDH3iK0",
@@ -597,13 +839,27 @@
       "title": "Local Models: Trust, Control, Optimization — Carter Abdallah, NVIDIA",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Models & Training",
+        "Safety & Control",
+        "Deployment"
+      ],
+      "themes": [
+        "Models & Training",
+        "Safety & Control",
+        "Deployment"
+      ],
       "publishedAt": "2026-08-07T02:00:06Z",
       "durationSeconds": 2601,
       "youtubeId": "FWMJQDH3iK0",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-J4_jCrTxMkk",
@@ -611,13 +867,25 @@
       "title": "Compression at the Edge — NVIDIA, Unsloth, HuggingFace, Ollama",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Models & Training",
+        "Deployment"
+      ],
+      "themes": [
+        "Models & Training",
+        "Deployment"
+      ],
       "publishedAt": "2026-08-07T01:00:06Z",
       "durationSeconds": 2761,
       "youtubeId": "J4_jCrTxMkk",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-QHBjufYK8TA",
@@ -625,13 +893,25 @@
       "title": "The State of Model Routing — NVIDIA, Cognition, OpenRouter",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "System Design",
+        "Models & Training"
+      ],
+      "themes": [
+        "System Design",
+        "Models & Training"
+      ],
       "publishedAt": "2026-08-06T17:07:24Z",
       "durationSeconds": 2897,
       "youtubeId": "QHBjufYK8TA",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-RmS5s6Wbin4",
@@ -639,13 +919,25 @@
       "title": "Gadgets: Personal app vibe coding that is actually safe — Kenton Varda, Cloudflare",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Developer Workflows",
+        "Safety & Control"
+      ],
+      "themes": [
+        "Developer Workflows",
+        "Safety & Control"
+      ],
       "publishedAt": "2026-08-05T22:42:10Z",
       "durationSeconds": 1134,
       "youtubeId": "RmS5s6Wbin4",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-jQDXzEVHMSE",
@@ -773,13 +1065,25 @@
       "title": "Rethinking Environments for Long-Horizon Work — Rayan Garg, Theta Software",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Data & Eval",
+        "Developer Workflows"
+      ],
+      "themes": [
+        "Data & Eval",
+        "Developer Workflows"
+      ],
       "publishedAt": "2026-08-01T00:00:06Z",
       "durationSeconds": 1275,
       "youtubeId": "2aS7aKoXn64",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-cJ0EOzey--o",
@@ -787,13 +1091,23 @@
       "title": "What's Next After RLHF? — Diogo Almeida, TypeSafe AI",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Models & Training"
+      ],
+      "themes": [
+        "Models & Training"
+      ],
       "publishedAt": "2026-07-31T23:30:06Z",
       "durationSeconds": 1085,
       "youtubeId": "cJ0EOzey--o",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-_PdK6x7PQNM",
@@ -801,13 +1115,25 @@
       "title": "Data Quality Is the Compute Multiplier — Ari Morcos, DatologyAI",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Data & Eval",
+        "Models & Training"
+      ],
+      "themes": [
+        "Data & Eval",
+        "Models & Training"
+      ],
       "publishedAt": "2026-07-31T23:00:06Z",
       "durationSeconds": 1145,
       "youtubeId": "_PdK6x7PQNM",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-k35LeKZEhiE",
@@ -815,13 +1141,25 @@
       "title": "Learning on the Job: The Future of Post-Training — Raymond Feng, Applied Compute",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Models & Training",
+        "Data & Eval"
+      ],
+      "themes": [
+        "Models & Training",
+        "Data & Eval"
+      ],
       "publishedAt": "2026-07-31T22:30:06Z",
       "durationSeconds": 1100,
       "youtubeId": "k35LeKZEhiE",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-ewtOo0scUh0",
@@ -829,13 +1167,25 @@
       "title": "Data and Environment Curation for Post-Training LLMs — Mahesh Sathiamoorthy, Bespoke Labs",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Models & Training",
+        "Data & Eval"
+      ],
+      "themes": [
+        "Models & Training",
+        "Data & Eval"
+      ],
       "publishedAt": "2026-07-31T22:00:06Z",
       "durationSeconds": 1152,
       "youtubeId": "ewtOo0scUh0",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-2bvtay8wGYI",
@@ -843,13 +1193,25 @@
       "title": "Scaling to Long Horizons — Ross Taylor & Chengxi Taylor, General Reasoning",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Models & Training",
+        "Reliability"
+      ],
+      "themes": [
+        "Models & Training",
+        "Reliability"
+      ],
       "publishedAt": "2026-07-31T21:30:06Z",
       "durationSeconds": 1087,
       "youtubeId": "2bvtay8wGYI",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-zkX03APVj0M",
@@ -857,13 +1219,27 @@
       "title": "Emulated: The Data for Fully Autonomous Software Engineers and Companies — Joseph Wang",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Developer Workflows",
+        "Data & Eval",
+        "Models & Training"
+      ],
+      "themes": [
+        "Developer Workflows",
+        "Data & Eval",
+        "Models & Training"
+      ],
       "publishedAt": "2026-07-31T21:00:03Z",
       "durationSeconds": 993,
       "youtubeId": "zkX03APVj0M",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-xbPriQWXtWM",
@@ -871,13 +1247,23 @@
       "title": "The Base Model Is Dead — Varun Singh, Arcee AI",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Models & Training"
+      ],
+      "themes": [
+        "Models & Training"
+      ],
       "publishedAt": "2026-07-31T20:30:21Z",
       "durationSeconds": 1065,
       "youtubeId": "xbPriQWXtWM",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-3ZMUiFaQ3qg",
@@ -885,13 +1271,25 @@
       "title": "Verifiable Environments for AI in Biology — Kenny Workman, LatchBio",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Data & Eval",
+        "Safety & Control"
+      ],
+      "themes": [
+        "Data & Eval",
+        "Safety & Control"
+      ],
       "publishedAt": "2026-07-31T20:00:35Z",
       "durationSeconds": 1062,
       "youtubeId": "3ZMUiFaQ3qg",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-lCBf9slCanI",
@@ -899,13 +1297,25 @@
       "title": "Ending AI Slop — Thais Castello Branco, Taste Labs",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Data & Eval",
+        "Safety & Control"
+      ],
+      "themes": [
+        "Data & Eval",
+        "Safety & Control"
+      ],
       "publishedAt": "2026-07-31T19:26:20Z",
       "durationSeconds": 990,
       "youtubeId": "lCBf9slCanI",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-jWq-aZIU0kM",
@@ -913,13 +1323,23 @@
       "title": "Benchmarks: The Good, the Bad, and the Ugly — Ali Khial, G2i",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Data & Eval"
+      ],
+      "themes": [
+        "Data & Eval"
+      ],
       "publishedAt": "2026-07-31T16:00:06Z",
       "durationSeconds": 769,
       "youtubeId": "jWq-aZIU0kM",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-AQv3qRCG6Gw",
@@ -927,13 +1347,27 @@
       "title": "Reinforcement Learning without Verifiable Rewards — Will Brown, Prime Intellect",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Models & Training",
+        "Data & Eval",
+        "Safety & Control"
+      ],
+      "themes": [
+        "Models & Training",
+        "Data & Eval",
+        "Safety & Control"
+      ],
       "publishedAt": "2026-07-31T15:00:06Z",
       "durationSeconds": 1167,
       "youtubeId": "AQv3qRCG6Gw",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-AVMr9PMINyo",
@@ -941,13 +1375,27 @@
       "title": "Agents at Scale: Inside MiniMax's Model and the Infrastructure Behind It — Dan Fu and Olive Song",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "System Design",
+        "Models & Training",
+        "Deployment"
+      ],
+      "themes": [
+        "System Design",
+        "Models & Training",
+        "Deployment"
+      ],
       "publishedAt": "2026-07-31T03:00:14Z",
       "durationSeconds": 1214,
       "youtubeId": "AVMr9PMINyo",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-AMiyLItEtLA",
@@ -955,13 +1403,23 @@
       "title": "fighting slop with slop — Vaibhav Gupta, Boundary",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Data & Eval"
+      ],
+      "themes": [
+        "Data & Eval"
+      ],
       "publishedAt": "2026-07-31T01:11:30Z",
       "durationSeconds": 1292,
       "youtubeId": "AMiyLItEtLA",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-pWXUkLP9uWM",
@@ -969,13 +1427,25 @@
       "title": "First Steps Toward Automated AI Research — Richard Socher, CEO Recursive AI",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Models & Training",
+        "Developer Workflows"
+      ],
+      "themes": [
+        "Models & Training",
+        "Developer Workflows"
+      ],
       "publishedAt": "2026-07-30T16:59:37Z",
       "durationSeconds": 1224,
       "youtubeId": "pWXUkLP9uWM",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-z0sh8HyTrDo",
@@ -983,13 +1453,25 @@
       "title": "Your Finance Agent's Bottleneck Is You — Ramana Siddanth Emani, Auditoria AI",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "System Design",
+        "Developer Workflows"
+      ],
+      "themes": [
+        "System Design",
+        "Developer Workflows"
+      ],
       "publishedAt": "2026-07-30T03:00:06Z",
       "durationSeconds": 822,
       "youtubeId": "z0sh8HyTrDo",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-tJFjeMBKbIY",
@@ -997,13 +1479,23 @@
       "title": "Build for the Memo, Not the Demo — Shawn Chan, China Resources Holdings",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "System Design"
+      ],
+      "themes": [
+        "System Design"
+      ],
       "publishedAt": "2026-07-30T02:00:06Z",
       "durationSeconds": 1463,
       "youtubeId": "tJFjeMBKbIY",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-o6U_2vd967Y",
@@ -1011,13 +1503,25 @@
       "title": "Let's integrate AI Agents in Event-Sourced Systems — Divakar Kumar, FlyersSoft",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "System Design",
+        "Developer Workflows"
+      ],
+      "themes": [
+        "System Design",
+        "Developer Workflows"
+      ],
       "publishedAt": "2026-07-30T00:00:06Z",
       "durationSeconds": 1297,
       "youtubeId": "o6U_2vd967Y",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-s67bE2Ur3bY",
@@ -1025,13 +1529,23 @@
       "title": "Wearing the Agent: From Group Chats to Glasses — Sai Krishna Rallabandi",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "System Design"
+      ],
+      "themes": [
+        "System Design"
+      ],
       "publishedAt": "2026-07-29T22:58:19Z",
       "durationSeconds": 1149,
       "youtubeId": "s67bE2Ur3bY",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-iKQ78wyJEXU",
@@ -1039,13 +1553,25 @@
       "title": "We Vetted 2000 AI Skills Before They Reached Developers — Lucas Palma, Nubank",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Developer Workflows",
+        "Safety & Control"
+      ],
+      "themes": [
+        "Developer Workflows",
+        "Safety & Control"
+      ],
       "publishedAt": "2026-07-29T22:00:06Z",
       "durationSeconds": 984,
       "youtubeId": "iKQ78wyJEXU",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-Tt2kX2sgQio",
@@ -1053,13 +1579,25 @@
       "title": "How Kepler Built Verifiable AI for Financial Services — Vinoo Ganesh",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Safety & Control",
+        "Data & Eval"
+      ],
+      "themes": [
+        "Safety & Control",
+        "Data & Eval"
+      ],
       "publishedAt": "2026-07-29T21:00:06Z",
       "durationSeconds": 1350,
       "youtubeId": "Tt2kX2sgQio",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-YnNF55QV0zs",
@@ -1067,13 +1605,25 @@
       "title": "Persona Engineering: A Field Guide to AI Synthetic Personas — Ishan Anand, InsightSciences.ai",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Models & Training",
+        "Safety & Control"
+      ],
+      "themes": [
+        "Models & Training",
+        "Safety & Control"
+      ],
       "publishedAt": "2026-07-29T20:15:35Z",
       "durationSeconds": 1269,
       "youtubeId": "YnNF55QV0zs",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-Owb8g3yDyzo",
@@ -1081,13 +1631,25 @@
       "title": "Why Off-the-Shelf AI Doesn't Understand Money — Udi Menkes, Intuit",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Knowledge",
+        "Safety & Control"
+      ],
+      "themes": [
+        "Knowledge",
+        "Safety & Control"
+      ],
       "publishedAt": "2026-07-29T20:00:06Z",
       "durationSeconds": 1190,
       "youtubeId": "Owb8g3yDyzo",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-KMR_RBoCa4M",
@@ -1095,13 +1657,25 @@
       "title": "SimulationMaxxing: How we ship agents 20× faster — Aman Gupta (Nubank) + Shreya Rajpal (Snowglobe)",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Developer Workflows",
+        "Reliability"
+      ],
+      "themes": [
+        "Developer Workflows",
+        "Reliability"
+      ],
       "publishedAt": "2026-07-29T19:00:06Z",
       "durationSeconds": 989,
       "youtubeId": "KMR_RBoCa4M",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-7jjudsEhBtM",
@@ -1109,13 +1683,23 @@
       "title": "Skills are new features: Building Skill-Centric Harness — Yogendra Miraje, FactSet",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Developer Workflows"
+      ],
+      "themes": [
+        "Developer Workflows"
+      ],
       "publishedAt": "2026-07-29T18:00:06Z",
       "durationSeconds": 1044,
       "youtubeId": "7jjudsEhBtM",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-kiqubc5b5Yo",
@@ -1123,13 +1707,25 @@
       "title": "Morgan Stanley's ALPHALAB: Multi-Agent Research Across Optimization Domains — Brendan Rappazzo",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "System Design",
+        "Models & Training"
+      ],
+      "themes": [
+        "System Design",
+        "Models & Training"
+      ],
       "publishedAt": "2026-07-29T17:06:26Z",
       "durationSeconds": 1207,
       "youtubeId": "kiqubc5b5Yo",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-BInpv7lGp1o",
@@ -1137,13 +1733,25 @@
       "title": "Your Agent Didn't Fail. Your Harness Did. — Vinoth Govindarajan, OpenAI",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Developer Workflows",
+        "Reliability"
+      ],
+      "themes": [
+        "Developer Workflows",
+        "Reliability"
+      ],
       "publishedAt": "2026-07-29T16:00:06Z",
       "durationSeconds": 1106,
       "youtubeId": "BInpv7lGp1o",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-wpOA-UXynoM",
@@ -1151,13 +1759,25 @@
       "title": "How Forward Deployed Engineering is done at Factory — Eno Reyes",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Developer Workflows",
+        "System Design"
+      ],
+      "themes": [
+        "Developer Workflows",
+        "System Design"
+      ],
       "publishedAt": "2026-07-28T22:00:06Z",
       "durationSeconds": 1281,
       "youtubeId": "wpOA-UXynoM",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-l0FLhNqBOic",
@@ -1165,13 +1785,25 @@
       "title": "AI tools for Forward Deployed Engineering — Vasuman Moza, Varick Agents",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Developer Workflows",
+        "System Design"
+      ],
+      "themes": [
+        "Developer Workflows",
+        "System Design"
+      ],
       "publishedAt": "2026-07-28T21:00:06Z",
       "durationSeconds": 1223,
       "youtubeId": "l0FLhNqBOic",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-RVxym6mmIns",
@@ -1179,13 +1811,25 @@
       "title": "How Forward Deployed Engineering is done at Cognition — Jia Wu",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Developer Workflows",
+        "System Design"
+      ],
+      "themes": [
+        "Developer Workflows",
+        "System Design"
+      ],
       "publishedAt": "2026-07-28T20:00:06Z",
       "durationSeconds": 1058,
       "youtubeId": "RVxym6mmIns",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-ITMXwI6QL6A",
@@ -1193,13 +1837,25 @@
       "title": "How Forward Deployed Engineering is done at Ramp — Leo Mehr",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Developer Workflows",
+        "System Design"
+      ],
+      "themes": [
+        "Developer Workflows",
+        "System Design"
+      ],
       "publishedAt": "2026-07-28T19:00:06Z",
       "durationSeconds": 845,
       "youtubeId": "ITMXwI6QL6A",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-Byv311hdoHE",
@@ -1207,13 +1863,25 @@
       "title": "The Dirty Secret of Forward Deployed Engineering — Natalie Meurer, Sierra",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Developer Workflows",
+        "System Design"
+      ],
+      "themes": [
+        "Developer Workflows",
+        "System Design"
+      ],
       "publishedAt": "2026-07-28T18:00:18Z",
       "durationSeconds": 1009,
       "youtubeId": "Byv311hdoHE",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-7wu2hsRfvV0",
@@ -1221,13 +1889,25 @@
       "title": "How Forward Deployed Engineering is done at Decagon — Sunny Rekhi",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Developer Workflows",
+        "System Design"
+      ],
+      "themes": [
+        "Developer Workflows",
+        "System Design"
+      ],
       "publishedAt": "2026-07-28T17:00:35Z",
       "durationSeconds": 1089,
       "youtubeId": "7wu2hsRfvV0",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-1OMHGsUZiqA",
@@ -1235,13 +1915,25 @@
       "title": "How Forward Deployed Engineering is done at Kepler — Vinoo Ganesh",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Developer Workflows",
+        "System Design"
+      ],
+      "themes": [
+        "Developer Workflows",
+        "System Design"
+      ],
       "publishedAt": "2026-07-28T16:00:00Z",
       "durationSeconds": 1340,
       "youtubeId": "1OMHGsUZiqA",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-KwhgfwOSToQ",
@@ -1249,13 +1941,25 @@
       "title": "Forward Deployed Engineering 101 — Kevin Bai, Anthropic, ex Palantir & Rippling Founding FDE",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Developer Workflows",
+        "System Design"
+      ],
+      "themes": [
+        "Developer Workflows",
+        "System Design"
+      ],
       "publishedAt": "2026-07-28T15:00:06Z",
       "durationSeconds": 1068,
       "youtubeId": "KwhgfwOSToQ",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-lyL5QhgIOxc",
@@ -1263,13 +1967,25 @@
       "title": "Serving 2 Million Models Without Melting: Scaling the Hugging Face Hub — Arek Borucki, Hugging Face",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Deployment",
+        "Reliability"
+      ],
+      "themes": [
+        "Deployment",
+        "Reliability"
+      ],
       "publishedAt": "2026-07-28T13:41:11Z",
       "durationSeconds": 1299,
       "youtubeId": "lyL5QhgIOxc",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "unmapped"
+      "insightReviewStatus": "unmapped",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-CgsWxRUY5Eo",
@@ -21827,7 +22543,13 @@
       "durationSeconds": 1307,
       "youtubeId": "ySYLsoAhXmg",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "approved"
+      "insightReviewStatus": "approved",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-89aQ7T6cMwA",
@@ -23696,7 +24418,13 @@
       "durationSeconds": 3735,
       "youtubeId": "7wwWRph3Jls",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "approved"
+      "insightReviewStatus": "approved",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-k0VIgKAUkP4",
@@ -25211,7 +25939,13 @@
       "durationSeconds": 4602,
       "youtubeId": "T9aRN5JkmL8",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "approved"
+      "insightReviewStatus": "approved",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube--zzP0EUsZz4",
@@ -25861,13 +26595,23 @@
       "title": "AI Engineer World’s Fair 2024 - Open Models track",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "Models & Training"
+      ],
+      "themes": [
+        "Models & Training"
+      ],
       "publishedAt": "2024-06-26T19:26:17Z",
       "durationSeconds": 1046,
       "youtubeId": "NOONz6SwKKg",
       "contentStatus": "excluded_non_technical",
-      "insightReviewStatus": "approved"
+      "insightReviewStatus": "approved",
+      "themeClassification": {
+        "source": "approved_local_metadata",
+        "basis": "metadata_review",
+        "reviewedAt": "2026-08-14T17:36:13.373Z",
+        "reviewerVersion": "atlas-metadata-review-2026-08-15"
+      }
     },
     {
       "id": "v08",
@@ -25886,7 +26630,13 @@
       "durationSeconds": 2925,
       "youtubeId": "0nA5QG3087g",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "approved"
+      "insightReviewStatus": "approved",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     },
     {
       "id": "youtube-jpKCIVlS9wM",
@@ -26559,13 +27309,23 @@
       "title": "Announcing the AI Engineer Network: Benjamin Dunphy",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [],
+      "tracks": [
+        "System Design"
+      ],
+      "themes": [
+        "System Design"
+      ],
       "publishedAt": "2023-10-23T20:56:01Z",
       "durationSeconds": 464,
       "youtubeId": "dQmseZ6kz8w",
       "contentStatus": "excluded_non_technical",
-      "insightReviewStatus": "approved"
+      "insightReviewStatus": "approved",
+      "themeClassification": {
+        "source": "approved_local_metadata",
+        "basis": "metadata_review",
+        "reviewedAt": "2026-08-14T17:36:13.373Z",
+        "reviewerVersion": "atlas-metadata-review-2026-08-15"
+      }
     },
     {
       "id": "youtube-6d60zVdcCV4",
@@ -26646,7 +27406,13 @@
       "durationSeconds": 2990,
       "youtubeId": "r-HUnht-Gns",
       "contentStatus": "metadata_only",
-      "insightReviewStatus": "approved"
+      "insightReviewStatus": "approved",
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-14T17:37:52.727Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      }
     }
   ]
 }
