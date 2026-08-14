@@ -1,24 +1,670 @@
 {
   "manifest": {
-    "projectionVersion": "atlas-transcript-projection-2026-08-04",
-    "generatedAt": "2026-08-04T00:00:00.000Z",
-    "sourceCatalogVerifiedAt": "2026-08-04T00:00:00.000Z",
+    "projectionVersion": "atlas-transcript-projection-2026-08-15",
+    "generatedAt": "2026-08-14T17:27:39.235Z",
+    "sourceCatalogVerifiedAt": "2026-08-14T17:27:39.235Z",
     "contentScope": "mixed_approved_metadata",
     "publicationStatus": "published",
     "reviewStatus": "mixed",
-    "recordCount": 989,
-    "contentHash": "fnv1a64:0c1830fd88cd9e0d",
+    "recordCount": 1060,
+    "contentHash": "fnv1a64:6a6694c9da0ac557",
     "lastKnownGood": true
   },
   "records": [
+    {
+      "id": "youtube-1UmZHb_E_SM",
+      "code": "src-1umzhb_e_sm",
+      "title": "How Web Data Infrastructure Powers the Next Generation of AI — Patricija Žemaitytė, Oxylabs",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [
+        "System Design",
+        "Reliability",
+        "Deployment"
+      ],
+      "themes": [
+        "System Design",
+        "Reliability",
+        "Deployment"
+      ],
+      "themeClassification": {
+        "source": "approved_local_metadata",
+        "basis": "metadata_review",
+        "reviewedAt": "2026-08-14T17:10:36.932Z",
+        "reviewerVersion": "atlas-metadata-review-2026-08-15"
+      },
+      "publishedAt": "2026-08-14T17:00:37Z",
+      "durationSeconds": 1143,
+      "youtubeId": "1UmZHb_E_SM",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-Ot4OPrPH4xY",
+      "code": "src-ot4oprph4xy",
+      "title": "The Rise of CaaS: Context-as-a-Service for Agentic AI — Omer Primor, Bright Data",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [
+        "Knowledge",
+        "System Design",
+        "Deployment"
+      ],
+      "themes": [
+        "Knowledge",
+        "System Design",
+        "Deployment"
+      ],
+      "themeClassification": {
+        "source": "approved_local_metadata",
+        "basis": "metadata_review",
+        "reviewedAt": "2026-08-14T17:10:36.932Z",
+        "reviewerVersion": "atlas-metadata-review-2026-08-15"
+      },
+      "publishedAt": "2026-08-14T16:30:36Z",
+      "durationSeconds": 1340,
+      "youtubeId": "Ot4OPrPH4xY",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-Cc0_nyxROBA",
+      "code": "src-cc0_nyxroba",
+      "title": "From RL to IRL — Gaurav Mishra, Amazon AGI Lab",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [
+        "Models & Training",
+        "Safety & Control",
+        "Data & Eval",
+        "Reliability"
+      ],
+      "themes": [
+        "Models & Training",
+        "Safety & Control",
+        "Data & Eval",
+        "Reliability"
+      ],
+      "themeClassification": {
+        "source": "approved_local_metadata",
+        "basis": "metadata_review",
+        "reviewedAt": "2026-08-14T17:10:36.932Z",
+        "reviewerVersion": "atlas-metadata-review-2026-08-15"
+      },
+      "publishedAt": "2026-08-14T16:00:06Z",
+      "durationSeconds": 1066,
+      "youtubeId": "Cc0_nyxROBA",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-26RtyAm9y_Q",
+      "code": "src-26rtyam9y_q",
+      "title": "The Dark Arts of Web Automation: Teaching Agents to Use Websites Like Humans — Corey Gallon, Rexmore",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [
+        "Developer Workflows",
+        "Safety & Control",
+        "Reliability"
+      ],
+      "themes": [
+        "Developer Workflows",
+        "Safety & Control",
+        "Reliability"
+      ],
+      "themeClassification": {
+        "source": "approved_local_metadata",
+        "basis": "metadata_review",
+        "reviewedAt": "2026-08-14T17:10:36.932Z",
+        "reviewerVersion": "atlas-metadata-review-2026-08-15"
+      },
+      "publishedAt": "2026-08-14T15:30:00Z",
+      "durationSeconds": 1298,
+      "youtubeId": "26RtyAm9y_Q",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-GqoNrUz8hEU",
+      "code": "src-gqonruz8heu",
+      "title": "Bringing agents onto the world wide web — Paul Klein IV, Browserbase",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [
+        "System Design",
+        "Deployment",
+        "Safety & Control",
+        "Reliability"
+      ],
+      "themes": [
+        "System Design",
+        "Deployment",
+        "Safety & Control",
+        "Reliability"
+      ],
+      "themeClassification": {
+        "source": "approved_local_metadata",
+        "basis": "metadata_review",
+        "reviewedAt": "2026-08-14T17:10:36.932Z",
+        "reviewerVersion": "atlas-metadata-review-2026-08-15"
+      },
+      "publishedAt": "2026-08-14T15:00:31Z",
+      "durationSeconds": 1106,
+      "youtubeId": "GqoNrUz8hEU",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-CTLa_p6iOiY",
+      "code": "src-ctla_p6ioiy",
+      "title": "Computer Use at the Edge of the Statistical Precipice — Pierluca D'Oro, Programma Labs",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [
+        "Data & Eval",
+        "Reliability",
+        "Models & Training"
+      ],
+      "themes": [
+        "Data & Eval",
+        "Reliability",
+        "Models & Training"
+      ],
+      "themeClassification": {
+        "source": "approved_local_metadata",
+        "basis": "metadata_review",
+        "reviewedAt": "2026-08-14T17:10:36.932Z",
+        "reviewerVersion": "atlas-metadata-review-2026-08-15"
+      },
+      "publishedAt": "2026-08-14T14:30:31Z",
+      "durationSeconds": 1048,
+      "youtubeId": "CTLa_p6iOiY",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-Ki980nV0__0",
+      "code": "src-ki980nv0__0",
+      "title": "Computer-use models will agentify the web, not APIs — Dhruv Batra, Yutori",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [
+        "System Design",
+        "Developer Workflows",
+        "Deployment"
+      ],
+      "themes": [
+        "System Design",
+        "Developer Workflows",
+        "Deployment"
+      ],
+      "themeClassification": {
+        "source": "approved_local_metadata",
+        "basis": "metadata_review",
+        "reviewedAt": "2026-08-14T17:10:36.932Z",
+        "reviewerVersion": "atlas-metadata-review-2026-08-15"
+      },
+      "publishedAt": "2026-08-14T14:00:06Z",
+      "durationSeconds": 1260,
+      "youtubeId": "Ki980nV0__0",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-CvRngaQZQ3Y",
+      "code": "src-cvrngaqzq3y",
+      "title": "Improving Agents is a Data Mining Problem — Vivek Trivedy, LangChain",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [
+        "Observability",
+        "Data & Eval",
+        "Reliability",
+        "Developer Workflows"
+      ],
+      "themes": [
+        "Observability",
+        "Data & Eval",
+        "Reliability",
+        "Developer Workflows"
+      ],
+      "themeClassification": {
+        "source": "approved_local_metadata",
+        "basis": "metadata_review",
+        "reviewedAt": "2026-08-14T17:10:36.932Z",
+        "reviewerVersion": "atlas-metadata-review-2026-08-15"
+      },
+      "publishedAt": "2026-08-12T19:00:01Z",
+      "durationSeconds": 1202,
+      "youtubeId": "CvRngaQZQ3Y",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-5ZGyKWjQDr0",
+      "code": "src-5zgykwjqdr0",
+      "title": "Lessons from Studying Every Memory System — Shlok Khemani, Independent",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [
+        "Knowledge",
+        "Reliability",
+        "System Design"
+      ],
+      "themes": [
+        "Knowledge",
+        "Reliability",
+        "System Design"
+      ],
+      "themeClassification": {
+        "source": "approved_local_metadata",
+        "basis": "metadata_review",
+        "reviewedAt": "2026-08-14T17:10:36.932Z",
+        "reviewerVersion": "atlas-metadata-review-2026-08-15"
+      },
+      "publishedAt": "2026-08-12T18:30:06Z",
+      "durationSeconds": 1171,
+      "youtubeId": "5ZGyKWjQDr0",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-jHMiYtjoJfA",
+      "code": "src-jhmiytjojfa",
+      "title": "Designing Agents (The Floor Is the Frontier) — Ben Hylak, Raindrop",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [
+        "Data & Eval",
+        "Reliability",
+        "Developer Workflows"
+      ],
+      "themes": [
+        "Data & Eval",
+        "Reliability",
+        "Developer Workflows"
+      ],
+      "themeClassification": {
+        "source": "approved_local_metadata",
+        "basis": "metadata_review",
+        "reviewedAt": "2026-08-14T17:10:36.932Z",
+        "reviewerVersion": "atlas-metadata-review-2026-08-15"
+      },
+      "publishedAt": "2026-08-12T18:00:34Z",
+      "durationSeconds": 1186,
+      "youtubeId": "jHMiYtjoJfA",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-ZTA0GwpAUak",
+      "code": "src-zta0gwpauak",
+      "title": "Bringing Continual Learning into Enterprises — Samuel Denton, Applied Compute",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-08-12T17:30:06Z",
+      "durationSeconds": 1143,
+      "youtubeId": "ZTA0GwpAUak",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-I3bpdgFJCUY",
+      "code": "src-i3bpdgfjcuy",
+      "title": "LLM Knowledge Bases: a practical guide — Ben Holmes, Warp",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-08-12T17:00:22Z",
+      "durationSeconds": 1277,
+      "youtubeId": "I3bpdgFJCUY",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-XEd_SRVHBgU",
+      "code": "src-xed_srvhbgu",
+      "title": "Adaption Labs: Gradient-Free Continual Learning — Sara Hooker, Adaption",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-08-12T16:30:19Z",
+      "durationSeconds": 1251,
+      "youtubeId": "XEd_SRVHBgU",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-I6aiEf3aEFQ",
+      "code": "src-i6aief3aefq",
+      "title": "Intelligence + Continual Learning = Expertise — Yu Su, NeoCognition",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-08-12T16:00:08Z",
+      "durationSeconds": 1183,
+      "youtubeId": "I6aiEf3aEFQ",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-WiqDvX6isc4",
+      "code": "src-wiqdvx6isc4",
+      "title": "Scaling Compute on Context — Jack Morris, Engram",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-08-12T15:30:14Z",
+      "durationSeconds": 1182,
+      "youtubeId": "WiqDvX6isc4",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-R3-anFK1YM8",
+      "code": "src-r3-anfk1ym8",
+      "title": "Memory Harnesses for Long-Running Research Agents — Stefania Druga, Sakana.ai",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-08-12T15:00:06Z",
+      "durationSeconds": 784,
+      "youtubeId": "R3-anFK1YM8",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-zL1kLftVTlo",
+      "code": "src-zl1klftvtlo",
+      "title": "Scaling up Continual Learning — Ronak Malde, Trajectory",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-08-12T14:30:11Z",
+      "durationSeconds": 1383,
+      "youtubeId": "zL1kLftVTlo",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-iqloyWCGYQQ",
+      "code": "src-iqloywcgyqq",
+      "title": "Beyond Static Intelligence: Evaluating Continual Learning — Parth Asawa, UC Berkeley",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-08-12T14:00:19Z",
+      "durationSeconds": 1230,
+      "youtubeId": "iqloyWCGYQQ",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-K0X9QDRkIdg",
+      "code": "src-k0x9qdrkidg",
+      "title": "Evolution of agentic surfaces — Gagan Bhat & Isabella Kai He, Anthropic",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-08-11T16:00:06Z",
+      "durationSeconds": 1884,
+      "youtubeId": "K0X9QDRkIdg",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-aeTb5BdmTTc",
+      "code": "src-aetb5bdmttc",
+      "title": "Agents, codebases, and teams — Aditya Khandelwal, Amazon AGI Lab",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-08-11T00:03:17Z",
+      "durationSeconds": 1017,
+      "youtubeId": "aeTb5BdmTTc",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-maRzp4kImJ4",
+      "code": "src-marzp4kimj4",
+      "title": "Taking Reinforcement Learning Cross Datacenter — Nan Jiang, Modal",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-08-10T17:30:30Z",
+      "durationSeconds": 1190,
+      "youtubeId": "maRzp4kImJ4",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-shRR1e2HXMk",
+      "code": "src-shrr1e2hxmk",
+      "title": "Codex, Behind the Harness — Dominik Kundel, OpenAI",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-08-10T16:00:06Z",
+      "durationSeconds": 1255,
+      "youtubeId": "shRR1e2HXMk",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-OL7kfezynJM",
+      "code": "src-ol7kfezynjm",
+      "title": "Multiplayer agentic engineering — Arjun Singh, Superconductor",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-08-09T20:30:34Z",
+      "durationSeconds": 1124,
+      "youtubeId": "OL7kfezynJM",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-03l29gJXpCE",
+      "code": "src-03l29gjxpce",
+      "title": "Guide, Verify, Solve — Anirban Chatterjee, Sonar",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-08-09T17:45:13Z",
+      "durationSeconds": 1351,
+      "youtubeId": "03l29gJXpCE",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-Kz4QJmNrVXU",
+      "code": "src-kz4qjmnrvxu",
+      "title": "Velocity Sickness: What Happens When Your Whole Team Gets 10x Faster — Matt Dailey, Ref.",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-08-09T16:30:28Z",
+      "durationSeconds": 1237,
+      "youtubeId": "Kz4QJmNrVXU",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-vSx5IULvBns",
+      "code": "src-vsx5iulvbns",
+      "title": "Always-on agents run production without the on-call tax — Justin Smith, Resolve AI",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-08-09T14:45:06Z",
+      "durationSeconds": 1496,
+      "youtubeId": "vSx5IULvBns",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-iQ5xldZ9StU",
+      "code": "src-iq5xldz9stu",
+      "title": "Realtime multiplayer, automation, and you! — Idan Gazit, GitHub",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-08-08T21:30:06Z",
+      "durationSeconds": 1301,
+      "youtubeId": "iQ5xldZ9StU",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-7vn4WpqNpck",
+      "code": "src-7vn4wpqnpck",
+      "title": "Benchmarking Coding Agents on New vs Legacy Codebases — Denys Linkov, Wisedocs",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-08-08T19:00:06Z",
+      "durationSeconds": 1088,
+      "youtubeId": "7vn4WpqNpck",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-Z-c11pV_uvU",
+      "code": "src-z-c11pv_uvu",
+      "title": "Anthropic's CCA Exam as a Field-Guide for Agentic Engineering — Frank Coyle, UC Berkeley",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-08-08T16:00:06Z",
+      "durationSeconds": 1208,
+      "youtubeId": "Z-c11pV_uvU",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-LZuWZRze3MU",
+      "code": "src-lzuwzrze3mu",
+      "title": "The New Primitives: Building AI Native Software — Kwindla Kramer, Daily",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-08-07T23:53:33Z",
+      "durationSeconds": 1274,
+      "youtubeId": "LZuWZRze3MU",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-CoEIs6Xm8m8",
+      "code": "src-coeis6xm8m8",
+      "title": "Open Source Is Dead. Long Live Open Source. — Saoud Rizwan, Cline",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-08-07T23:26:51Z",
+      "durationSeconds": 1050,
+      "youtubeId": "CoEIs6Xm8m8",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-FWMJQDH3iK0",
+      "code": "src-fwmjqdh3ik0",
+      "title": "Local Models: Trust, Control, Optimization — Carter Abdallah, NVIDIA",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-08-07T02:00:06Z",
+      "durationSeconds": 2601,
+      "youtubeId": "FWMJQDH3iK0",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-J4_jCrTxMkk",
+      "code": "src-j4_jcrtxmkk",
+      "title": "Compression at the Edge — NVIDIA, Unsloth, HuggingFace, Ollama",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-08-07T01:00:06Z",
+      "durationSeconds": 2761,
+      "youtubeId": "J4_jCrTxMkk",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-QHBjufYK8TA",
+      "code": "src-qhbjufyk8ta",
+      "title": "The State of Model Routing — NVIDIA, Cognition, OpenRouter",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-08-06T17:07:24Z",
+      "durationSeconds": 2897,
+      "youtubeId": "QHBjufYK8TA",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-RmS5s6Wbin4",
+      "code": "src-rms5s6wbin4",
+      "title": "Gadgets: Personal app vibe coding that is actually safe — Kenton Varda, Cloudflare",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-08-05T22:42:10Z",
+      "durationSeconds": 1134,
+      "youtubeId": "RmS5s6Wbin4",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
     {
       "id": "youtube-jQDXzEVHMSE",
       "code": "src-jqdxzevhmse",
       "title": "Building Turbopuffer: Gergely Orosz (@pragmaticengineer ) × Simon Eskildsen (CEO)",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design", "Reliability", "Deployment", "Knowledge"],
-      "themes": ["System Design", "Reliability", "Deployment", "Knowledge"],
+      "tracks": [
+        "System Design",
+        "Reliability",
+        "Deployment",
+        "Knowledge"
+      ],
+      "themes": [
+        "System Design",
+        "Reliability",
+        "Deployment",
+        "Knowledge"
+      ],
       "publishedAt": "2026-08-04T00:00:00Z",
       "durationSeconds": 3389,
       "youtubeId": "jQDXzEVHMSE",
@@ -31,25 +677,21 @@
       "title": "MCP Apps: Extending the Frontier — Ido Salomon & Liad Yosef",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design", "Safety & Control", "Developer Workflows", "Deployment"],
-      "themes": ["System Design", "Safety & Control", "Developer Workflows", "Deployment"],
+      "tracks": [
+        "System Design",
+        "Safety & Control",
+        "Developer Workflows",
+        "Deployment"
+      ],
+      "themes": [
+        "System Design",
+        "Safety & Control",
+        "Developer Workflows",
+        "Deployment"
+      ],
       "publishedAt": "2026-08-03T00:00:00Z",
       "durationSeconds": 1117,
       "youtubeId": "-jY2T2PiJBE",
-      "contentStatus": "transcript_reviewed",
-      "insightReviewStatus": "approved"
-    },
-    {
-      "id": "youtube-s4r6nk5WsZw",
-      "code": "src-s4r6nk5wszw",
-      "title": "MCP Tasks (async): Why Aren't Any Agents Supporting Them? — Cornelia Davis, Temporal",
-      "sourceChannel": "AI Engineer",
-      "track": null,
-      "tracks": ["Reliability", "System Design", "Deployment", "Safety & Control"],
-      "themes": ["Reliability", "System Design", "Deployment", "Safety & Control"],
-      "publishedAt": "2026-08-03T00:00:00Z",
-      "durationSeconds": 1434,
-      "youtubeId": "s4r6nk5WsZw",
       "contentStatus": "transcript_reviewed",
       "insightReviewStatus": "approved"
     },
@@ -59,11 +701,45 @@
       "title": "When Will The Benchmaxxing Plague End? — Nick Heiner, Surge AI",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Data & Eval", "Models & Training", "Reliability", "Safety & Control"],
-      "themes": ["Data & Eval", "Models & Training", "Reliability", "Safety & Control"],
+      "tracks": [
+        "Data & Eval",
+        "Models & Training",
+        "Reliability",
+        "Safety & Control"
+      ],
+      "themes": [
+        "Data & Eval",
+        "Models & Training",
+        "Reliability",
+        "Safety & Control"
+      ],
       "publishedAt": "2026-08-03T00:00:00Z",
       "durationSeconds": 1044,
       "youtubeId": "-npY6XjM8CQ",
+      "contentStatus": "transcript_reviewed",
+      "insightReviewStatus": "approved"
+    },
+    {
+      "id": "youtube-s4r6nk5WsZw",
+      "code": "src-s4r6nk5wszw",
+      "title": "MCP Tasks (async): Why Aren't Any Agents Supporting Them? — Cornelia Davis, Temporal",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [
+        "Reliability",
+        "System Design",
+        "Deployment",
+        "Safety & Control"
+      ],
+      "themes": [
+        "Reliability",
+        "System Design",
+        "Deployment",
+        "Safety & Control"
+      ],
+      "publishedAt": "2026-08-03T00:00:00Z",
+      "durationSeconds": 1434,
+      "youtubeId": "s4r6nk5WsZw",
       "contentStatus": "transcript_reviewed",
       "insightReviewStatus": "approved"
     },
@@ -73,13 +749,527 @@
       "title": "Teaching AI to Find Real Vulnerabilities — Prof. David Brumley, Bugcrowd",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Safety & Control", "Data & Eval", "Models & Training", "Reliability"],
-      "themes": ["Safety & Control", "Data & Eval", "Models & Training", "Reliability"],
+      "tracks": [
+        "Safety & Control",
+        "Data & Eval",
+        "Models & Training",
+        "Reliability"
+      ],
+      "themes": [
+        "Safety & Control",
+        "Data & Eval",
+        "Models & Training",
+        "Reliability"
+      ],
       "publishedAt": "2026-08-01T00:30:06Z",
       "durationSeconds": 1637,
       "youtubeId": "ZFxh7sqbUZo",
       "contentStatus": "transcript_reviewed",
       "insightReviewStatus": "approved"
+    },
+    {
+      "id": "youtube-2aS7aKoXn64",
+      "code": "src-2as7akoxn64",
+      "title": "Rethinking Environments for Long-Horizon Work — Rayan Garg, Theta Software",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-08-01T00:00:06Z",
+      "durationSeconds": 1275,
+      "youtubeId": "2aS7aKoXn64",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-cJ0EOzey--o",
+      "code": "src-cj0eozey--o",
+      "title": "What's Next After RLHF? — Diogo Almeida, TypeSafe AI",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-07-31T23:30:06Z",
+      "durationSeconds": 1085,
+      "youtubeId": "cJ0EOzey--o",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-_PdK6x7PQNM",
+      "code": "src-_pdk6x7pqnm",
+      "title": "Data Quality Is the Compute Multiplier — Ari Morcos, DatologyAI",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-07-31T23:00:06Z",
+      "durationSeconds": 1145,
+      "youtubeId": "_PdK6x7PQNM",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-k35LeKZEhiE",
+      "code": "src-k35lekzehie",
+      "title": "Learning on the Job: The Future of Post-Training — Raymond Feng, Applied Compute",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-07-31T22:30:06Z",
+      "durationSeconds": 1100,
+      "youtubeId": "k35LeKZEhiE",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-ewtOo0scUh0",
+      "code": "src-ewtoo0scuh0",
+      "title": "Data and Environment Curation for Post-Training LLMs — Mahesh Sathiamoorthy, Bespoke Labs",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-07-31T22:00:06Z",
+      "durationSeconds": 1152,
+      "youtubeId": "ewtOo0scUh0",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-2bvtay8wGYI",
+      "code": "src-2bvtay8wgyi",
+      "title": "Scaling to Long Horizons — Ross Taylor & Chengxi Taylor, General Reasoning",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-07-31T21:30:06Z",
+      "durationSeconds": 1087,
+      "youtubeId": "2bvtay8wGYI",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-zkX03APVj0M",
+      "code": "src-zkx03apvj0m",
+      "title": "Emulated: The Data for Fully Autonomous Software Engineers and Companies — Joseph Wang",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-07-31T21:00:03Z",
+      "durationSeconds": 993,
+      "youtubeId": "zkX03APVj0M",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-xbPriQWXtWM",
+      "code": "src-xbpriqwxtwm",
+      "title": "The Base Model Is Dead — Varun Singh, Arcee AI",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-07-31T20:30:21Z",
+      "durationSeconds": 1065,
+      "youtubeId": "xbPriQWXtWM",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-3ZMUiFaQ3qg",
+      "code": "src-3zmuifaq3qg",
+      "title": "Verifiable Environments for AI in Biology — Kenny Workman, LatchBio",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-07-31T20:00:35Z",
+      "durationSeconds": 1062,
+      "youtubeId": "3ZMUiFaQ3qg",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-lCBf9slCanI",
+      "code": "src-lcbf9slcani",
+      "title": "Ending AI Slop — Thais Castello Branco, Taste Labs",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-07-31T19:26:20Z",
+      "durationSeconds": 990,
+      "youtubeId": "lCBf9slCanI",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-jWq-aZIU0kM",
+      "code": "src-jwq-aziu0km",
+      "title": "Benchmarks: The Good, the Bad, and the Ugly — Ali Khial, G2i",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-07-31T16:00:06Z",
+      "durationSeconds": 769,
+      "youtubeId": "jWq-aZIU0kM",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-AQv3qRCG6Gw",
+      "code": "src-aqv3qrcg6gw",
+      "title": "Reinforcement Learning without Verifiable Rewards — Will Brown, Prime Intellect",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-07-31T15:00:06Z",
+      "durationSeconds": 1167,
+      "youtubeId": "AQv3qRCG6Gw",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-AVMr9PMINyo",
+      "code": "src-avmr9pminyo",
+      "title": "Agents at Scale: Inside MiniMax's Model and the Infrastructure Behind It — Dan Fu and Olive Song",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-07-31T03:00:14Z",
+      "durationSeconds": 1214,
+      "youtubeId": "AVMr9PMINyo",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-AMiyLItEtLA",
+      "code": "src-amiylitetla",
+      "title": "fighting slop with slop — Vaibhav Gupta, Boundary",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-07-31T01:11:30Z",
+      "durationSeconds": 1292,
+      "youtubeId": "AMiyLItEtLA",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-pWXUkLP9uWM",
+      "code": "src-pwxuklp9uwm",
+      "title": "First Steps Toward Automated AI Research — Richard Socher, CEO Recursive AI",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-07-30T16:59:37Z",
+      "durationSeconds": 1224,
+      "youtubeId": "pWXUkLP9uWM",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-z0sh8HyTrDo",
+      "code": "src-z0sh8hytrdo",
+      "title": "Your Finance Agent's Bottleneck Is You — Ramana Siddanth Emani, Auditoria AI",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-07-30T03:00:06Z",
+      "durationSeconds": 822,
+      "youtubeId": "z0sh8HyTrDo",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-tJFjeMBKbIY",
+      "code": "src-tjfjembkbiy",
+      "title": "Build for the Memo, Not the Demo — Shawn Chan, China Resources Holdings",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-07-30T02:00:06Z",
+      "durationSeconds": 1463,
+      "youtubeId": "tJFjeMBKbIY",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-o6U_2vd967Y",
+      "code": "src-o6u_2vd967y",
+      "title": "Let's integrate AI Agents in Event-Sourced Systems — Divakar Kumar, FlyersSoft",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-07-30T00:00:06Z",
+      "durationSeconds": 1297,
+      "youtubeId": "o6U_2vd967Y",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-s67bE2Ur3bY",
+      "code": "src-s67be2ur3by",
+      "title": "Wearing the Agent: From Group Chats to Glasses — Sai Krishna Rallabandi",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-07-29T22:58:19Z",
+      "durationSeconds": 1149,
+      "youtubeId": "s67bE2Ur3bY",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-iKQ78wyJEXU",
+      "code": "src-ikq78wyjexu",
+      "title": "We Vetted 2000 AI Skills Before They Reached Developers — Lucas Palma, Nubank",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-07-29T22:00:06Z",
+      "durationSeconds": 984,
+      "youtubeId": "iKQ78wyJEXU",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-Tt2kX2sgQio",
+      "code": "src-tt2kx2sgqio",
+      "title": "How Kepler Built Verifiable AI for Financial Services — Vinoo Ganesh",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-07-29T21:00:06Z",
+      "durationSeconds": 1350,
+      "youtubeId": "Tt2kX2sgQio",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-YnNF55QV0zs",
+      "code": "src-ynnf55qv0zs",
+      "title": "Persona Engineering: A Field Guide to AI Synthetic Personas — Ishan Anand, InsightSciences.ai",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-07-29T20:15:35Z",
+      "durationSeconds": 1269,
+      "youtubeId": "YnNF55QV0zs",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-Owb8g3yDyzo",
+      "code": "src-owb8g3ydyzo",
+      "title": "Why Off-the-Shelf AI Doesn't Understand Money — Udi Menkes, Intuit",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-07-29T20:00:06Z",
+      "durationSeconds": 1190,
+      "youtubeId": "Owb8g3yDyzo",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-KMR_RBoCa4M",
+      "code": "src-kmr_rboca4m",
+      "title": "SimulationMaxxing: How we ship agents 20× faster — Aman Gupta (Nubank) + Shreya Rajpal (Snowglobe)",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-07-29T19:00:06Z",
+      "durationSeconds": 989,
+      "youtubeId": "KMR_RBoCa4M",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-7jjudsEhBtM",
+      "code": "src-7jjudsehbtm",
+      "title": "Skills are new features: Building Skill-Centric Harness — Yogendra Miraje, FactSet",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-07-29T18:00:06Z",
+      "durationSeconds": 1044,
+      "youtubeId": "7jjudsEhBtM",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-kiqubc5b5Yo",
+      "code": "src-kiqubc5b5yo",
+      "title": "Morgan Stanley's ALPHALAB: Multi-Agent Research Across Optimization Domains — Brendan Rappazzo",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-07-29T17:06:26Z",
+      "durationSeconds": 1207,
+      "youtubeId": "kiqubc5b5Yo",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-BInpv7lGp1o",
+      "code": "src-binpv7lgp1o",
+      "title": "Your Agent Didn't Fail. Your Harness Did. — Vinoth Govindarajan, OpenAI",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-07-29T16:00:06Z",
+      "durationSeconds": 1106,
+      "youtubeId": "BInpv7lGp1o",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-wpOA-UXynoM",
+      "code": "src-wpoa-uxynom",
+      "title": "How Forward Deployed Engineering is done at Factory — Eno Reyes",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-07-28T22:00:06Z",
+      "durationSeconds": 1281,
+      "youtubeId": "wpOA-UXynoM",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-l0FLhNqBOic",
+      "code": "src-l0flhnqboic",
+      "title": "AI tools for Forward Deployed Engineering — Vasuman Moza, Varick Agents",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-07-28T21:00:06Z",
+      "durationSeconds": 1223,
+      "youtubeId": "l0FLhNqBOic",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-RVxym6mmIns",
+      "code": "src-rvxym6mmins",
+      "title": "How Forward Deployed Engineering is done at Cognition — Jia Wu",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-07-28T20:00:06Z",
+      "durationSeconds": 1058,
+      "youtubeId": "RVxym6mmIns",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-ITMXwI6QL6A",
+      "code": "src-itmxwi6ql6a",
+      "title": "How Forward Deployed Engineering is done at Ramp — Leo Mehr",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-07-28T19:00:06Z",
+      "durationSeconds": 845,
+      "youtubeId": "ITMXwI6QL6A",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-Byv311hdoHE",
+      "code": "src-byv311hdohe",
+      "title": "The Dirty Secret of Forward Deployed Engineering — Natalie Meurer, Sierra",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-07-28T18:00:18Z",
+      "durationSeconds": 1009,
+      "youtubeId": "Byv311hdoHE",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-7wu2hsRfvV0",
+      "code": "src-7wu2hsrfvv0",
+      "title": "How Forward Deployed Engineering is done at Decagon — Sunny Rekhi",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-07-28T17:00:35Z",
+      "durationSeconds": 1089,
+      "youtubeId": "7wu2hsRfvV0",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-1OMHGsUZiqA",
+      "code": "src-1omhgsuziqa",
+      "title": "How Forward Deployed Engineering is done at Kepler — Vinoo Ganesh",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-07-28T16:00:00Z",
+      "durationSeconds": 1340,
+      "youtubeId": "1OMHGsUZiqA",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-KwhgfwOSToQ",
+      "code": "src-kwhgfwostoq",
+      "title": "Forward Deployed Engineering 101 — Kevin Bai, Anthropic, ex Palantir & Rippling Founding FDE",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-07-28T15:00:06Z",
+      "durationSeconds": 1068,
+      "youtubeId": "KwhgfwOSToQ",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
+    },
+    {
+      "id": "youtube-lyL5QhgIOxc",
+      "code": "src-lyl5qhgioxc",
+      "title": "Serving 2 Million Models Without Melting: Scaling the Hugging Face Hub — Arek Borucki, Hugging Face",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": [],
+      "themes": [],
+      "publishedAt": "2026-07-28T13:41:11Z",
+      "durationSeconds": 1299,
+      "youtubeId": "lyL5QhgIOxc",
+      "contentStatus": "metadata_only",
+      "insightReviewStatus": "unmapped"
     },
     {
       "id": "youtube-CgsWxRUY5Eo",
@@ -165,8 +1355,20 @@
       "title": "The Messy Reality of Scale: Synthetic Data and Pre-Training — Marah Abdin & Robert McHardy, poolside",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Data & Eval", "Models & Training", "Reliability", "System Design", "Deployment"],
-      "themes": ["Data & Eval", "Models & Training", "Reliability", "System Design", "Deployment"],
+      "tracks": [
+        "Data & Eval",
+        "Models & Training",
+        "Reliability",
+        "System Design",
+        "Deployment"
+      ],
+      "themes": [
+        "Data & Eval",
+        "Models & Training",
+        "Reliability",
+        "System Design",
+        "Deployment"
+      ],
       "publishedAt": "2026-07-26T01:00:06Z",
       "durationSeconds": 1051,
       "youtubeId": "KhYifX22yhE",
@@ -259,8 +1461,20 @@
       "title": "From Agent Traces to Agent Simulations — Rustem Feyzkhanov, Snorkel AI",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Data & Eval", "Observability", "Reliability", "System Design", "Deployment"],
-      "themes": ["Data & Eval", "Observability", "Reliability", "System Design", "Deployment"],
+      "tracks": [
+        "Data & Eval",
+        "Observability",
+        "Reliability",
+        "System Design",
+        "Deployment"
+      ],
+      "themes": [
+        "Data & Eval",
+        "Observability",
+        "Reliability",
+        "System Design",
+        "Deployment"
+      ],
       "publishedAt": "2026-07-25T01:00:02Z",
       "durationSeconds": 1224,
       "youtubeId": "Ib5t2RLtxvM",
@@ -299,8 +1513,20 @@
       "title": "Building Closed-Loop Evals for a Multimodal Agent at Scale — Soumya Gupta & Jai Chopra, Uber",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design", "Data & Eval", "Reliability", "Observability", "Deployment"],
-      "themes": ["System Design", "Data & Eval", "Reliability", "Observability", "Deployment"],
+      "tracks": [
+        "System Design",
+        "Data & Eval",
+        "Reliability",
+        "Observability",
+        "Deployment"
+      ],
+      "themes": [
+        "System Design",
+        "Data & Eval",
+        "Reliability",
+        "Observability",
+        "Deployment"
+      ],
       "publishedAt": "2026-07-24T22:00:25Z",
       "durationSeconds": 1299,
       "youtubeId": "31GUkCBD-Uc",
@@ -417,8 +1643,20 @@
       "title": "Vending-Bench: Long-Horizon Agent Evals — Lukas Petersson, Andon Labs",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design", "Data & Eval", "Reliability", "Safety & Control", "Deployment"],
-      "themes": ["System Design", "Data & Eval", "Reliability", "Safety & Control", "Deployment"],
+      "tracks": [
+        "System Design",
+        "Data & Eval",
+        "Reliability",
+        "Safety & Control",
+        "Deployment"
+      ],
+      "themes": [
+        "System Design",
+        "Data & Eval",
+        "Reliability",
+        "Safety & Control",
+        "Deployment"
+      ],
       "publishedAt": "2026-07-24T15:00:06Z",
       "durationSeconds": 1085,
       "youtubeId": "cO8qC6HBuBg",
@@ -431,8 +1669,20 @@
       "title": "Full Workshop: Setting Yourself Up for Success —Jason Liu, OpenAI Codex",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Developer Workflows", "Knowledge", "Reliability", "System Design", "Deployment"],
-      "themes": ["Developer Workflows", "Knowledge", "Reliability", "System Design", "Deployment"],
+      "tracks": [
+        "Developer Workflows",
+        "Knowledge",
+        "Reliability",
+        "System Design",
+        "Deployment"
+      ],
+      "themes": [
+        "Developer Workflows",
+        "Knowledge",
+        "Reliability",
+        "System Design",
+        "Deployment"
+      ],
       "publishedAt": "2026-07-24T15:00:06Z",
       "durationSeconds": 4502,
       "youtubeId": "il1c1a2FufU",
@@ -497,8 +1747,20 @@
       "title": "Notion's Token Town — Sarah Sachs, Notion",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Deployment", "Models & Training", "Knowledge", "Reliability", "System Design"],
-      "themes": ["Deployment", "Models & Training", "Knowledge", "Reliability", "System Design"],
+      "tracks": [
+        "Deployment",
+        "Models & Training",
+        "Knowledge",
+        "Reliability",
+        "System Design"
+      ],
+      "themes": [
+        "Deployment",
+        "Models & Training",
+        "Knowledge",
+        "Reliability",
+        "System Design"
+      ],
       "publishedAt": "2026-07-23T17:30:06Z",
       "durationSeconds": 1435,
       "youtubeId": "-I5W5QVAT8E",
@@ -537,8 +1799,20 @@
       "title": "Perception Agents — Antje Barth, Amazon AGI Lab",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design", "Reliability", "Knowledge", "Developer Workflows", "Deployment"],
-      "themes": ["System Design", "Reliability", "Knowledge", "Developer Workflows", "Deployment"],
+      "tracks": [
+        "System Design",
+        "Reliability",
+        "Knowledge",
+        "Developer Workflows",
+        "Deployment"
+      ],
+      "themes": [
+        "System Design",
+        "Reliability",
+        "Knowledge",
+        "Developer Workflows",
+        "Deployment"
+      ],
       "publishedAt": "2026-07-23T16:00:06Z",
       "durationSeconds": 1305,
       "youtubeId": "2JX6JYyQG4Y",
@@ -551,8 +1825,20 @@
       "title": "AI on Your Lakehouse: Context Comes in Shapes, Not Queries — Zach Blumenfeld, Neo4j",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Knowledge", "System Design", "Data & Eval", "Reliability", "Developer Workflows"],
-      "themes": ["Knowledge", "System Design", "Data & Eval", "Reliability", "Developer Workflows"],
+      "tracks": [
+        "Knowledge",
+        "System Design",
+        "Data & Eval",
+        "Reliability",
+        "Developer Workflows"
+      ],
+      "themes": [
+        "Knowledge",
+        "System Design",
+        "Data & Eval",
+        "Reliability",
+        "Developer Workflows"
+      ],
       "publishedAt": "2026-07-23T07:00:23Z",
       "durationSeconds": 7150,
       "youtubeId": "kRkcNOsRyYg",
@@ -565,8 +1851,20 @@
       "title": "Why We Killed Our Multi-Agent Pipeline — Subbiah Sethuraman and Abhilash Asokan, ZS Associates",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design", "Developer Workflows", "Reliability", "Knowledge", "Data & Eval"],
-      "themes": ["System Design", "Developer Workflows", "Reliability", "Knowledge", "Data & Eval"],
+      "tracks": [
+        "System Design",
+        "Developer Workflows",
+        "Reliability",
+        "Knowledge",
+        "Data & Eval"
+      ],
+      "themes": [
+        "System Design",
+        "Developer Workflows",
+        "Reliability",
+        "Knowledge",
+        "Data & Eval"
+      ],
       "publishedAt": "2026-07-23T05:00:02Z",
       "durationSeconds": 900,
       "youtubeId": "u6jJcIFDLE4",
@@ -579,8 +1877,20 @@
       "title": "Citation Needed: Provenance for LLM-Built Knowledge Graphs — Daniel Chalef, Zep AI",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Knowledge", "Data & Eval", "Reliability", "Safety & Control", "System Design"],
-      "themes": ["Knowledge", "Data & Eval", "Reliability", "Safety & Control", "System Design"],
+      "tracks": [
+        "Knowledge",
+        "Data & Eval",
+        "Reliability",
+        "Safety & Control",
+        "System Design"
+      ],
+      "themes": [
+        "Knowledge",
+        "Data & Eval",
+        "Reliability",
+        "Safety & Control",
+        "System Design"
+      ],
       "publishedAt": "2026-07-23T04:00:02Z",
       "durationSeconds": 1254,
       "youtubeId": "H7puB0RwJMM",
@@ -619,8 +1929,20 @@
       "title": "Video Has No Memory. Here's How We Built One. — James Le, TwelveLabs",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Knowledge", "System Design", "Data & Eval", "Reliability", "Deployment"],
-      "themes": ["Knowledge", "System Design", "Data & Eval", "Reliability", "Deployment"],
+      "tracks": [
+        "Knowledge",
+        "System Design",
+        "Data & Eval",
+        "Reliability",
+        "Deployment"
+      ],
+      "themes": [
+        "Knowledge",
+        "System Design",
+        "Data & Eval",
+        "Reliability",
+        "Deployment"
+      ],
       "publishedAt": "2026-07-23T02:00:03Z",
       "durationSeconds": 1227,
       "youtubeId": "mOf-PP4mVjA",
@@ -659,8 +1981,20 @@
       "title": "Learned Execution Graphs for Anomaly Detection & Drift in APIs — Ritvik Pandya, JP Morgan Chase",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Reliability", "System Design", "Data & Eval", "Deployment", "Observability"],
-      "themes": ["Reliability", "System Design", "Data & Eval", "Deployment", "Observability"],
+      "tracks": [
+        "Reliability",
+        "System Design",
+        "Data & Eval",
+        "Deployment",
+        "Observability"
+      ],
+      "themes": [
+        "Reliability",
+        "System Design",
+        "Data & Eval",
+        "Deployment",
+        "Observability"
+      ],
       "publishedAt": "2026-07-23T00:00:04Z",
       "durationSeconds": 1178,
       "youtubeId": "u1yaOeEX4e8",
@@ -673,8 +2007,20 @@
       "title": "From Systems of Record to Systems of Context — Omri Bruchim & Tomer Ast, monday.com",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Knowledge", "System Design", "Developer Workflows", "Reliability", "Data & Eval"],
-      "themes": ["Knowledge", "System Design", "Developer Workflows", "Reliability", "Data & Eval"],
+      "tracks": [
+        "Knowledge",
+        "System Design",
+        "Developer Workflows",
+        "Reliability",
+        "Data & Eval"
+      ],
+      "themes": [
+        "Knowledge",
+        "System Design",
+        "Developer Workflows",
+        "Reliability",
+        "Data & Eval"
+      ],
       "publishedAt": "2026-07-22T23:00:11Z",
       "durationSeconds": 958,
       "youtubeId": "Btk8wDUVs74",
@@ -687,8 +2033,20 @@
       "title": "Your Moat Is Your Data Model — Mike Phipps, Gates Foundation",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Knowledge", "System Design", "Data & Eval", "Reliability", "Safety & Control"],
-      "themes": ["Knowledge", "System Design", "Data & Eval", "Reliability", "Safety & Control"],
+      "tracks": [
+        "Knowledge",
+        "System Design",
+        "Data & Eval",
+        "Reliability",
+        "Safety & Control"
+      ],
+      "themes": [
+        "Knowledge",
+        "System Design",
+        "Data & Eval",
+        "Reliability",
+        "Safety & Control"
+      ],
       "publishedAt": "2026-07-22T21:30:31Z",
       "durationSeconds": 1230,
       "youtubeId": "jt1Pbr_n6oU",
@@ -727,8 +2085,20 @@
       "title": "CrabRAG: Why Automated Assistants Need Graph Memory, Not More Tokens — Stephen Chin, Neo4j",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Knowledge", "System Design", "Reliability", "Data & Eval", "Developer Workflows"],
-      "themes": ["Knowledge", "System Design", "Reliability", "Data & Eval", "Developer Workflows"],
+      "tracks": [
+        "Knowledge",
+        "System Design",
+        "Reliability",
+        "Data & Eval",
+        "Developer Workflows"
+      ],
+      "themes": [
+        "Knowledge",
+        "System Design",
+        "Reliability",
+        "Data & Eval",
+        "Developer Workflows"
+      ],
       "publishedAt": "2026-07-22T18:30:02Z",
       "durationSeconds": 1242,
       "youtubeId": "Q0VkgCyNVUg",
@@ -767,8 +2137,20 @@
       "title": "Claude for Long-Horizon Tasks — Lance Martin, Anthropic",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design", "Reliability", "Safety & Control", "Knowledge", "Deployment"],
-      "themes": ["System Design", "Reliability", "Safety & Control", "Knowledge", "Deployment"],
+      "tracks": [
+        "System Design",
+        "Reliability",
+        "Safety & Control",
+        "Knowledge",
+        "Deployment"
+      ],
+      "themes": [
+        "System Design",
+        "Reliability",
+        "Safety & Control",
+        "Knowledge",
+        "Deployment"
+      ],
       "publishedAt": "2026-07-22T17:00:06Z",
       "durationSeconds": 1519,
       "youtubeId": "9QebvrrY3KY",
@@ -807,8 +2189,20 @@
       "title": "Every Harness Will Become A Claw — Sam Bhagwat, Mastra",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design", "Developer Workflows", "Reliability", "Deployment", "Knowledge"],
-      "themes": ["System Design", "Developer Workflows", "Reliability", "Deployment", "Knowledge"],
+      "tracks": [
+        "System Design",
+        "Developer Workflows",
+        "Reliability",
+        "Deployment",
+        "Knowledge"
+      ],
+      "themes": [
+        "System Design",
+        "Developer Workflows",
+        "Reliability",
+        "Deployment",
+        "Knowledge"
+      ],
       "publishedAt": "2026-07-21T21:30:06Z",
       "durationSeconds": 936,
       "youtubeId": "8qWIPUia2O8",
@@ -821,8 +2215,20 @@
       "title": "HTML Is All Agents Need — James Russo, HeyGen",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Developer Workflows", "Deployment", "System Design", "Knowledge", "Reliability"],
-      "themes": ["Developer Workflows", "Deployment", "System Design", "Knowledge", "Reliability"],
+      "tracks": [
+        "Developer Workflows",
+        "Deployment",
+        "System Design",
+        "Knowledge",
+        "Reliability"
+      ],
+      "themes": [
+        "Developer Workflows",
+        "Deployment",
+        "System Design",
+        "Knowledge",
+        "Reliability"
+      ],
       "publishedAt": "2026-07-21T18:54:01Z",
       "durationSeconds": 913,
       "youtubeId": "Cz4v1WHVyZc",
@@ -835,8 +2241,20 @@
       "title": "\"The biggest challenge in your stack? Evals, Evals, Evals\" - 2026 State of AI Engineering results",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Data & Eval", "System Design", "Reliability", "Deployment", "Models & Training"],
-      "themes": ["Data & Eval", "System Design", "Reliability", "Deployment", "Models & Training"],
+      "tracks": [
+        "Data & Eval",
+        "System Design",
+        "Reliability",
+        "Deployment",
+        "Models & Training"
+      ],
+      "themes": [
+        "Data & Eval",
+        "System Design",
+        "Reliability",
+        "Deployment",
+        "Models & Training"
+      ],
       "publishedAt": "2026-07-21T16:11:29Z",
       "durationSeconds": 1187,
       "youtubeId": "RGe6EjucbzI",
@@ -875,8 +2293,20 @@
       "title": "The Desktop Frontier — Ahmad Osman, Osmantic",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Models & Training", "Deployment", "System Design", "Reliability", "Data & Eval"],
-      "themes": ["Models & Training", "Deployment", "System Design", "Reliability", "Data & Eval"],
+      "tracks": [
+        "Models & Training",
+        "Deployment",
+        "System Design",
+        "Reliability",
+        "Data & Eval"
+      ],
+      "themes": [
+        "Models & Training",
+        "Deployment",
+        "System Design",
+        "Reliability",
+        "Data & Eval"
+      ],
       "publishedAt": "2026-07-21T02:28:29Z",
       "durationSeconds": 1082,
       "youtubeId": "XV2oYi7kojc",
@@ -941,8 +2371,20 @@
       "title": "Security Track Intro — Randall Degges, Snyk",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Safety & Control", "System Design", "Reliability", "Deployment", "Observability"],
-      "themes": ["Safety & Control", "System Design", "Reliability", "Deployment", "Observability"],
+      "tracks": [
+        "Safety & Control",
+        "System Design",
+        "Reliability",
+        "Deployment",
+        "Observability"
+      ],
+      "themes": [
+        "Safety & Control",
+        "System Design",
+        "Reliability",
+        "Deployment",
+        "Observability"
+      ],
       "publishedAt": "2026-07-20T17:17:53Z",
       "durationSeconds": 256,
       "youtubeId": "2xJoimgoqBg",
@@ -981,8 +2423,20 @@
       "title": "It's 10pm. Do You Know Where Your Agents Are? — Kim Maida, Keycard",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Safety & Control", "System Design", "Reliability", "Deployment", "Observability"],
-      "themes": ["Safety & Control", "System Design", "Reliability", "Deployment", "Observability"],
+      "tracks": [
+        "Safety & Control",
+        "System Design",
+        "Reliability",
+        "Deployment",
+        "Observability"
+      ],
+      "themes": [
+        "Safety & Control",
+        "System Design",
+        "Reliability",
+        "Deployment",
+        "Observability"
+      ],
       "publishedAt": "2026-07-20T17:17:53Z",
       "durationSeconds": 1382,
       "youtubeId": "I3znWC3MEXM",
@@ -995,8 +2449,20 @@
       "title": "Privacy-Preserving Intelligence — Steve Korshakov, Bee (acq. Amazon)",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Safety & Control", "Knowledge", "System Design", "Reliability", "Deployment"],
-      "themes": ["Safety & Control", "Knowledge", "System Design", "Reliability", "Deployment"],
+      "tracks": [
+        "Safety & Control",
+        "Knowledge",
+        "System Design",
+        "Reliability",
+        "Deployment"
+      ],
+      "themes": [
+        "Safety & Control",
+        "Knowledge",
+        "System Design",
+        "Reliability",
+        "Deployment"
+      ],
       "publishedAt": "2026-07-20T17:17:53Z",
       "durationSeconds": 953,
       "youtubeId": "IvE8n-ylFYY",
@@ -1035,8 +2501,20 @@
       "title": "Your LLM Stack Is a 2008 Database With Better Marketing — Lovina Dmello, NVIDIA",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Safety & Control", "Deployment", "System Design", "Reliability", "Observability"],
-      "themes": ["Safety & Control", "Deployment", "System Design", "Reliability", "Observability"],
+      "tracks": [
+        "Safety & Control",
+        "Deployment",
+        "System Design",
+        "Reliability",
+        "Observability"
+      ],
+      "themes": [
+        "Safety & Control",
+        "Deployment",
+        "System Design",
+        "Reliability",
+        "Observability"
+      ],
       "publishedAt": "2026-07-20T17:17:53Z",
       "durationSeconds": 1236,
       "youtubeId": "XjI-AR4pt7Y",
@@ -1101,8 +2579,20 @@
       "title": "Why Your Agent Disagrees With Itself (And What To Do About It) - Diane Lin, Datadog",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Data & Eval", "Knowledge", "Reliability", "Safety & Control", "System Design"],
-      "themes": ["Data & Eval", "Knowledge", "Reliability", "Safety & Control", "System Design"],
+      "tracks": [
+        "Data & Eval",
+        "Knowledge",
+        "Reliability",
+        "Safety & Control",
+        "System Design"
+      ],
+      "themes": [
+        "Data & Eval",
+        "Knowledge",
+        "Reliability",
+        "Safety & Control",
+        "System Design"
+      ],
       "publishedAt": "2026-07-20T06:25:22Z",
       "durationSeconds": 1538,
       "youtubeId": "wEc9aG7cRQc",
@@ -1167,8 +2657,18 @@
       "title": "Enterprise Agents Have a Structure Problem - Ishita Daga, Tesla",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design", "Data & Eval", "Knowledge", "Reliability"],
-      "themes": ["System Design", "Data & Eval", "Knowledge", "Reliability"],
+      "tracks": [
+        "System Design",
+        "Data & Eval",
+        "Knowledge",
+        "Reliability"
+      ],
+      "themes": [
+        "System Design",
+        "Data & Eval",
+        "Knowledge",
+        "Reliability"
+      ],
       "publishedAt": "2026-07-20T06:25:12Z",
       "durationSeconds": 728,
       "youtubeId": "B8l81jhvHbI",
@@ -1181,8 +2681,18 @@
       "title": "When Agents Meet Physical Data: The Other Physics of Agent Harnesses - Dmitry Petrov, DataChain",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design", "Data & Eval", "Knowledge", "Deployment"],
-      "themes": ["System Design", "Data & Eval", "Knowledge", "Deployment"],
+      "tracks": [
+        "System Design",
+        "Data & Eval",
+        "Knowledge",
+        "Deployment"
+      ],
+      "themes": [
+        "System Design",
+        "Data & Eval",
+        "Knowledge",
+        "Deployment"
+      ],
       "publishedAt": "2026-07-20T06:25:07Z",
       "durationSeconds": 1653,
       "youtubeId": "bUJgirn4_yc",
@@ -1221,8 +2731,20 @@
       "title": "Agents Need Receipts, Not More Tool Calls - Armanas Povilionis, Alithea Bio",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design", "Safety & Control", "Deployment", "Reliability", "Knowledge"],
-      "themes": ["System Design", "Safety & Control", "Deployment", "Reliability", "Knowledge"],
+      "tracks": [
+        "System Design",
+        "Safety & Control",
+        "Deployment",
+        "Reliability",
+        "Knowledge"
+      ],
+      "themes": [
+        "System Design",
+        "Safety & Control",
+        "Deployment",
+        "Reliability",
+        "Knowledge"
+      ],
       "publishedAt": "2026-07-20T06:25:01Z",
       "durationSeconds": 623,
       "youtubeId": "Q9ycQHbDdJs",
@@ -1261,8 +2783,18 @@
       "title": "Voice Agents That Handle Interrupts - Chintan Agrawal and Daniel Wirjo, AWS",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design", "Reliability", "Deployment", "Observability"],
-      "themes": ["System Design", "Reliability", "Deployment", "Observability"],
+      "tracks": [
+        "System Design",
+        "Reliability",
+        "Deployment",
+        "Observability"
+      ],
+      "themes": [
+        "System Design",
+        "Reliability",
+        "Deployment",
+        "Observability"
+      ],
       "publishedAt": "2026-07-20T06:24:55Z",
       "durationSeconds": 1977,
       "youtubeId": "hMlLw1LeIK8",
@@ -1327,8 +2859,20 @@
       "title": "Can Oncology Workflows Run Without Human Touch? - Anant Shankhdhar, Risa Labs",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design", "Safety & Control", "Data & Eval", "Deployment", "Knowledge"],
-      "themes": ["System Design", "Safety & Control", "Data & Eval", "Deployment", "Knowledge"],
+      "tracks": [
+        "System Design",
+        "Safety & Control",
+        "Data & Eval",
+        "Deployment",
+        "Knowledge"
+      ],
+      "themes": [
+        "System Design",
+        "Safety & Control",
+        "Data & Eval",
+        "Deployment",
+        "Knowledge"
+      ],
       "publishedAt": "2026-07-20T06:24:47Z",
       "durationSeconds": 1001,
       "youtubeId": "_cVfz88_j7A",
@@ -1341,8 +2885,20 @@
       "title": "From Tokens to Cells: Foundation Models for Single-Cell Biology - Akram Baharlouei, Altos Labs",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Models & Training", "Data & Eval", "Knowledge", "Reliability", "Observability"],
-      "themes": ["Models & Training", "Data & Eval", "Knowledge", "Reliability", "Observability"],
+      "tracks": [
+        "Models & Training",
+        "Data & Eval",
+        "Knowledge",
+        "Reliability",
+        "Observability"
+      ],
+      "themes": [
+        "Models & Training",
+        "Data & Eval",
+        "Knowledge",
+        "Reliability",
+        "Observability"
+      ],
       "publishedAt": "2026-07-19T20:00:06Z",
       "durationSeconds": 1017,
       "youtubeId": "-561cZmir5Q",
@@ -1355,8 +2911,20 @@
       "title": "You Didn't Ship a Bug. You Just Wrote It for a Human. - Ravi Madabhushi, Scalekit",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Safety & Control", "System Design", "Deployment", "Reliability", "Observability"],
-      "themes": ["Safety & Control", "System Design", "Deployment", "Reliability", "Observability"],
+      "tracks": [
+        "Safety & Control",
+        "System Design",
+        "Deployment",
+        "Reliability",
+        "Observability"
+      ],
+      "themes": [
+        "Safety & Control",
+        "System Design",
+        "Deployment",
+        "Reliability",
+        "Observability"
+      ],
       "publishedAt": "2026-07-19T16:00:06Z",
       "durationSeconds": 770,
       "youtubeId": "lMCxVorb9wM",
@@ -1447,8 +3015,20 @@
       "title": "A Practitioner's Guide to Graphs - Tim Ainge, Good Collective",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Knowledge", "System Design", "Data & Eval", "Developer Workflows", "Reliability"],
-      "themes": ["Knowledge", "System Design", "Data & Eval", "Developer Workflows", "Reliability"],
+      "tracks": [
+        "Knowledge",
+        "System Design",
+        "Data & Eval",
+        "Developer Workflows",
+        "Reliability"
+      ],
+      "themes": [
+        "Knowledge",
+        "System Design",
+        "Data & Eval",
+        "Developer Workflows",
+        "Reliability"
+      ],
       "publishedAt": "2026-07-18T21:30:06Z",
       "durationSeconds": 858,
       "youtubeId": "3ySF0I5iE_0",
@@ -1567,8 +3147,20 @@
       "title": "Agents Need Receipts, Not More Tool Calls - Armanas Povilionis, Alithea Bio",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Safety & Control", "System Design", "Reliability", "Data & Eval", "Deployment"],
-      "themes": ["Safety & Control", "System Design", "Reliability", "Data & Eval", "Deployment"],
+      "tracks": [
+        "Safety & Control",
+        "System Design",
+        "Reliability",
+        "Data & Eval",
+        "Deployment"
+      ],
+      "themes": [
+        "Safety & Control",
+        "System Design",
+        "Reliability",
+        "Data & Eval",
+        "Deployment"
+      ],
       "publishedAt": "2026-07-18T13:45:07Z",
       "durationSeconds": 1176,
       "youtubeId": "Fu45geO3zX8",
@@ -1797,8 +3389,18 @@
       "title": "Imagination Engineering: \"Live in the future and then build what's missing.\"",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Developer Workflows", "Knowledge", "System Design", "Data & Eval"],
-      "themes": ["Developer Workflows", "Knowledge", "System Design", "Data & Eval"],
+      "tracks": [
+        "Developer Workflows",
+        "Knowledge",
+        "System Design",
+        "Data & Eval"
+      ],
+      "themes": [
+        "Developer Workflows",
+        "Knowledge",
+        "System Design",
+        "Data & Eval"
+      ],
       "publishedAt": "2026-07-16T23:45:06Z",
       "durationSeconds": 964,
       "youtubeId": "Z2Erdirpudo",
@@ -6611,7 +8213,11 @@
         "Data & Eval",
         "Knowledge"
       ],
-      "themes": ["System Design", "Safety & Control", "Deployment"],
+      "themes": [
+        "System Design",
+        "Safety & Control",
+        "Deployment"
+      ],
       "publishedAt": "2026-05-18T17:00:06Z",
       "durationSeconds": 1698,
       "youtubeId": "ObNKGf9YR0g",
@@ -6632,7 +8238,10 @@
         "Knowledge",
         "Reliability"
       ],
-      "themes": ["System Design", "Deployment"],
+      "themes": [
+        "System Design",
+        "Deployment"
+      ],
       "publishedAt": "2026-05-18T15:00:06Z",
       "durationSeconds": 4634,
       "youtubeId": "BcWFc3H7Khg",
@@ -6653,7 +8262,11 @@
         "Safety & Control",
         "Knowledge"
       ],
-      "themes": ["System Design", "Reliability", "Data & Eval"],
+      "themes": [
+        "System Design",
+        "Reliability",
+        "Data & Eval"
+      ],
       "publishedAt": "2026-05-18T13:00:06Z",
       "durationSeconds": 4540,
       "youtubeId": "mR-WAvEPRwE",
@@ -6674,7 +8287,11 @@
         "Developer Workflows",
         "Data & Eval"
       ],
-      "themes": ["Reliability", "Observability", "Safety & Control"],
+      "themes": [
+        "Reliability",
+        "Observability",
+        "Safety & Control"
+      ],
       "publishedAt": "2026-05-17T17:30:06Z",
       "durationSeconds": 1227,
       "youtubeId": "C_GG5g38vLU",
@@ -6695,7 +8312,11 @@
         "System Design",
         "Developer Workflows"
       ],
-      "themes": ["Observability", "Data & Eval", "Safety & Control"],
+      "themes": [
+        "Observability",
+        "Data & Eval",
+        "Safety & Control"
+      ],
       "publishedAt": "2026-05-17T16:30:07Z",
       "durationSeconds": 1049,
       "youtubeId": "L2r6vLlLgs8",
@@ -6716,7 +8337,11 @@
         "Safety & Control",
         "Data & Eval"
       ],
-      "themes": ["System Design", "Reliability", "Observability"],
+      "themes": [
+        "System Design",
+        "Reliability",
+        "Observability"
+      ],
       "publishedAt": "2026-05-17T15:30:06Z",
       "durationSeconds": 1118,
       "youtubeId": "YNJvm7t3yq8",
@@ -6737,7 +8362,12 @@
         "Deployment",
         "Developer Workflows"
       ],
-      "themes": ["System Design", "Reliability", "Data & Eval", "Safety & Control"],
+      "themes": [
+        "System Design",
+        "Reliability",
+        "Data & Eval",
+        "Safety & Control"
+      ],
       "publishedAt": "2026-05-17T10:50:09Z",
       "durationSeconds": 34080,
       "youtubeId": "m12vGjfbNlo",
@@ -6758,7 +8388,10 @@
         "Observability",
         "Safety & Control"
       ],
-      "themes": ["Reliability", "Data & Eval"],
+      "themes": [
+        "Reliability",
+        "Data & Eval"
+      ],
       "publishedAt": "2026-05-16T18:00:06Z",
       "durationSeconds": 1185,
       "youtubeId": "FWEInOtngmM",
@@ -6779,7 +8412,11 @@
         "Developer Workflows",
         "Safety & Control"
       ],
-      "themes": ["System Design", "Data & Eval", "Reliability"],
+      "themes": [
+        "System Design",
+        "Data & Eval",
+        "Reliability"
+      ],
       "publishedAt": "2026-05-16T16:00:06Z",
       "durationSeconds": 1485,
       "youtubeId": "kfSDc2eVLo4",
@@ -6800,7 +8437,11 @@
         "Safety & Control",
         "Deployment"
       ],
-      "themes": ["System Design", "Reliability", "Data & Eval"],
+      "themes": [
+        "System Design",
+        "Reliability",
+        "Data & Eval"
+      ],
       "publishedAt": "2026-05-16T14:00:06Z",
       "durationSeconds": 1059,
       "youtubeId": "eW_vxrjvERk",
@@ -6821,7 +8462,12 @@
         "Developer Workflows",
         "Knowledge"
       ],
-      "themes": ["System Design", "Reliability", "Data & Eval", "Safety & Control"],
+      "themes": [
+        "System Design",
+        "Reliability",
+        "Data & Eval",
+        "Safety & Control"
+      ],
       "publishedAt": "2026-05-16T10:48:27Z",
       "durationSeconds": 36552,
       "youtubeId": "_xQnSNlBP_w",
@@ -6842,7 +8488,11 @@
         "Knowledge",
         "Safety & Control"
       ],
-      "themes": ["System Design", "Reliability", "Data & Eval"],
+      "themes": [
+        "System Design",
+        "Reliability",
+        "Data & Eval"
+      ],
       "publishedAt": "2026-05-15T17:00:06Z",
       "durationSeconds": 1070,
       "youtubeId": "VMemhtlsoNk",
@@ -6863,7 +8513,12 @@
         "Developer Workflows",
         "System Design"
       ],
-      "themes": ["System Design", "Safety & Control", "Data & Eval", "Reliability"],
+      "themes": [
+        "System Design",
+        "Safety & Control",
+        "Data & Eval",
+        "Reliability"
+      ],
       "publishedAt": "2026-05-15T15:00:07Z",
       "durationSeconds": 1107,
       "youtubeId": "JT3OzDKrucU",
@@ -6884,7 +8539,12 @@
         "Safety & Control",
         "Observability"
       ],
-      "themes": ["System Design", "Reliability", "Data & Eval", "Safety & Control"],
+      "themes": [
+        "System Design",
+        "Reliability",
+        "Data & Eval",
+        "Safety & Control"
+      ],
       "publishedAt": "2026-05-15T13:00:06Z",
       "durationSeconds": 1309,
       "youtubeId": "4_VQBbs2iQA",
@@ -6905,7 +8565,11 @@
         "Developer Workflows",
         "Safety & Control"
       ],
-      "themes": ["Data & Eval", "Observability", "Reliability"],
+      "themes": [
+        "Data & Eval",
+        "Observability",
+        "Reliability"
+      ],
       "publishedAt": "2026-05-14T18:00:06Z",
       "durationSeconds": 7458,
       "youtubeId": "Xfl50508LZM",
@@ -6926,7 +8590,12 @@
         "System Design",
         "Deployment"
       ],
-      "themes": ["Observability", "Data & Eval", "Safety & Control", "Reliability"],
+      "themes": [
+        "Observability",
+        "Data & Eval",
+        "Safety & Control",
+        "Reliability"
+      ],
       "publishedAt": "2026-05-14T16:00:06Z",
       "durationSeconds": 4807,
       "youtubeId": "iOXM3zE-2dk",
@@ -6947,7 +8616,12 @@
         "Deployment",
         "Developer Workflows"
       ],
-      "themes": ["System Design", "Reliability", "Observability", "Safety & Control"],
+      "themes": [
+        "System Design",
+        "Reliability",
+        "Observability",
+        "Safety & Control"
+      ],
       "publishedAt": "2026-05-14T14:00:06Z",
       "durationSeconds": 3867,
       "youtubeId": "vi-2nasppAg",
@@ -6968,7 +8642,12 @@
         "Developer Workflows",
         "System Design"
       ],
-      "themes": ["System Design", "Deployment", "Data & Eval", "Safety & Control"],
+      "themes": [
+        "System Design",
+        "Deployment",
+        "Data & Eval",
+        "Safety & Control"
+      ],
       "publishedAt": "2026-05-13T17:00:06Z",
       "durationSeconds": 1151,
       "youtubeId": "OV56RddyFuU",
@@ -6989,7 +8668,11 @@
         "Developer Workflows",
         "Knowledge"
       ],
-      "themes": ["System Design", "Data & Eval", "Reliability"],
+      "themes": [
+        "System Design",
+        "Data & Eval",
+        "Reliability"
+      ],
       "publishedAt": "2026-05-13T15:00:06Z",
       "durationSeconds": 1102,
       "youtubeId": "FlzpEGHNVKQ",
@@ -7010,7 +8693,12 @@
         "Safety & Control",
         "Deployment"
       ],
-      "themes": ["System Design", "Reliability", "Data & Eval", "Safety & Control"],
+      "themes": [
+        "System Design",
+        "Reliability",
+        "Data & Eval",
+        "Safety & Control"
+      ],
       "publishedAt": "2026-05-13T13:00:06Z",
       "durationSeconds": 1117,
       "youtubeId": "VktrqzQgytY",
@@ -7031,7 +8719,11 @@
         "Deployment",
         "Safety & Control"
       ],
-      "themes": ["System Design", "Reliability", "Safety & Control"],
+      "themes": [
+        "System Design",
+        "Reliability",
+        "Safety & Control"
+      ],
       "publishedAt": "2026-05-12T18:00:06Z",
       "durationSeconds": 4133,
       "youtubeId": "wflNENRSUb4",
@@ -7052,7 +8744,12 @@
         "System Design",
         "Safety & Control"
       ],
-      "themes": ["Data & Eval", "Reliability", "Deployment", "System Design"],
+      "themes": [
+        "Data & Eval",
+        "Reliability",
+        "Deployment",
+        "System Design"
+      ],
       "publishedAt": "2026-05-12T17:00:06Z",
       "durationSeconds": 1115,
       "youtubeId": "X6NShR2ccOg",
@@ -7073,7 +8770,12 @@
         "Safety & Control",
         "Knowledge"
       ],
-      "themes": ["Data & Eval", "Observability", "Reliability", "Safety & Control"],
+      "themes": [
+        "Data & Eval",
+        "Observability",
+        "Reliability",
+        "Safety & Control"
+      ],
       "publishedAt": "2026-05-12T16:00:06Z",
       "durationSeconds": 905,
       "youtubeId": "4VhbYlfC7Gs",
@@ -7094,7 +8796,12 @@
         "Safety & Control",
         "Observability"
       ],
-      "themes": ["System Design", "Safety & Control", "Reliability", "Deployment"],
+      "themes": [
+        "System Design",
+        "Safety & Control",
+        "Reliability",
+        "Deployment"
+      ],
       "publishedAt": "2026-05-11T17:00:06Z",
       "durationSeconds": 1242,
       "youtubeId": "vAIDdLKB6-w",
@@ -7115,7 +8822,12 @@
         "Developer Workflows",
         "Observability"
       ],
-      "themes": ["System Design", "Safety & Control", "Reliability", "Deployment"],
+      "themes": [
+        "System Design",
+        "Safety & Control",
+        "Reliability",
+        "Deployment"
+      ],
       "publishedAt": "2026-05-11T15:00:06Z",
       "durationSeconds": 1170,
       "youtubeId": "ohKt066uFhg",
@@ -7136,7 +8848,12 @@
         "Safety & Control",
         "Observability"
       ],
-      "themes": ["Deployment", "System Design", "Reliability", "Safety & Control"],
+      "themes": [
+        "Deployment",
+        "System Design",
+        "Reliability",
+        "Safety & Control"
+      ],
       "publishedAt": "2026-05-11T13:00:06Z",
       "durationSeconds": 1390,
       "youtubeId": "zTLJNHj0DeQ",
@@ -7157,7 +8874,12 @@
         "Safety & Control",
         "Knowledge"
       ],
-      "themes": ["System Design", "Reliability", "Deployment", "Safety & Control"],
+      "themes": [
+        "System Design",
+        "Reliability",
+        "Deployment",
+        "Safety & Control"
+      ],
       "publishedAt": "2026-05-10T20:00:06Z",
       "durationSeconds": 996,
       "youtubeId": "svCnShDvgQg",
@@ -7178,7 +8900,11 @@
         "Observability",
         "Developer Workflows"
       ],
-      "themes": ["System Design", "Data & Eval", "Reliability"],
+      "themes": [
+        "System Design",
+        "Data & Eval",
+        "Reliability"
+      ],
       "publishedAt": "2026-05-10T19:00:06Z",
       "durationSeconds": 977,
       "youtubeId": "esY99nYXxR4",
@@ -7199,7 +8925,12 @@
         "Knowledge",
         "Developer Workflows"
       ],
-      "themes": ["Observability", "Data & Eval", "Reliability", "System Design"],
+      "themes": [
+        "Observability",
+        "Data & Eval",
+        "Reliability",
+        "System Design"
+      ],
       "publishedAt": "2026-05-10T18:00:06Z",
       "durationSeconds": 611,
       "youtubeId": "ON5LIT0M4do",
@@ -7220,7 +8951,12 @@
         "Deployment",
         "Observability"
       ],
-      "themes": ["System Design", "Reliability", "Safety & Control", "Deployment"],
+      "themes": [
+        "System Design",
+        "Reliability",
+        "Safety & Control",
+        "Deployment"
+      ],
       "publishedAt": "2026-05-09T17:00:07Z",
       "durationSeconds": 1346,
       "youtubeId": "3jGAU2sbAyY",
@@ -7241,7 +8977,12 @@
         "Deployment",
         "Models & Training"
       ],
-      "themes": ["System Design", "Reliability", "Observability", "Deployment"],
+      "themes": [
+        "System Design",
+        "Reliability",
+        "Observability",
+        "Deployment"
+      ],
       "publishedAt": "2026-05-09T15:00:06Z",
       "durationSeconds": 1167,
       "youtubeId": "P_RI1kCkRbo",
@@ -7262,7 +9003,11 @@
         "Safety & Control",
         "Observability"
       ],
-      "themes": ["System Design", "Reliability", "Deployment"],
+      "themes": [
+        "System Design",
+        "Reliability",
+        "Deployment"
+      ],
       "publishedAt": "2026-05-09T13:00:06Z",
       "durationSeconds": 492,
       "youtubeId": "DCZZ3AJKzuc",
@@ -7283,7 +9028,12 @@
         "Deployment",
         "Observability"
       ],
-      "themes": ["System Design", "Reliability", "Data & Eval", "Deployment"],
+      "themes": [
+        "System Design",
+        "Reliability",
+        "Data & Eval",
+        "Deployment"
+      ],
       "publishedAt": "2026-05-08T17:00:06Z",
       "durationSeconds": 1025,
       "youtubeId": "VhfAVA3BG2I",
@@ -7304,7 +9054,12 @@
         "Reliability",
         "Safety & Control"
       ],
-      "themes": ["System Design", "Data & Eval", "Reliability", "Deployment"],
+      "themes": [
+        "System Design",
+        "Data & Eval",
+        "Reliability",
+        "Deployment"
+      ],
       "publishedAt": "2026-05-08T15:00:06Z",
       "durationSeconds": 1352,
       "youtubeId": "x8Yb4RidLgM",
@@ -7325,7 +9080,12 @@
         "Safety & Control",
         "Observability"
       ],
-      "themes": ["System Design", "Data & Eval", "Safety & Control", "Observability"],
+      "themes": [
+        "System Design",
+        "Data & Eval",
+        "Safety & Control",
+        "Observability"
+      ],
       "publishedAt": "2026-05-08T13:00:06Z",
       "durationSeconds": 3793,
       "youtubeId": "ynJyIKwjonM",
@@ -7346,7 +9106,11 @@
         "Models & Training",
         "Safety & Control"
       ],
-      "themes": ["Data & Eval", "Reliability", "Observability"],
+      "themes": [
+        "Data & Eval",
+        "Reliability",
+        "Observability"
+      ],
       "publishedAt": "2026-05-07T17:00:06Z",
       "durationSeconds": 4840,
       "youtubeId": "A48uhxfxbsM",
@@ -7367,7 +9131,12 @@
         "Knowledge",
         "Deployment"
       ],
-      "themes": ["System Design", "Data & Eval", "Reliability", "Safety & Control"],
+      "themes": [
+        "System Design",
+        "Data & Eval",
+        "Reliability",
+        "Safety & Control"
+      ],
       "publishedAt": "2026-05-07T15:00:06Z",
       "durationSeconds": 6184,
       "youtubeId": "Wmp2Tku2PrI",
@@ -7388,7 +9157,12 @@
         "Safety & Control",
         "Developer Workflows"
       ],
-      "themes": ["Observability", "Data & Eval", "Reliability", "Safety & Control"],
+      "themes": [
+        "Observability",
+        "Data & Eval",
+        "Reliability",
+        "Safety & Control"
+      ],
       "publishedAt": "2026-05-07T13:00:06Z",
       "durationSeconds": 3025,
       "youtubeId": "-aM2EDTiaMs",
@@ -7409,7 +9183,12 @@
         "Deployment",
         "Data & Eval"
       ],
-      "themes": ["System Design", "Data & Eval", "Safety & Control", "Deployment"],
+      "themes": [
+        "System Design",
+        "Data & Eval",
+        "Safety & Control",
+        "Deployment"
+      ],
       "publishedAt": "2026-05-06T17:00:06Z",
       "durationSeconds": 4863,
       "youtubeId": "pFsfax19yOM",
@@ -7430,7 +9209,12 @@
         "Deployment",
         "Data & Eval"
       ],
-      "themes": ["System Design", "Data & Eval", "Reliability", "Deployment"],
+      "themes": [
+        "System Design",
+        "Data & Eval",
+        "Reliability",
+        "Deployment"
+      ],
       "publishedAt": "2026-05-06T15:00:06Z",
       "durationSeconds": 1111,
       "youtubeId": "ow1we5PzK-o",
@@ -7451,7 +9235,12 @@
         "Knowledge",
         "Deployment"
       ],
-      "themes": ["System Design", "Reliability", "Safety & Control", "Deployment"],
+      "themes": [
+        "System Design",
+        "Reliability",
+        "Safety & Control",
+        "Deployment"
+      ],
       "publishedAt": "2026-05-06T13:00:06Z",
       "durationSeconds": 1341,
       "youtubeId": "o-zkvb0iFDQ",
@@ -7472,7 +9261,12 @@
         "Data & Eval",
         "Observability"
       ],
-      "themes": ["System Design", "Reliability", "Deployment", "Data & Eval"],
+      "themes": [
+        "System Design",
+        "Reliability",
+        "Deployment",
+        "Data & Eval"
+      ],
       "publishedAt": "2026-05-05T17:00:06Z",
       "durationSeconds": 1110,
       "youtubeId": "qdh_x-uRs9g",
@@ -7493,7 +9287,12 @@
         "Data & Eval",
         "Observability"
       ],
-      "themes": ["Deployment", "System Design", "Reliability", "Safety & Control"],
+      "themes": [
+        "Deployment",
+        "System Design",
+        "Reliability",
+        "Safety & Control"
+      ],
       "publishedAt": "2026-05-05T15:00:06Z",
       "durationSeconds": 1438,
       "youtubeId": "Lm8BLHkxiAo",
@@ -7514,7 +9313,12 @@
         "Observability",
         "Safety & Control"
       ],
-      "themes": ["System Design", "Data & Eval", "Reliability", "Safety & Control"],
+      "themes": [
+        "System Design",
+        "Data & Eval",
+        "Reliability",
+        "Safety & Control"
+      ],
       "publishedAt": "2026-05-05T13:00:06Z",
       "durationSeconds": 4095,
       "youtubeId": "_QAVExf_1uw",
@@ -7535,7 +9339,12 @@
         "Safety & Control",
         "Observability"
       ],
-      "themes": ["Data & Eval", "System Design", "Reliability", "Deployment"],
+      "themes": [
+        "Data & Eval",
+        "System Design",
+        "Reliability",
+        "Deployment"
+      ],
       "publishedAt": "2026-05-04T18:30:06Z",
       "durationSeconds": 4886,
       "youtubeId": "UsB70Tf5zcE",
@@ -7556,7 +9365,12 @@
         "Safety & Control",
         "Reliability"
       ],
-      "themes": ["Data & Eval", "Safety & Control", "System Design", "Reliability"],
+      "themes": [
+        "Data & Eval",
+        "Safety & Control",
+        "System Design",
+        "Reliability"
+      ],
       "publishedAt": "2026-05-04T16:00:06Z",
       "durationSeconds": 4721,
       "youtubeId": "GmAQKINjv1E",
@@ -7577,7 +9391,12 @@
         "Deployment",
         "System Design"
       ],
-      "themes": ["System Design", "Reliability", "Safety & Control", "Data & Eval"],
+      "themes": [
+        "System Design",
+        "Reliability",
+        "Safety & Control",
+        "Data & Eval"
+      ],
       "publishedAt": "2026-05-04T14:00:17Z",
       "durationSeconds": 6506,
       "youtubeId": "2TLXsxkz0zI",
@@ -7598,7 +9417,12 @@
         "Safety & Control",
         "Observability"
       ],
-      "themes": ["Deployment", "System Design", "Reliability", "Safety & Control"],
+      "themes": [
+        "Deployment",
+        "System Design",
+        "Reliability",
+        "Safety & Control"
+      ],
       "publishedAt": "2026-05-03T22:00:06Z",
       "durationSeconds": 4858,
       "youtubeId": "BKWpYIWvAo4",
@@ -7619,7 +9443,12 @@
         "Observability",
         "Safety & Control"
       ],
-      "themes": ["System Design", "Safety & Control", "Data & Eval", "Reliability"],
+      "themes": [
+        "System Design",
+        "Safety & Control",
+        "Data & Eval",
+        "Reliability"
+      ],
       "publishedAt": "2026-05-03T16:00:06Z",
       "durationSeconds": 6085,
       "youtubeId": "5ID22ACI7IM",
@@ -7640,7 +9469,12 @@
         "Reliability",
         "Observability"
       ],
-      "themes": ["Data & Eval", "System Design", "Safety & Control", "Observability"],
+      "themes": [
+        "Data & Eval",
+        "System Design",
+        "Safety & Control",
+        "Observability"
+      ],
       "publishedAt": "2026-05-03T14:00:06Z",
       "durationSeconds": 1634,
       "youtubeId": "bSG9wUYaHWU",
@@ -7661,7 +9495,12 @@
         "Developer Workflows",
         "Deployment"
       ],
-      "themes": ["Safety & Control", "System Design", "Observability", "Reliability"],
+      "themes": [
+        "Safety & Control",
+        "System Design",
+        "Observability",
+        "Reliability"
+      ],
       "publishedAt": "2026-05-02T23:00:06Z",
       "durationSeconds": 4762,
       "youtubeId": "tDArkCqjA-c",
@@ -7682,7 +9521,12 @@
         "Deployment",
         "Developer Workflows"
       ],
-      "themes": ["Safety & Control", "System Design", "Observability", "Deployment"],
+      "themes": [
+        "Safety & Control",
+        "System Design",
+        "Observability",
+        "Deployment"
+      ],
       "publishedAt": "2026-05-02T22:00:06Z",
       "durationSeconds": 1174,
       "youtubeId": "sJ2jc7leKBk",
@@ -7703,7 +9547,12 @@
         "Safety & Control",
         "Deployment"
       ],
-      "themes": ["System Design", "Data & Eval", "Reliability", "Deployment"],
+      "themes": [
+        "System Design",
+        "Data & Eval",
+        "Reliability",
+        "Deployment"
+      ],
       "publishedAt": "2026-05-02T21:00:06Z",
       "durationSeconds": 1223,
       "youtubeId": "W76woOYHlvY",
@@ -7724,7 +9573,12 @@
         "Observability",
         "Safety & Control"
       ],
-      "themes": ["Deployment", "Reliability", "System Design", "Data & Eval"],
+      "themes": [
+        "Deployment",
+        "Reliability",
+        "System Design",
+        "Data & Eval"
+      ],
       "publishedAt": "2026-05-01T18:00:06Z",
       "durationSeconds": 1459,
       "youtubeId": "CrqPcIZOOXA",
@@ -7745,7 +9599,12 @@
         "Observability",
         "Safety & Control"
       ],
-      "themes": ["System Design", "Safety & Control", "Observability", "Reliability"],
+      "themes": [
+        "System Design",
+        "Safety & Control",
+        "Observability",
+        "Reliability"
+      ],
       "publishedAt": "2026-05-01T16:00:06Z",
       "durationSeconds": 1194,
       "youtubeId": "sPUjIBH5Cwg",
@@ -7766,7 +9625,13 @@
         "Safety & Control",
         "System Design"
       ],
-      "themes": ["Data & Eval", "Observability", "Reliability", "Deployment", "Safety & Control"],
+      "themes": [
+        "Data & Eval",
+        "Observability",
+        "Reliability",
+        "Deployment",
+        "Safety & Control"
+      ],
       "publishedAt": "2026-05-01T14:00:06Z",
       "durationSeconds": 5914,
       "youtubeId": "ZdheJTfLu-s",
@@ -10619,8 +12484,20 @@
       "title": "Efficient Reinforcement Learning – Rhythm Garg & Linden Li, Applied Compute",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Models & Training", "Deployment", "Data & Eval", "System Design", "Reliability"],
-      "themes": ["Models & Training", "Deployment", "Data & Eval", "System Design", "Reliability"],
+      "tracks": [
+        "Models & Training",
+        "Deployment",
+        "Data & Eval",
+        "System Design",
+        "Reliability"
+      ],
+      "themes": [
+        "Models & Training",
+        "Deployment",
+        "Data & Eval",
+        "System Design",
+        "Reliability"
+      ],
       "publishedAt": "2025-12-09T15:51:58Z",
       "durationSeconds": 1219,
       "youtubeId": "o15AaYl7Wu0",
@@ -10799,8 +12676,20 @@
       "title": "No Vibes Allowed: Solving Hard Problems in Complex Codebases – Dex Horthy, HumanLayer",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Developer Workflows", "Knowledge", "Reliability", "System Design", "Data & Eval"],
-      "themes": ["Developer Workflows", "Knowledge", "Reliability", "System Design", "Data & Eval"],
+      "tracks": [
+        "Developer Workflows",
+        "Knowledge",
+        "Reliability",
+        "System Design",
+        "Data & Eval"
+      ],
+      "themes": [
+        "Developer Workflows",
+        "Knowledge",
+        "Reliability",
+        "System Design",
+        "Data & Eval"
+      ],
       "publishedAt": "2025-12-02T22:52:58Z",
       "durationSeconds": 1231,
       "youtubeId": "rmvDxxNubIg",
@@ -11173,8 +13062,20 @@
       "title": "Context Engineering: Connecting the Dots with Graphs — Stephen Chin, Neo4j",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Knowledge", "System Design", "Data & Eval", "Reliability", "Safety & Control"],
-      "themes": ["Knowledge", "System Design", "Data & Eval", "Reliability", "Safety & Control"],
+      "tracks": [
+        "Knowledge",
+        "System Design",
+        "Data & Eval",
+        "Reliability",
+        "Safety & Control"
+      ],
+      "themes": [
+        "Knowledge",
+        "System Design",
+        "Data & Eval",
+        "Reliability",
+        "Safety & Control"
+      ],
       "publishedAt": "2025-11-24T20:16:36Z",
       "durationSeconds": 1610,
       "youtubeId": "LLuKshphGOE",
@@ -11271,8 +13172,18 @@
       "title": "What Data from 20m Pull Requests Reveal About AI Transformation — Nick Arcolano, Jellyfish",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Data & Eval", "Developer Workflows", "System Design", "Reliability"],
-      "themes": ["Data & Eval", "Developer Workflows", "System Design", "Reliability"],
+      "tracks": [
+        "Data & Eval",
+        "Developer Workflows",
+        "System Design",
+        "Reliability"
+      ],
+      "themes": [
+        "Data & Eval",
+        "Developer Workflows",
+        "System Design",
+        "Reliability"
+      ],
       "publishedAt": "2025-11-24T20:16:36Z",
       "durationSeconds": 1077,
       "youtubeId": "WqZq8L-v9pA",
@@ -11285,8 +13196,16 @@
       "title": "AI changes *Nothing* — Dax Raad, OpenCode",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Developer Workflows", "System Design", "Data & Eval"],
-      "themes": ["Developer Workflows", "System Design", "Data & Eval"],
+      "tracks": [
+        "Developer Workflows",
+        "System Design",
+        "Data & Eval"
+      ],
+      "themes": [
+        "Developer Workflows",
+        "System Design",
+        "Data & Eval"
+      ],
       "publishedAt": "2025-11-23T19:44:51Z",
       "durationSeconds": 999,
       "youtubeId": "o3gmwzo-Mik",
@@ -11449,8 +13368,16 @@
       "title": "Rishabh Garg, Tesla Optimus — Challenges in High Performance Robotics Systems",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design", "Deployment", "Reliability"],
-      "themes": ["System Design", "Deployment", "Reliability"],
+      "tracks": [
+        "System Design",
+        "Deployment",
+        "Reliability"
+      ],
+      "themes": [
+        "System Design",
+        "Deployment",
+        "Reliability"
+      ],
       "publishedAt": "2025-08-25T15:00:05Z",
       "durationSeconds": 763,
       "youtubeId": "bCGbuyv8PMk",
@@ -11463,8 +13390,18 @@
       "title": "Building an Agentic Platform — Ben Kus, CTO Box",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Knowledge", "System Design", "Deployment", "Safety & Control"],
-      "themes": ["Knowledge", "System Design", "Deployment", "Safety & Control"],
+      "tracks": [
+        "Knowledge",
+        "System Design",
+        "Deployment",
+        "Safety & Control"
+      ],
+      "themes": [
+        "Knowledge",
+        "System Design",
+        "Deployment",
+        "Safety & Control"
+      ],
       "publishedAt": "2025-08-24T18:00:06Z",
       "durationSeconds": 1146,
       "youtubeId": "12v5S1n1eOY",
@@ -11477,8 +13414,18 @@
       "title": "Five hard earned lessons about Evals — Ankur Goyal, Braintrust",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Data & Eval", "Developer Workflows", "Reliability", "Knowledge"],
-      "themes": ["Data & Eval", "Developer Workflows", "Reliability", "Knowledge"],
+      "tracks": [
+        "Data & Eval",
+        "Developer Workflows",
+        "Reliability",
+        "Knowledge"
+      ],
+      "themes": [
+        "Data & Eval",
+        "Developer Workflows",
+        "Reliability",
+        "Knowledge"
+      ],
       "publishedAt": "2025-08-23T17:45:06Z",
       "durationSeconds": 1186,
       "youtubeId": "a4BV0gGmXgA",
@@ -11491,8 +13438,16 @@
       "title": "Perceptual Evaluations: Evals for Aesthetics — Diego Rodriguez, Krea.ai",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Data & Eval", "Reliability", "Knowledge"],
-      "themes": ["Data & Eval", "Reliability", "Knowledge"],
+      "tracks": [
+        "Data & Eval",
+        "Reliability",
+        "Knowledge"
+      ],
+      "themes": [
+        "Data & Eval",
+        "Reliability",
+        "Knowledge"
+      ],
       "publishedAt": "2025-08-23T16:30:06Z",
       "durationSeconds": 988,
       "youtubeId": "h5ItAJuB3Fc",
@@ -11531,8 +13486,16 @@
       "title": "Form factors for your new AI coworkers — Craig Wattrus, Flatfile",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Developer Workflows", "Knowledge", "System Design"],
-      "themes": ["Developer Workflows", "Knowledge", "System Design"],
+      "tracks": [
+        "Developer Workflows",
+        "Knowledge",
+        "System Design"
+      ],
+      "themes": [
+        "Developer Workflows",
+        "Knowledge",
+        "System Design"
+      ],
       "publishedAt": "2025-08-22T15:00:20Z",
       "durationSeconds": 935,
       "youtubeId": "CiMVKnX-CNI",
@@ -11545,8 +13508,18 @@
       "title": "Fuzzing in the GenAI Era — Leonard Tang, Haize Labs",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Data & Eval", "Reliability", "Safety & Control", "Developer Workflows"],
-      "themes": ["Data & Eval", "Reliability", "Safety & Control", "Developer Workflows"],
+      "tracks": [
+        "Data & Eval",
+        "Reliability",
+        "Safety & Control",
+        "Developer Workflows"
+      ],
+      "themes": [
+        "Data & Eval",
+        "Reliability",
+        "Safety & Control",
+        "Developer Workflows"
+      ],
       "publishedAt": "2025-08-22T15:00:05Z",
       "durationSeconds": 1152,
       "youtubeId": "OMGPvW8TBHc",
@@ -11559,8 +13532,20 @@
       "title": "Multi Agent AI and Network Knowledge Graphs for Change — Ola Mabadeje, Cisco",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Knowledge", "System Design", "Reliability", "Deployment", "Safety & Control"],
-      "themes": ["Knowledge", "System Design", "Reliability", "Deployment", "Safety & Control"],
+      "tracks": [
+        "Knowledge",
+        "System Design",
+        "Reliability",
+        "Deployment",
+        "Safety & Control"
+      ],
+      "themes": [
+        "Knowledge",
+        "System Design",
+        "Reliability",
+        "Deployment",
+        "Safety & Control"
+      ],
       "publishedAt": "2025-08-22T06:14:21Z",
       "durationSeconds": 1129,
       "youtubeId": "m0dxZ-NDKHo",
@@ -11573,8 +13558,18 @@
       "title": "Wisdom-Driven Knowledge Augmented Generation at Scale - Chin Keong Lam, Patho AI",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Knowledge", "System Design", "Data & Eval", "Deployment"],
-      "themes": ["Knowledge", "System Design", "Data & Eval", "Deployment"],
+      "tracks": [
+        "Knowledge",
+        "System Design",
+        "Data & Eval",
+        "Deployment"
+      ],
+      "themes": [
+        "Knowledge",
+        "System Design",
+        "Data & Eval",
+        "Deployment"
+      ],
       "publishedAt": "2025-08-22T06:13:55Z",
       "durationSeconds": 1123,
       "youtubeId": "9AQOvT8LnMI",
@@ -11703,8 +13698,20 @@
       "title": "How to look at your data — Jeff Huber (Chroma) + Jason Liu (567)",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Knowledge", "Data & Eval", "Reliability", "Developer Workflows", "Observability"],
-      "themes": ["Knowledge", "Data & Eval", "Reliability", "Developer Workflows", "Observability"],
+      "tracks": [
+        "Knowledge",
+        "Data & Eval",
+        "Reliability",
+        "Developer Workflows",
+        "Observability"
+      ],
+      "themes": [
+        "Knowledge",
+        "Data & Eval",
+        "Reliability",
+        "Developer Workflows",
+        "Observability"
+      ],
       "publishedAt": "2025-08-06T16:22:06Z",
       "durationSeconds": 1163,
       "youtubeId": "jryZvCuA0Uc",
@@ -11743,8 +13750,12 @@
       "title": "Evals Are Not Unit Tests — Ido Pesok, Vercel v0",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Data & Eval"],
-      "themes": ["Data & Eval"],
+      "tracks": [
+        "Data & Eval"
+      ],
+      "themes": [
+        "Data & Eval"
+      ],
       "publishedAt": "2025-08-06T16:14:42Z",
       "durationSeconds": 922,
       "youtubeId": "L8OoYeDI_ls",
@@ -11757,8 +13768,12 @@
       "title": "2025 is the Year of Evals! Just like 2024, and 2023, and … — John Dickerson, CEO Mozilla AI",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Data & Eval"],
-      "themes": ["Data & Eval"],
+      "tracks": [
+        "Data & Eval"
+      ],
+      "themes": [
+        "Data & Eval"
+      ],
       "publishedAt": "2025-08-06T16:11:52Z",
       "durationSeconds": 1154,
       "youtubeId": "CQGuvf6gSrM",
@@ -11800,24 +13815,22 @@
       "sourceChannel": "AI Engineer",
       "track": null,
       "tracks": [
-        "Developer Workflows",
         "System Design",
-        "Reliability",
         "Deployment",
-        "Data & Eval"
+        "Reliability",
+        "Knowledge",
+        "Developer Workflows"
       ],
       "themes": [
-        "Developer Workflows",
         "System Design",
-        "Reliability",
         "Deployment",
-        "Data & Eval"
+        "Reliability",
+        "Knowledge",
+        "Developer Workflows"
       ],
       "publishedAt": "2025-08-03T18:53:31Z",
       "durationSeconds": 4181,
       "youtubeId": "nxuTVd7v7dg",
-      "tracks": ["System Design", "Deployment", "Reliability", "Knowledge", "Developer Workflows"],
-      "themes": ["System Design", "Deployment", "Reliability", "Knowledge", "Developer Workflows"],
       "contentStatus": "transcript_reviewed",
       "insightReviewStatus": "approved"
     },
@@ -11827,8 +13840,20 @@
       "title": "Vision AI in 2025 — Peter Robicheaux, Roboflow",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Models & Training", "Data & Eval", "System Design", "Deployment", "Reliability"],
-      "themes": ["Models & Training", "Data & Eval", "System Design", "Deployment", "Reliability"],
+      "tracks": [
+        "Models & Training",
+        "Data & Eval",
+        "System Design",
+        "Deployment",
+        "Reliability"
+      ],
+      "themes": [
+        "Models & Training",
+        "Data & Eval",
+        "System Design",
+        "Deployment",
+        "Reliability"
+      ],
       "publishedAt": "2025-08-03T17:45:01Z",
       "durationSeconds": 1044,
       "youtubeId": "IQc05eCvNYE",
@@ -11841,8 +13866,16 @@
       "title": "Practical tactics to build reliable AI apps — Dmitry Kuchin, Multinear",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Reliability"],
-      "themes": ["Data & Eval", "Reliability", "Developer Workflows", "Knowledge", "System Design"],
+      "tracks": [
+        "Reliability"
+      ],
+      "themes": [
+        "Data & Eval",
+        "Reliability",
+        "Developer Workflows",
+        "Knowledge",
+        "System Design"
+      ],
       "publishedAt": "2025-08-03T04:34:32Z",
       "durationSeconds": 895,
       "youtubeId": "-T6uZYYzkWw",
@@ -11855,8 +13888,18 @@
       "title": "How to Improve your Vibe Coding — Ian Butler",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Developer Workflows", "Reliability", "Data & Eval", "System Design"],
-      "themes": ["Developer Workflows", "Reliability", "Data & Eval", "System Design"],
+      "tracks": [
+        "Developer Workflows",
+        "Reliability",
+        "Data & Eval",
+        "System Design"
+      ],
+      "themes": [
+        "Developer Workflows",
+        "Reliability",
+        "Data & Eval",
+        "System Design"
+      ],
       "publishedAt": "2025-08-03T04:32:57Z",
       "durationSeconds": 450,
       "youtubeId": "g03m-WFEu1U",
@@ -11869,20 +13912,23 @@
       "title": "Vibes won't cut it — Chris Kelly, Augment Code",
       "sourceChannel": "AI Engineer",
       "track": "Models & Training",
-      "tracks": ["Models & Training"],
-      "themes": [
-        "Models & Training",
-        "Data & Eval",
-        "Knowledge",
+      "tracks": [
+        "Developer Workflows",
         "Reliability",
-        "Deployment",
-        "Observability"
+        "System Design",
+        "Knowledge",
+        "Data & Eval"
+      ],
+      "themes": [
+        "Developer Workflows",
+        "Reliability",
+        "System Design",
+        "Knowledge",
+        "Data & Eval"
       ],
       "publishedAt": "2025-08-03T04:32:17Z",
       "durationSeconds": 934,
       "youtubeId": "Dc3qOA9WOnE",
-      "tracks": ["Developer Workflows", "Reliability", "System Design", "Knowledge", "Data & Eval"],
-      "themes": ["Developer Workflows", "Reliability", "System Design", "Knowledge", "Data & Eval"],
       "contentStatus": "transcript_reviewed",
       "insightReviewStatus": "approved"
     },
@@ -11892,18 +13938,6 @@
       "title": "Real World Development with GitHub Copilot and VS Code — Harald Kirschner, Christopher Harrison",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": [],
-      "themes": [
-        "Deployment",
-        "Models & Training",
-        "System Design",
-        "Safety & Control",
-        "Reliability",
-        "Developer Workflows"
-      ],
-      "publishedAt": "2025-08-03T04:30:57Z",
-      "durationSeconds": 4773,
-      "youtubeId": "eOxOzcw70f0",
       "tracks": [
         "Developer Workflows",
         "System Design",
@@ -11918,6 +13952,9 @@
         "Deployment",
         "Data & Eval"
       ],
+      "publishedAt": "2025-08-03T04:30:57Z",
+      "durationSeconds": 4773,
+      "youtubeId": "eOxOzcw70f0",
       "contentStatus": "transcript_reviewed",
       "insightReviewStatus": "approved"
     },
@@ -12039,11 +14076,23 @@
       "title": "Agents vs Workflows: Why Not Both? — Sam Bhagwat, Mastra.ai",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "themes": ["System Design", "Developer Workflows", "Reliability", "Data & Eval", "Knowledge"],
+      "themes": [
+        "System Design",
+        "Developer Workflows",
+        "Reliability",
+        "Data & Eval",
+        "Knowledge"
+      ],
       "publishedAt": "2025-08-01T16:00:06Z",
       "durationSeconds": 937,
       "youtubeId": "8SUJEqQNClw",
-      "tracks": ["System Design", "Developer Workflows", "Reliability", "Data & Eval", "Knowledge"],
+      "tracks": [
+        "System Design",
+        "Developer Workflows",
+        "Reliability",
+        "Data & Eval",
+        "Knowledge"
+      ],
       "contentStatus": "transcript_reviewed",
       "insightReviewStatus": "approved"
     },
@@ -12053,8 +14102,20 @@
       "title": "Why We Don’t Need More Data Centers - Dr. Jasper Zhang, Hyperbolic",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Deployment", "System Design", "Reliability", "Models & Training", "Data & Eval"],
-      "themes": ["Deployment", "System Design", "Reliability", "Models & Training", "Data & Eval"],
+      "tracks": [
+        "Deployment",
+        "System Design",
+        "Reliability",
+        "Models & Training",
+        "Data & Eval"
+      ],
+      "themes": [
+        "Deployment",
+        "System Design",
+        "Reliability",
+        "Models & Training",
+        "Data & Eval"
+      ],
       "publishedAt": "2025-08-01T15:00:06Z",
       "durationSeconds": 858,
       "youtubeId": "M6Vbaig1TsM",
@@ -12179,8 +14240,20 @@
       "title": "From Self-driving to Autonomous Voice Agents — Brooke Hopkins, Coval",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Data & Eval", "Reliability", "System Design", "Safety & Control", "Knowledge"],
-      "themes": ["Data & Eval", "Reliability", "System Design", "Safety & Control", "Knowledge"],
+      "tracks": [
+        "Data & Eval",
+        "Reliability",
+        "System Design",
+        "Safety & Control",
+        "Knowledge"
+      ],
+      "themes": [
+        "Data & Eval",
+        "Reliability",
+        "System Design",
+        "Safety & Control",
+        "Knowledge"
+      ],
       "publishedAt": "2025-07-31T16:45:05Z",
       "durationSeconds": 1172,
       "youtubeId": "kDczF4wBh8s",
@@ -12273,8 +14346,20 @@
       "title": "How to defend your sites from AI bots — David Mytton, Arcjet",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Safety & Control", "Reliability", "Deployment", "System Design", "Data & Eval"],
-      "themes": ["Safety & Control", "Reliability", "Deployment", "System Design", "Data & Eval"],
+      "tracks": [
+        "Safety & Control",
+        "Reliability",
+        "Deployment",
+        "System Design",
+        "Data & Eval"
+      ],
+      "themes": [
+        "Safety & Control",
+        "Reliability",
+        "Deployment",
+        "System Design",
+        "Data & Eval"
+      ],
       "publishedAt": "2025-07-30T17:30:06Z",
       "durationSeconds": 1212,
       "youtubeId": "Gi4V8viBGYQ",
@@ -14107,7 +16192,9 @@
       "title": "Top Ten Challenges to Reach AGI — Stephen Chin, Andreas Kollegger",
       "sourceChannel": "AI Engineer",
       "track": "Safety & Control",
-      "tracks": ["Safety & Control"],
+      "tracks": [
+        "Safety & Control"
+      ],
       "themes": [
         "Safety & Control",
         "System Design",
@@ -14128,7 +16215,9 @@
       "title": "Practical GraphRAG: Making LLMs smarter with Knowledge Graphs — Michael, Jesus, and Stephen, Neo4j",
       "sourceChannel": "AI Engineer",
       "track": "Knowledge",
-      "tracks": ["Knowledge"],
+      "tracks": [
+        "Knowledge"
+      ],
       "themes": [
         "Knowledge",
         "Data & Eval",
@@ -14149,7 +16238,9 @@
       "title": "Knowledge Graphs in Litigation Agents — Tom Smoker, WhyHow",
       "sourceChannel": "AI Engineer",
       "track": "Knowledge",
-      "tracks": ["Knowledge"],
+      "tracks": [
+        "Knowledge"
+      ],
       "themes": [
         "Knowledge",
         "System Design",
@@ -14170,7 +16261,9 @@
       "title": "When Vectors Break Down: Graph-Based RAG for Dense Enterprise Knowledge - Sam Julien, Writer",
       "sourceChannel": "AI Engineer",
       "track": "Knowledge",
-      "tracks": ["Knowledge"],
+      "tracks": [
+        "Knowledge"
+      ],
       "themes": [
         "Knowledge",
         "Data & Eval",
@@ -14191,7 +16284,9 @@
       "title": "Stop Using RAG as Memory — Daniel Chalef, Zep",
       "sourceChannel": "AI Engineer",
       "track": "Knowledge",
-      "tracks": ["Knowledge"],
+      "tracks": [
+        "Knowledge"
+      ],
       "themes": [
         "Knowledge",
         "System Design",
@@ -14212,7 +16307,9 @@
       "title": "HybridRAG: A Fusion of Graph and Vector Retrieval  - Mitesh Patel, NVIDIA",
       "sourceChannel": "AI Engineer",
       "track": "Knowledge",
-      "tracks": ["Knowledge"],
+      "tracks": [
+        "Knowledge"
+      ],
       "themes": [
         "Knowledge",
         "Data & Eval",
@@ -14233,7 +16330,9 @@
       "title": "tldraw.computer - Steve Ruiz, tldraw",
       "sourceChannel": "AI Engineer",
       "track": "Developer Workflows",
-      "tracks": ["Developer Workflows"],
+      "tracks": [
+        "Developer Workflows"
+      ],
       "themes": [
         "Developer Workflows",
         "System Design",
@@ -14254,7 +16353,9 @@
       "title": "Excalidraw: AI and Human Whiteboarding Partnership - Christopher Chedeau",
       "sourceChannel": "AI Engineer",
       "track": "Developer Workflows",
-      "tracks": ["Developer Workflows"],
+      "tracks": [
+        "Developer Workflows"
+      ],
       "themes": [
         "Developer Workflows",
         "System Design",
@@ -14275,7 +16376,9 @@
       "title": "The Bitter Layout or: How I Learned to Love the Model Picker — Maximillian Piras, Yutori",
       "sourceChannel": "AI Engineer",
       "track": "Developer Workflows",
-      "tracks": ["Developer Workflows"],
+      "tracks": [
+        "Developer Workflows"
+      ],
       "themes": [
         "Developer Workflows",
         "System Design",
@@ -14296,7 +16399,9 @@
       "title": "UX Design Principles for Semi Autonomous Multi Agent Systems — Victor Dibia, Microsoft",
       "sourceChannel": "AI Engineer",
       "track": "System Design",
-      "tracks": ["System Design"],
+      "tracks": [
+        "System Design"
+      ],
       "themes": [
         "System Design",
         "Developer Workflows",
@@ -14317,7 +16422,9 @@
       "title": "Agentic GraphRAG: AI’s Logical Edge — Stephen Chin, Neo4j",
       "sourceChannel": "AI Engineer",
       "track": "System Design",
-      "tracks": ["System Design"],
+      "tracks": [
+        "System Design"
+      ],
       "themes": [
         "System Design",
         "Developer Workflows",
@@ -14338,7 +16445,9 @@
       "title": "CIAM for AI: Authn/Authz for Agents — Michael Grinich, CEO of WorkOS",
       "sourceChannel": "AI Engineer",
       "track": "Safety & Control",
-      "tracks": ["Safety & Control"],
+      "tracks": [
+        "Safety & Control"
+      ],
       "themes": [
         "Safety & Control",
         "System Design",
@@ -14359,7 +16468,9 @@
       "title": "Good design hasn’t changed with AI — John Pham, SF Compute",
       "sourceChannel": "AI Engineer",
       "track": "Developer Workflows",
-      "tracks": ["Developer Workflows"],
+      "tracks": [
+        "Developer Workflows"
+      ],
       "themes": [
         "Developer Workflows",
         "System Design",
@@ -14380,7 +16491,9 @@
       "title": "Building Effective Voice Agents — Toki Sherbakov + Anoop Kotha, OpenAI",
       "sourceChannel": "AI Engineer",
       "track": "System Design",
-      "tracks": ["System Design"],
+      "tracks": [
+        "System Design"
+      ],
       "themes": [
         "System Design",
         "Developer Workflows",
@@ -14401,7 +16514,9 @@
       "title": "What every AI engineer needs to know about GPUs — Charles Frye, Modal",
       "sourceChannel": "AI Engineer",
       "track": "Models & Training",
-      "tracks": ["Models & Training"],
+      "tracks": [
+        "Models & Training"
+      ],
       "themes": [
         "Models & Training",
         "Deployment",
@@ -14422,7 +16537,9 @@
       "title": "Brian Balfour: How Granola Beat Giants Like Zoom & Otter in the AI Note-Taking War",
       "sourceChannel": "AI Engineer",
       "track": "Developer Workflows",
-      "tracks": ["Developer Workflows"],
+      "tracks": [
+        "Developer Workflows"
+      ],
       "themes": [
         "Developer Workflows",
         "System Design",
@@ -14443,7 +16560,9 @@
       "title": "Robots as professional Chefs - Nikhil Abraham, CloudChef",
       "sourceChannel": "AI Engineer",
       "track": "Deployment",
-      "tracks": ["Deployment"],
+      "tracks": [
+        "Deployment"
+      ],
       "themes": [
         "Deployment",
         "Models & Training",
@@ -14464,7 +16583,9 @@
       "title": "[Full Workshop] Reinforcement Learning, Kernels, Reasoning, Quantization & Agents — Daniel Han",
       "sourceChannel": "AI Engineer",
       "track": "Models & Training",
-      "tracks": ["Models & Training"],
+      "tracks": [
+        "Models & Training"
+      ],
       "themes": [
         "Models & Training",
         "Data & Eval",
@@ -14485,7 +16606,9 @@
       "title": "A Taxonomy for Next-gen Reasoning — Nathan Lambert, Allen Institute (AI2) & Interconnects.ai",
       "sourceChannel": "AI Engineer",
       "track": "Models & Training",
-      "tracks": ["Models & Training"],
+      "tracks": [
+        "Models & Training"
+      ],
       "themes": [
         "Models & Training",
         "Data & Eval",
@@ -14506,7 +16629,9 @@
       "title": "How to Train Your Agent: Building Reliable Agents with RL — Kyle Corbitt, OpenPipe",
       "sourceChannel": "AI Engineer",
       "track": "Data & Eval",
-      "tracks": ["Data & Eval"],
+      "tracks": [
+        "Data & Eval"
+      ],
       "themes": [
         "Data & Eval",
         "Models & Training",
@@ -14527,7 +16652,9 @@
       "title": "OpenThoughts: Data Recipes for Reasoning Models — Ryan Marten, Bespoke Labs",
       "sourceChannel": "AI Engineer",
       "track": "Models & Training",
-      "tracks": ["Models & Training"],
+      "tracks": [
+        "Models & Training"
+      ],
       "themes": [
         "Models & Training",
         "Data & Eval",
@@ -14548,7 +16675,9 @@
       "title": "Google Photos Magic Editor: GenAI Under the Hood of a Billion-User App - Kelvin Ma, Google Photos",
       "sourceChannel": "AI Engineer",
       "track": "Deployment",
-      "tracks": ["Deployment"],
+      "tracks": [
+        "Deployment"
+      ],
       "themes": [
         "Deployment",
         "Models & Training",
@@ -14569,7 +16698,9 @@
       "title": "Dream Machine: Scaling to 1m users in 4 days — Keegan McCallum, Luma AI",
       "sourceChannel": "AI Engineer",
       "track": "Deployment",
-      "tracks": ["Deployment"],
+      "tracks": [
+        "Deployment"
+      ],
       "themes": [
         "Deployment",
         "Reliability",
@@ -14590,7 +16721,9 @@
       "title": "ComfyUI Full Workshop — first workshop from ComfyAnonymous himself!",
       "sourceChannel": "AI Engineer",
       "track": "Developer Workflows",
-      "tracks": ["Developer Workflows"],
+      "tracks": [
+        "Developer Workflows"
+      ],
       "themes": [
         "Developer Workflows",
         "Models & Training",
@@ -14611,7 +16744,9 @@
       "title": "Design like Karpathy is watching — Zeke Sikelianos, Replicate",
       "sourceChannel": "AI Engineer",
       "track": "Developer Workflows",
-      "tracks": ["Developer Workflows"],
+      "tracks": [
+        "Developer Workflows"
+      ],
       "themes": [
         "Developer Workflows",
         "System Design",
@@ -14632,7 +16767,9 @@
       "title": "On Curiosity — Sharif Shameem, Lexica",
       "sourceChannel": "AI Engineer",
       "track": "Developer Workflows",
-      "tracks": ["Developer Workflows"],
+      "tracks": [
+        "Developer Workflows"
+      ],
       "themes": [
         "Developer Workflows",
         "Models & Training",
@@ -14653,7 +16790,9 @@
       "title": "Real world MCPs in GitHub Copilot Agent Mode — Jon Peck, Microsoft",
       "sourceChannel": "AI Engineer",
       "track": "Developer Workflows",
-      "tracks": ["Developer Workflows"],
+      "tracks": [
+        "Developer Workflows"
+      ],
       "themes": [
         "Developer Workflows",
         "System Design",
@@ -14674,7 +16813,9 @@
       "title": "Brian Balfour: The #1 Question Every AI Product Manager Must Answer",
       "sourceChannel": "AI Engineer",
       "track": "Developer Workflows",
-      "tracks": ["Developer Workflows"],
+      "tracks": [
+        "Developer Workflows"
+      ],
       "themes": [
         "Developer Workflows",
         "System Design",
@@ -14695,7 +16836,9 @@
       "title": "The rise of the agentic economy on the shoulders of MCP — Jan Curn, Apify",
       "sourceChannel": "AI Engineer",
       "track": "System Design",
-      "tracks": ["System Design"],
+      "tracks": [
+        "System Design"
+      ],
       "themes": [
         "System Design",
         "Knowledge",
@@ -14716,7 +16859,9 @@
       "title": "MCP is all you need — Samuel Colvin, Pydantic",
       "sourceChannel": "AI Engineer",
       "track": "System Design",
-      "tracks": ["System Design"],
+      "tracks": [
+        "System Design"
+      ],
       "themes": [
         "System Design",
         "Developer Workflows",
@@ -14737,7 +16882,9 @@
       "title": "Full Spec MCP: Hidden Capabilities of the MCP spec — Harald Kirschner, Microsoft/VSCode",
       "sourceChannel": "AI Engineer",
       "track": "Developer Workflows",
-      "tracks": ["Developer Workflows"],
+      "tracks": [
+        "Developer Workflows"
+      ],
       "themes": [
         "Developer Workflows",
         "System Design",
@@ -14758,7 +16905,9 @@
       "title": "Shipping an Enterprise Voice AI Agent in 100 Days - Peter Bar, Intercom Fin",
       "sourceChannel": "AI Engineer",
       "track": "System Design",
-      "tracks": ["System Design"],
+      "tracks": [
+        "System Design"
+      ],
       "themes": [
         "System Design",
         "Deployment",
@@ -14779,8 +16928,16 @@
       "title": "Brian Balfour of Reforge: Survive the AI Knife Fight: How to Build Winning AI Products",
       "sourceChannel": "AI Engineer",
       "track": "Developer Workflows",
-      "tracks": ["Developer Workflows"],
-      "themes": ["Developer Workflows", "System Design", "Knowledge", "Data & Eval", "Reliability"],
+      "tracks": [
+        "Developer Workflows"
+      ],
+      "themes": [
+        "Developer Workflows",
+        "System Design",
+        "Knowledge",
+        "Data & Eval",
+        "Reliability"
+      ],
       "publishedAt": "2025-07-18T01:45:02Z",
       "durationSeconds": 58,
       "youtubeId": "EzwROCrSUFM",
@@ -14793,7 +16950,9 @@
       "title": "The State of Generative Media - Gorkem Yurtseven, FAL",
       "sourceChannel": "AI Engineer",
       "track": "Models & Training",
-      "tracks": ["Models & Training"],
+      "tracks": [
+        "Models & Training"
+      ],
       "themes": [
         "Models & Training",
         "Deployment",
@@ -14813,7 +16972,9 @@
       "title": "Teaching Gemini to Speak YouTube: Adapting LLMs for Video Recommendations to 2B+DAU - Devansh Tandon",
       "sourceChannel": "AI Engineer",
       "track": "Data & Eval",
-      "tracks": ["Data & Eval"],
+      "tracks": [
+        "Data & Eval"
+      ],
       "themes": [
         "Data & Eval",
         "Models & Training",
@@ -14834,7 +16995,9 @@
       "title": "Transforming search and discovery using LLMs — Tejaswi & Vinesh, Instacart",
       "sourceChannel": "AI Engineer",
       "track": "Knowledge",
-      "tracks": ["Knowledge"],
+      "tracks": [
+        "Knowledge"
+      ],
       "themes": [
         "Knowledge",
         "Data & Eval",
@@ -14855,7 +17018,9 @@
       "title": "Netflix's Big Bet: One model to rule recommendations: Yesu Feng, Netflix",
       "sourceChannel": "AI Engineer",
       "track": "Models & Training",
-      "tracks": ["Models & Training"],
+      "tracks": [
+        "Models & Training"
+      ],
       "themes": [
         "Models & Training",
         "Data & Eval",
@@ -14876,7 +17041,9 @@
       "title": "360Brew: LLM-based Personalized Ranking and Recommendation - Hamed and Maziar, LinkedIn AI",
       "sourceChannel": "AI Engineer",
       "track": "Models & Training",
-      "tracks": ["Models & Training"],
+      "tracks": [
+        "Models & Training"
+      ],
       "themes": [
         "Models & Training",
         "Data & Eval",
@@ -14897,7 +17064,9 @@
       "title": "What We Learned from Using LLMs in Pinterest — Mukuntha Narayanan, Han Wang, Pinterest",
       "sourceChannel": "AI Engineer",
       "track": "Data & Eval",
-      "tracks": ["Data & Eval"],
+      "tracks": [
+        "Data & Eval"
+      ],
       "themes": [
         "Data & Eval",
         "Knowledge",
@@ -14918,7 +17087,9 @@
       "title": "Measuring AGI: Interactive Reasoning Benchmarks for ARC-AGI-3 — Greg Kamradt, ARC Prize Foundation",
       "sourceChannel": "AI Engineer",
       "track": "Data & Eval",
-      "tracks": ["Data & Eval"],
+      "tracks": [
+        "Data & Eval"
+      ],
       "themes": [
         "Data & Eval",
         "Models & Training",
@@ -14938,7 +17109,9 @@
       "title": "RL for Autonomous Coding — Aakanksha Chowdhery, Reflection.ai",
       "sourceChannel": "AI Engineer",
       "track": "Models & Training",
-      "tracks": ["Models & Training"],
+      "tracks": [
+        "Models & Training"
+      ],
       "themes": [
         "Models & Training",
         "Data & Eval",
@@ -14959,7 +17132,9 @@
       "title": "Recsys Keynote: Improving Recommendation Systems & Search in the Age of LLMs - Eugene Yan, Amazon",
       "sourceChannel": "AI Engineer",
       "track": "Data & Eval",
-      "tracks": ["Data & Eval"],
+      "tracks": [
+        "Data & Eval"
+      ],
       "themes": [
         "Data & Eval",
         "Models & Training",
@@ -14980,7 +17155,9 @@
       "title": "OpenAI's Sean Grove: Code is NOT all you do",
       "sourceChannel": "AI Engineer",
       "track": "Developer Workflows",
-      "tracks": ["Developer Workflows"],
+      "tracks": [
+        "Developer Workflows"
+      ],
       "themes": [
         "Developer Workflows",
         "System Design",
@@ -15000,7 +17177,9 @@
       "title": "OpenAI's Sean Grove: Everything is a Spec: The Universal Language of Intent",
       "sourceChannel": "AI Engineer",
       "track": "Developer Workflows",
-      "tracks": ["Developer Workflows"],
+      "tracks": [
+        "Developer Workflows"
+      ],
       "themes": [
         "Developer Workflows",
         "System Design",
@@ -15020,7 +17199,9 @@
       "title": "Benchmarks Are Memes: How What We Measure Shapes AI—and Us - Alex Duffy, Every.to",
       "sourceChannel": "AI Engineer",
       "track": "Data & Eval",
-      "tracks": ["Data & Eval"],
+      "tracks": [
+        "Data & Eval"
+      ],
       "themes": [
         "Data & Eval",
         "Safety & Control",
@@ -15040,7 +17221,9 @@
       "title": "Small AI Teams with Huge Impact — Vik Paruchuri, Datalab",
       "sourceChannel": "AI Engineer",
       "track": "Developer Workflows",
-      "tracks": ["Developer Workflows"],
+      "tracks": [
+        "Developer Workflows"
+      ],
       "themes": [
         "Developer Workflows",
         "System Design",
@@ -15061,7 +17244,9 @@
       "title": "Rethinking Team Building: how a 30-person Startup serves 50 Million Users — Grant Lee, Gamma",
       "sourceChannel": "AI Engineer",
       "track": "Developer Workflows",
-      "tracks": ["Developer Workflows"],
+      "tracks": [
+        "Developer Workflows"
+      ],
       "themes": [
         "Developer Workflows",
         "System Design",
@@ -15082,7 +17267,9 @@
       "title": "Building a 10 person unicorn - Max Brodeur-Urbas, Gumloop",
       "sourceChannel": "AI Engineer",
       "track": "Developer Workflows",
-      "tracks": ["Developer Workflows"],
+      "tracks": [
+        "Developer Workflows"
+      ],
       "themes": [
         "Developer Workflows",
         "System Design",
@@ -15103,7 +17290,9 @@
       "title": "Using OSS models to build AI apps with millions of users — Hassan El Mghari",
       "sourceChannel": "AI Engineer",
       "track": "Deployment",
-      "tracks": ["Deployment"],
+      "tracks": [
+        "Deployment"
+      ],
       "themes": [
         "Deployment",
         "Developer Workflows",
@@ -15124,7 +17313,9 @@
       "title": "Bolt.new: How we scaled $0-20m ARR in 60 days, with 15 people — Eric Simons, Bolt",
       "sourceChannel": "AI Engineer",
       "track": "Deployment",
-      "tracks": ["Deployment"],
+      "tracks": [
+        "Deployment"
+      ],
       "themes": [
         "Deployment",
         "Developer Workflows",
@@ -15145,7 +17336,9 @@
       "title": "Prompt Engineering and AI Red Teaming — Sander Schulhoff, HackAPrompt/LearnPrompting",
       "sourceChannel": "AI Engineer",
       "track": "Safety & Control",
-      "tracks": ["Safety & Control"],
+      "tracks": [
+        "Safety & Control"
+      ],
       "themes": [
         "Safety & Control",
         "Developer Workflows",
@@ -15166,7 +17359,9 @@
       "title": "Survive the AI Knife Fight: Building Products That Win — Brian Balfour, Reforge",
       "sourceChannel": "AI Engineer",
       "track": "System Design",
-      "tracks": ["System Design"],
+      "tracks": [
+        "System Design"
+      ],
       "themes": [
         "System Design",
         "Knowledge",
@@ -15187,7 +17382,9 @@
       "title": "Automating Escrow with USDC and AI - Corey Cooper, Circle",
       "sourceChannel": "AI Engineer",
       "track": "Safety & Control",
-      "tracks": ["Safety & Control"],
+      "tracks": [
+        "Safety & Control"
+      ],
       "themes": [
         "Safety & Control",
         "System Design",
@@ -15208,7 +17405,9 @@
       "title": "How LLMs work for Web Devs: GPT in 600 lines of Vanilla JS - Ishan Anand",
       "sourceChannel": "AI Engineer",
       "track": "Models & Training",
-      "tracks": ["Models & Training"],
+      "tracks": [
+        "Models & Training"
+      ],
       "themes": [
         "Models & Training",
         "Developer Workflows",
@@ -15229,7 +17428,9 @@
       "title": "[Workshop] AI Pipelines and Agents in Pure TypeScript with Mastra.ai — Nick Nisi, Zack Proser",
       "sourceChannel": "AI Engineer",
       "track": "System Design",
-      "tracks": ["System Design"],
+      "tracks": [
+        "System Design"
+      ],
       "themes": [
         "System Design",
         "Developer Workflows",
@@ -15250,7 +17451,9 @@
       "title": "AI Engineering with the Google Gemini 2.5 Model Family - Philipp Schmid, Google DeepMind",
       "sourceChannel": "AI Engineer",
       "track": "Models & Training",
-      "tracks": ["Models & Training"],
+      "tracks": [
+        "Models & Training"
+      ],
       "themes": [
         "Models & Training",
         "Developer Workflows",
@@ -15271,7 +17474,9 @@
       "title": "The New Code — Sean Grove, OpenAI",
       "sourceChannel": "AI Engineer",
       "track": "Developer Workflows",
-      "tracks": ["Developer Workflows"],
+      "tracks": [
+        "Developer Workflows"
+      ],
       "themes": [
         "Developer Workflows",
         "System Design",
@@ -15292,7 +17497,9 @@
       "title": "Boris explains Claude Code",
       "sourceChannel": "AI Engineer",
       "track": "Developer Workflows",
-      "tracks": ["Developer Workflows"],
+      "tracks": [
+        "Developer Workflows"
+      ],
       "themes": [
         "Developer Workflows",
         "Models & Training",
@@ -15312,7 +17519,9 @@
       "title": "Production software keeps breaking and it will only get worse — Anish Agarwal, Traversal.ai",
       "sourceChannel": "AI Engineer",
       "track": "Observability",
-      "tracks": ["Observability"],
+      "tracks": [
+        "Observability"
+      ],
       "themes": [
         "Observability",
         "Reliability",
@@ -15333,7 +17542,9 @@
       "title": "Thinking Deeper in Gemini — Jack Rae, Google DeepMind",
       "sourceChannel": "AI Engineer",
       "track": "Models & Training",
-      "tracks": ["Models & Training"],
+      "tracks": [
+        "Models & Training"
+      ],
       "themes": [
         "Models & Training",
         "Data & Eval",
@@ -15354,7 +17565,9 @@
       "title": "A year of Gemini progress + what comes next — Logan Kilpatrick, Google DeepMind",
       "sourceChannel": "AI Engineer",
       "track": "Models & Training",
-      "tracks": ["Models & Training"],
+      "tracks": [
+        "Models & Training"
+      ],
       "themes": [
         "Models & Training",
         "Knowledge",
@@ -15375,7 +17588,9 @@
       "title": "The Wild World of AI: 6 Months That Changed Everything",
       "sourceChannel": "AI Engineer",
       "track": "Models & Training",
-      "tracks": ["Models & Training"],
+      "tracks": [
+        "Models & Training"
+      ],
       "themes": [
         "Models & Training",
         "Data & Eval",
@@ -15396,7 +17611,9 @@
       "title": "2025 in LLMs so far, illustrated by Pelicans on Bicycles — Simon Willison",
       "sourceChannel": "AI Engineer",
       "track": "Models & Training",
-      "tracks": ["Models & Training"],
+      "tracks": [
+        "Models & Training"
+      ],
       "themes": [
         "Models & Training",
         "Data & Eval",
@@ -15417,7 +17634,9 @@
       "title": "Trends Across the AI Frontier — George Cameron, ArtificialAnalysis.ai",
       "sourceChannel": "AI Engineer",
       "track": "Data & Eval",
-      "tracks": ["Data & Eval"],
+      "tracks": [
+        "Data & Eval"
+      ],
       "themes": [
         "Data & Eval",
         "Models & Training",
@@ -15438,7 +17657,9 @@
       "title": "Training Agentic Reasoners — Will Brown, Prime Intellect",
       "sourceChannel": "AI Engineer",
       "track": "Models & Training",
-      "tracks": ["Models & Training"],
+      "tracks": [
+        "Models & Training"
+      ],
       "themes": [
         "Models & Training",
         "Data & Eval",
@@ -15459,7 +17680,9 @@
       "title": "New York Times' Connections: A Case Study on NLP in Word Games — Shafik Quoraishee, NYT Games",
       "sourceChannel": "AI Engineer",
       "track": "Data & Eval",
-      "tracks": ["Data & Eval"],
+      "tracks": [
+        "Data & Eval"
+      ],
       "themes": [
         "Data & Eval",
         "Models & Training",
@@ -15480,7 +17703,9 @@
       "title": "Claude Code & the evolution of agentic coding — Boris Cherny, Anthropic",
       "sourceChannel": "AI Engineer",
       "track": "Developer Workflows",
-      "tracks": ["Developer Workflows"],
+      "tracks": [
+        "Developer Workflows"
+      ],
       "themes": [
         "Developer Workflows",
         "System Design",
@@ -15501,7 +17726,9 @@
       "title": "12-Factor Agents: Patterns of reliable LLM applications — Dex Horthy, HumanLayer",
       "sourceChannel": "AI Engineer",
       "track": "Developer Workflows",
-      "tracks": ["Developer Workflows"],
+      "tracks": [
+        "Developer Workflows"
+      ],
       "themes": [
         "Developer Workflows",
         "System Design",
@@ -15522,7 +17749,9 @@
       "title": "MCP Is Not Good Yet — David Cramer, Sentry",
       "sourceChannel": "AI Engineer",
       "track": "System Design",
-      "tracks": ["System Design"],
+      "tracks": [
+        "System Design"
+      ],
       "themes": [
         "System Design",
         "Developer Workflows",
@@ -15543,7 +17772,9 @@
       "title": "Your Personal Open-Source Humanoid Robot for $8,999 — JX Mo, K-Scale Labs",
       "sourceChannel": "AI Engineer",
       "track": "Deployment",
-      "tracks": ["Deployment"],
+      "tracks": [
+        "Deployment"
+      ],
       "themes": [
         "Deployment",
         "System Design",
@@ -15564,7 +17795,9 @@
       "title": "The Build-Operate Divide: Bridging Product Vision and AI Operational Reality",
       "sourceChannel": "AI Engineer",
       "track": "Reliability",
-      "tracks": ["Reliability"],
+      "tracks": [
+        "Reliability"
+      ],
       "themes": [
         "Reliability",
         "Data & Eval",
@@ -15585,7 +17818,9 @@
       "title": "The New Lean Startup — Sid Bendre, Oleve",
       "sourceChannel": "AI Engineer",
       "track": "System Design",
-      "tracks": ["System Design"],
+      "tracks": [
+        "System Design"
+      ],
       "themes": [
         "System Design",
         "Developer Workflows",
@@ -15606,7 +17841,9 @@
       "title": "Optimizing inference for voice models in production - Philip Kiely, Baseten",
       "sourceChannel": "AI Engineer",
       "track": "Deployment",
-      "tracks": ["Deployment"],
+      "tracks": [
+        "Deployment"
+      ],
       "themes": [
         "Deployment",
         "Models & Training",
@@ -15627,7 +17864,9 @@
       "title": "Conquering Agent Chaos — Rick Blalock, Agentuity",
       "sourceChannel": "AI Engineer",
       "track": "Deployment",
-      "tracks": ["Deployment"],
+      "tracks": [
+        "Deployment"
+      ],
       "themes": [
         "Deployment",
         "Reliability",
@@ -15648,7 +17887,10 @@
       "title": "[Evals Workshop] Mastering AI Evaluation: From Playground to Production",
       "sourceChannel": "AI Engineer",
       "track": "Data & Eval",
-      "tracks": ["Data & Eval", "Deployment"],
+      "tracks": [
+        "Data & Eval",
+        "Deployment"
+      ],
       "themes": [
         "Data & Eval",
         "Reliability",
@@ -15669,7 +17911,9 @@
       "title": "Intro to GraphRAG — Zach Blumenfeld",
       "sourceChannel": "AI Engineer",
       "track": "Knowledge",
-      "tracks": ["Knowledge"],
+      "tracks": [
+        "Knowledge"
+      ],
       "themes": [
         "Knowledge",
         "System Design",
@@ -15690,7 +17934,9 @@
       "title": "Securing Agents with Open Standards — Bobby Tiernay and Kam Sween, Auth0",
       "sourceChannel": "AI Engineer",
       "track": "Safety & Control",
-      "tracks": ["Safety & Control"],
+      "tracks": [
+        "Safety & Control"
+      ],
       "themes": [
         "Safety & Control",
         "System Design",
@@ -15711,7 +17957,9 @@
       "title": "The emerging skillset of wielding coding agents — Beyang Liu, Sourcegraph / Amp",
       "sourceChannel": "AI Engineer",
       "track": "Developer Workflows",
-      "tracks": ["Developer Workflows"],
+      "tracks": [
+        "Developer Workflows"
+      ],
       "themes": [
         "Developer Workflows",
         "System Design",
@@ -15732,7 +17980,9 @@
       "title": "Agents, Access, and the Future of Machine Identity — Nick Nisi (WorkOS) + Lizzie Siegle (Cloudflare)",
       "sourceChannel": "AI Engineer",
       "track": "Safety & Control",
-      "tracks": ["Safety & Control"],
+      "tracks": [
+        "Safety & Control"
+      ],
       "themes": [
         "Safety & Control",
         "System Design",
@@ -15753,7 +18003,9 @@
       "title": "Turning Fails into Features: Zapier’s Hard-Won Eval Lessons — Rafal Willinski, Vitor Balocco, Zapier",
       "sourceChannel": "AI Engineer",
       "track": "Data & Eval",
-      "tracks": ["Data & Eval"],
+      "tracks": [
+        "Data & Eval"
+      ],
       "themes": [
         "Data & Eval",
         "Reliability",
@@ -15774,7 +18026,9 @@
       "title": "Building voice agents with OpenAI — Dominik Kundel, OpenAI",
       "sourceChannel": "AI Engineer",
       "track": "Developer Workflows",
-      "tracks": ["Developer Workflows"],
+      "tracks": [
+        "Developer Workflows"
+      ],
       "themes": [
         "Developer Workflows",
         "System Design",
@@ -15795,7 +18049,10 @@
       "title": "Containing Agent Chaos — Solomon Hykes, Dagger",
       "sourceChannel": "AI Engineer",
       "track": "System Design",
-      "tracks": ["System Design", "Developer Workflows"],
+      "tracks": [
+        "System Design",
+        "Developer Workflows"
+      ],
       "themes": [
         "System Design",
         "Developer Workflows",
@@ -15816,7 +18073,10 @@
       "title": "Evals 101 — Doug Guthrie, Braintrust",
       "sourceChannel": "AI Engineer",
       "track": "Data & Eval",
-      "tracks": ["Data & Eval", "Reliability"],
+      "tracks": [
+        "Data & Eval",
+        "Reliability"
+      ],
       "themes": [
         "Data & Eval",
         "Reliability",
@@ -15837,7 +18097,10 @@
       "title": "Why should anyone care about Evals? — Manu Goyal, Braintrust",
       "sourceChannel": "AI Engineer",
       "track": "Data & Eval",
-      "tracks": ["Data & Eval", "Developer Workflows"],
+      "tracks": [
+        "Data & Eval",
+        "Developer Workflows"
+      ],
       "themes": [
         "Data & Eval",
         "Developer Workflows",
@@ -15858,7 +18121,10 @@
       "title": "Engineering Better Evals: Scalable LLM Evaluation Pipelines That Work — Dat Ngo, Aman Khan, Arize",
       "sourceChannel": "AI Engineer",
       "track": "Data & Eval",
-      "tracks": ["Data & Eval", "Observability"],
+      "tracks": [
+        "Data & Eval",
+        "Observability"
+      ],
       "themes": [
         "Data & Eval",
         "Observability",
@@ -15879,7 +18145,10 @@
       "title": "To the moon! Navigating deep context in legacy code with Augment Agent — Forrest Brazeal, Matt Ball",
       "sourceChannel": "AI Engineer",
       "track": "Developer Workflows",
-      "tracks": ["Developer Workflows", "Knowledge"],
+      "tracks": [
+        "Developer Workflows",
+        "Knowledge"
+      ],
       "themes": [
         "Developer Workflows",
         "Knowledge",
@@ -15900,7 +18169,10 @@
       "title": "Serving Voice AI at Scale — Arjun Desai (Cartesia) & Rohit Talluri (AWS)",
       "sourceChannel": "AI Engineer",
       "track": "Deployment",
-      "tracks": ["Deployment", "Models & Training"],
+      "tracks": [
+        "Deployment",
+        "Models & Training"
+      ],
       "themes": [
         "Deployment",
         "Models & Training",
@@ -15921,7 +18193,11 @@
       "title": "Ship it! Building Production Ready Agents — Mike Chambers, AWS",
       "sourceChannel": "AI Engineer",
       "track": "Deployment",
-      "tracks": ["Deployment", "System Design", "Reliability"],
+      "tracks": [
+        "Deployment",
+        "System Design",
+        "Reliability"
+      ],
       "themes": [
         "Deployment",
         "System Design",
@@ -15942,7 +18218,10 @@
       "title": "Introducing Strands Agents, an Open Source AI Agents SDK — Suman Debnath, AWS",
       "sourceChannel": "AI Engineer",
       "track": "Developer Workflows",
-      "tracks": ["Developer Workflows", "System Design"],
+      "tracks": [
+        "Developer Workflows",
+        "System Design"
+      ],
       "themes": [
         "Developer Workflows",
         "System Design",
@@ -15963,7 +18242,10 @@
       "title": "Data is Your Differentiator: Building Secure and Tailored AI Systems — Mani Khanuja, AWS",
       "sourceChannel": "AI Engineer",
       "track": "Knowledge",
-      "tracks": ["Knowledge", "Safety & Control"],
+      "tracks": [
+        "Knowledge",
+        "Safety & Control"
+      ],
       "themes": [
         "Knowledge",
         "Safety & Control",
@@ -15984,7 +18266,10 @@
       "title": "How to build world-class AI products — Sarah Sachs (AI lead @ Notion) &  Carlos Esteban (Braintrust)",
       "sourceChannel": "AI Engineer",
       "track": "Data & Eval",
-      "tracks": ["Data & Eval", "Developer Workflows"],
+      "tracks": [
+        "Data & Eval",
+        "Developer Workflows"
+      ],
       "themes": [
         "Data & Eval",
         "Developer Workflows",
@@ -16005,7 +18290,12 @@
       "title": "From Mixture of Experts to Mixture of Agents with Super Fast Inference - Daniel Kim & Daria Soboleva",
       "sourceChannel": "AI Engineer",
       "track": "Models & Training",
-      "tracks": ["System Design", "Deployment", "Models & Training", "Data & Eval"],
+      "tracks": [
+        "System Design",
+        "Deployment",
+        "Models & Training",
+        "Data & Eval"
+      ],
       "themes": [
         "System Design",
         "Deployment",
@@ -16026,7 +18316,12 @@
       "title": "Forget RAG Pipelines—Build Production Ready Agents in 15 Mins: Nina Lopatina, Rajiv Shah, Contextual",
       "sourceChannel": "AI Engineer",
       "track": "Knowledge",
-      "tracks": ["System Design", "Reliability", "Deployment", "Knowledge"],
+      "tracks": [
+        "System Design",
+        "Reliability",
+        "Deployment",
+        "Knowledge"
+      ],
       "themes": [
         "System Design",
         "Reliability",
@@ -16047,7 +18342,10 @@
       "title": "Milliseconds to Magic: Real‑Time Workflows using the Gemini Live API and Pipecat",
       "sourceChannel": "AI Engineer",
       "track": "System Design",
-      "tracks": ["System Design", "Developer Workflows"],
+      "tracks": [
+        "System Design",
+        "Developer Workflows"
+      ],
       "themes": [
         "System Design",
         "Developer Workflows",
@@ -16068,7 +18366,10 @@
       "title": "Realtime Conversational Video with Pipecat and Tavus — Chad Bailey and Brian Johnson, Daily & Tavus",
       "sourceChannel": "AI Engineer",
       "track": "System Design",
-      "tracks": ["System Design", "Deployment"],
+      "tracks": [
+        "System Design",
+        "Deployment"
+      ],
       "themes": [
         "System Design",
         "Deployment",
@@ -16089,7 +18390,10 @@
       "title": "Vector Search Benchmark[eting] - Philipp Krenn, Elastic",
       "sourceChannel": "AI Engineer",
       "track": "Data & Eval",
-      "tracks": ["Data & Eval", "Reliability"],
+      "tracks": [
+        "Data & Eval",
+        "Reliability"
+      ],
       "themes": [
         "Data & Eval",
         "Reliability",
@@ -16138,7 +18442,10 @@
       "title": "Building agent fleet architectures your CISO doesn't hate — Lou Bichard, Gitpod",
       "sourceChannel": "AI Engineer",
       "track": "Safety & Control",
-      "tracks": ["Safety & Control", "Deployment"],
+      "tracks": [
+        "Safety & Control",
+        "Deployment"
+      ],
       "themes": [
         "Safety & Control",
         "Deployment",
@@ -16159,7 +18466,10 @@
       "title": "Don’t get one-shotted: Use AI to test, review, merge, and deploy code — Tomas Reimers, Graphite",
       "sourceChannel": "AI Engineer",
       "track": "Developer Workflows",
-      "tracks": ["Developer Workflows", "Reliability"],
+      "tracks": [
+        "Developer Workflows",
+        "Reliability"
+      ],
       "themes": [
         "Developer Workflows",
         "Reliability",
@@ -16180,7 +18490,10 @@
       "title": "Effective agent design patterns in production — Laurie Voss, LlamaIndex",
       "sourceChannel": "AI Engineer",
       "track": "System Design",
-      "tracks": ["System Design", "Developer Workflows"],
+      "tracks": [
+        "System Design",
+        "Developer Workflows"
+      ],
       "themes": [
         "System Design",
         "Developer Workflows",
@@ -16201,7 +18514,10 @@
       "title": "Foundry Local: Cutting-Edge AI experiences on device with ONNX Runtime/Olive — Emma Ning, Microsoft",
       "sourceChannel": "AI Engineer",
       "track": "Deployment",
-      "tracks": ["Deployment", "Models & Training"],
+      "tracks": [
+        "Deployment",
+        "Models & Training"
+      ],
       "themes": [
         "Deployment",
         "Models & Training",
@@ -19854,7 +22170,9 @@
       "title": "Why Agent Engineering — swyx",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design"],
+      "tracks": [
+        "System Design"
+      ],
       "themes": [
         "System Design",
         "Developer Workflows",
@@ -19938,7 +22256,9 @@
       "title": "Reinforcement Learning for Agents - Will Brown, ML Researcher at Morgan Stanley",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design"],
+      "tracks": [
+        "System Design"
+      ],
       "themes": [
         "Models & Training",
         "Data & Eval",
@@ -19959,7 +22279,9 @@
       "title": "OpenAI for VP's of AI + Advice for Building Agents",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design"],
+      "tracks": [
+        "System Design"
+      ],
       "themes": [
         "System Design",
         "Developer Workflows",
@@ -19980,7 +22302,9 @@
       "title": "Building Agents with Model Context Protocol - Full Workshop with Mahesh Murag of Anthropic",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design"],
+      "tracks": [
+        "System Design"
+      ],
       "themes": [
         "System Design",
         "Knowledge",
@@ -20001,7 +22325,9 @@
       "title": "AI Agents, Meet Test Driven Development",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design"],
+      "tracks": [
+        "System Design"
+      ],
       "themes": [
         "Data & Eval",
         "Reliability",
@@ -20043,7 +22369,9 @@
       "title": "The Price of Intelligence - AI Agent Pricing in 2025",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design"],
+      "tracks": [
+        "System Design"
+      ],
       "themes": [
         "System Design",
         "Deployment",
@@ -20064,7 +22392,9 @@
       "title": "Voice Agents: the good, the bad, and the ugly",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design"],
+      "tracks": [
+        "System Design"
+      ],
       "themes": [
         "System Design",
         "Reliability",
@@ -20085,7 +22415,9 @@
       "title": "This video was edited with AI agent. But how?",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design"],
+      "tracks": [
+        "System Design"
+      ],
       "themes": [
         "System Design",
         "Developer Workflows",
@@ -20127,7 +22459,9 @@
       "title": "Beyond APIs: How AI Web Agents Are Automating the \"Long Tail\" of Knowledge Work",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design"],
+      "tracks": [
+        "System Design"
+      ],
       "themes": [
         "System Design",
         "Knowledge",
@@ -20148,7 +22482,10 @@
       "title": "Agent Evals: Finally, With The Map",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design", "Data & Eval"],
+      "tracks": [
+        "System Design",
+        "Data & Eval"
+      ],
       "themes": [
         "System Design",
         "Data & Eval",
@@ -20169,7 +22506,9 @@
       "title": "Your Evals Are Meaningless (And Here’s How to Fix Them)",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Data & Eval"],
+      "tracks": [
+        "Data & Eval"
+      ],
       "themes": [
         "Data & Eval",
         "Reliability",
@@ -20190,7 +22529,10 @@
       "title": "Mission-Critical Evals at Scale (Learnings from 100k medical decisions)",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Data & Eval", "Deployment"],
+      "tracks": [
+        "Data & Eval",
+        "Deployment"
+      ],
       "themes": [
         "Data & Eval",
         "Deployment",
@@ -20232,7 +22574,10 @@
       "title": "Privacy First Enterprise AI: Building AI Agents that Never Leave Your Security Boundary",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design", "Safety & Control"],
+      "tracks": [
+        "System Design",
+        "Safety & Control"
+      ],
       "themes": [
         "System Design",
         "Safety & Control",
@@ -20274,7 +22619,9 @@
       "title": "How to Improve Your Agents: Academic Lit Review",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design"],
+      "tracks": [
+        "System Design"
+      ],
       "themes": [
         "System Design",
         "Models & Training",
@@ -20316,7 +22663,9 @@
       "title": "Tool Calling Is Not Just Plumbing for AI Agents — Roy Derks",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design"],
+      "tracks": [
+        "System Design"
+      ],
       "themes": [
         "System Design",
         "Developer Workflows",
@@ -20337,7 +22686,10 @@
       "title": "The Hidden Costs of Building Your Own RAG Stack — Ofer Vectara",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Reliability", "Deployment"],
+      "tracks": [
+        "Reliability",
+        "Deployment"
+      ],
       "themes": [
         "Reliability",
         "Deployment",
@@ -20358,7 +22710,9 @@
       "title": "Lets Build An Agent from Scratch — Kam Lasater",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design"],
+      "tracks": [
+        "System Design"
+      ],
       "themes": [
         "System Design",
         "Developer Workflows",
@@ -20400,7 +22754,9 @@
       "title": "Building Multi agent Systems with Finite State Machines",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design"],
+      "tracks": [
+        "System Design"
+      ],
       "themes": [
         "System Design",
         "Reliability",
@@ -20421,7 +22777,9 @@
       "title": "How Coding Agents change Software Development Forever - Hailong Zhang",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design"],
+      "tracks": [
+        "System Design"
+      ],
       "themes": [
         "System Design",
         "Developer Workflows",
@@ -20442,7 +22800,9 @@
       "title": "Reverse Conway's law and GenAI: How agents will take over the organisation - Patrick Debois",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design"],
+      "tracks": [
+        "System Design"
+      ],
       "themes": [
         "System Design",
         "Developer Workflows",
@@ -20463,7 +22823,9 @@
       "title": "Your AI Agent Isn't an Engineer: The Art of Thoughtful Anthropomorphism",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design"],
+      "tracks": [
+        "System Design"
+      ],
       "themes": [
         "System Design",
         "Developer Workflows",
@@ -20505,7 +22867,9 @@
       "title": "Cohere: Building enterprise LLM agents that work (Shaan Desai)",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design"],
+      "tracks": [
+        "System Design"
+      ],
       "themes": [
         "System Design",
         "Data & Eval",
@@ -20568,7 +22932,9 @@
       "title": "Patrick Dougherty: How to Build AI Agents that Actually Work",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design"],
+      "tracks": [
+        "System Design"
+      ],
       "themes": [
         "System Design",
         "Developer Workflows",
@@ -20589,7 +22955,9 @@
       "title": "Keynote: Why people think \"agent\" is a buzzword but it isn't",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design"],
+      "tracks": [
+        "System Design"
+      ],
       "themes": [
         "System Design",
         "Developer Workflows",
@@ -20610,7 +22978,10 @@
       "title": "Keynote: The AI developer experience doesn't have to suck – why and how we built Modal",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Deployment", "Developer Workflows"],
+      "tracks": [
+        "Deployment",
+        "Developer Workflows"
+      ],
       "themes": [
         "System Design",
         "Data & Eval",
@@ -20631,7 +23002,12 @@
       "title": "AI Engineer Summit 2025: Agent Engineering (Day 2)",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design", "Data & Eval", "Reliability", "Developer Workflows"],
+      "tracks": [
+        "System Design",
+        "Data & Eval",
+        "Reliability",
+        "Developer Workflows"
+      ],
       "themes": [
         "System Design",
         "Data & Eval",
@@ -20652,7 +23028,12 @@
       "title": "AI Engineer Summit 2025 - AI Leadership (Day 1)",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design", "Data & Eval", "Safety & Control", "Developer Workflows"],
+      "tracks": [
+        "System Design",
+        "Data & Eval",
+        "Safety & Control",
+        "Developer Workflows"
+      ],
       "themes": [
         "System Design",
         "Data & Eval",
@@ -20673,7 +23054,11 @@
       "title": "Personality Driven Development: Exploring the Frontier of Agents with Attitude",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design", "Safety & Control", "Developer Workflows"],
+      "tracks": [
+        "System Design",
+        "Safety & Control",
+        "Developer Workflows"
+      ],
       "themes": [
         "System Design",
         "Reliability",
@@ -20694,7 +23079,12 @@
       "title": "Optimizing LLMs in Insurance with DSPy: Jeronim Morina",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Data & Eval", "Reliability", "Deployment", "Developer Workflows"],
+      "tracks": [
+        "Data & Eval",
+        "Reliability",
+        "Deployment",
+        "Developer Workflows"
+      ],
       "themes": [
         "System Design",
         "Data & Eval",
@@ -20715,7 +23105,12 @@
       "title": "Customized, production ready inference with open source models: Dmytro (Dima) Dzhulgakov",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Data & Eval", "Reliability", "Deployment", "Developer Workflows"],
+      "tracks": [
+        "Data & Eval",
+        "Reliability",
+        "Deployment",
+        "Developer Workflows"
+      ],
       "themes": [
         "System Design",
         "Data & Eval",
@@ -20736,7 +23131,11 @@
       "title": "Claude plays Minecraft!",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design", "Reliability", "Developer Workflows"],
+      "tracks": [
+        "System Design",
+        "Reliability",
+        "Developer Workflows"
+      ],
       "themes": [
         "System Design",
         "Data & Eval",
@@ -20757,7 +23156,12 @@
       "title": "The Adversarial Path to the Personal Assistant: Sumit Agarwal",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Knowledge", "Safety & Control", "System Design", "Developer Workflows"],
+      "tracks": [
+        "Knowledge",
+        "Safety & Control",
+        "System Design",
+        "Developer Workflows"
+      ],
       "themes": [
         "System Design",
         "Data & Eval",
@@ -20778,7 +23182,10 @@
       "title": "RAG at scale: production ready GenAI apps with Azure AI Search",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Reliability", "Deployment"],
+      "tracks": [
+        "Reliability",
+        "Deployment"
+      ],
       "themes": [
         "System Design",
         "Data & Eval",
@@ -20799,7 +23206,12 @@
       "title": "Training Albatross  An Expert Finance LLM: Leo Pekelis",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Data & Eval", "Knowledge", "Deployment", "Reliability"],
+      "tracks": [
+        "Data & Eval",
+        "Knowledge",
+        "Deployment",
+        "Reliability"
+      ],
       "themes": [
         "System Design",
         "Data & Eval",
@@ -20820,7 +23232,11 @@
       "title": "Accelerating Mixture of Experts Training With Rail Optimized InfiniBand Networking in Crusoe Cloud",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design", "Reliability", "Deployment"],
+      "tracks": [
+        "System Design",
+        "Reliability",
+        "Deployment"
+      ],
       "themes": [
         "System Design",
         "Data & Eval",
@@ -20841,7 +23257,11 @@
       "title": "System Design for Next-Gen Frontier Models — Dylan Patel, SemiAnalysis",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design", "Deployment", "Reliability"],
+      "tracks": [
+        "System Design",
+        "Deployment",
+        "Reliability"
+      ],
       "themes": [
         "System Design",
         "Data & Eval",
@@ -20862,7 +23282,11 @@
       "title": "AI Music Generation, From Prompt to Production: Phlo Young",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Knowledge", "Developer Workflows", "Safety & Control"],
+      "tracks": [
+        "Knowledge",
+        "Developer Workflows",
+        "Safety & Control"
+      ],
       "themes": [
         "System Design",
         "Data & Eval",
@@ -20883,7 +23307,12 @@
       "title": "Giving a Voice to AI Agents: Scott Stephenson, CEO, Deepgram",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Reliability", "Observability", "Deployment", "System Design"],
+      "tracks": [
+        "Reliability",
+        "Observability",
+        "Deployment",
+        "System Design"
+      ],
       "themes": [
         "System Design",
         "Data & Eval",
@@ -20904,7 +23333,11 @@
       "title": "How to build the world's fastest voice bot: Kwindla Hultman Kramer",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Reliability", "Deployment", "System Design"],
+      "tracks": [
+        "Reliability",
+        "Deployment",
+        "System Design"
+      ],
       "themes": [
         "System Design",
         "Data & Eval",
@@ -20925,7 +23358,12 @@
       "title": "Unveiling the latest Gemma model advancements: Kathleen Kenealy",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design", "Data & Eval", "Safety & Control", "Deployment"],
+      "tracks": [
+        "System Design",
+        "Data & Eval",
+        "Safety & Control",
+        "Deployment"
+      ],
       "themes": [
         "System Design",
         "Data & Eval",
@@ -20946,7 +23384,11 @@
       "title": "Fine tune 20 Llama Models in 5 Minutes: Santosh Radha",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Data & Eval", "Deployment", "Developer Workflows"],
+      "tracks": [
+        "Data & Eval",
+        "Deployment",
+        "Developer Workflows"
+      ],
       "themes": [
         "System Design",
         "Data & Eval",
@@ -20967,7 +23409,11 @@
       "title": "The GenAI Maturity Curve or  You Probably Don't Need Fine Tuning: Kyle Corbitt",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Data & Eval", "Knowledge", "Developer Workflows"],
+      "tracks": [
+        "Data & Eval",
+        "Knowledge",
+        "Developer Workflows"
+      ],
       "themes": [
         "System Design",
         "Data & Eval",
@@ -20988,7 +23434,11 @@
       "title": "Building an AI assistant that makes phone calls [Convex Workshop]",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design", "Developer Workflows", "Deployment"],
+      "tracks": [
+        "System Design",
+        "Developer Workflows",
+        "Deployment"
+      ],
       "themes": [
         "System Design",
         "Data & Eval",
@@ -21009,7 +23459,11 @@
       "title": "LLM Quality Optimization Bootcamp: Thierry Moreau and Pedro Torruella",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Data & Eval", "Reliability", "Deployment"],
+      "tracks": [
+        "Data & Eval",
+        "Reliability",
+        "Deployment"
+      ],
       "themes": [
         "System Design",
         "Data & Eval",
@@ -21030,7 +23484,11 @@
       "title": "Building security around ML: Dr. Andrew Davis",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Safety & Control", "Observability", "Data & Eval"],
+      "tracks": [
+        "Safety & Control",
+        "Observability",
+        "Data & Eval"
+      ],
       "themes": [
         "System Design",
         "Data & Eval",
@@ -21051,7 +23509,11 @@
       "title": "GitHub Next Explorations: Rahul Pandita",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Developer Workflows", "System Design", "Knowledge"],
+      "tracks": [
+        "Developer Workflows",
+        "System Design",
+        "Knowledge"
+      ],
       "themes": [
         "System Design",
         "Data & Eval",
@@ -21072,7 +23534,11 @@
       "title": "RAG and the MongoDB Document Model: Ben Flast",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Knowledge", "Data & Eval", "Deployment"],
+      "tracks": [
+        "Knowledge",
+        "Data & Eval",
+        "Deployment"
+      ],
       "themes": [
         "System Design",
         "Data & Eval",
@@ -21093,7 +23559,12 @@
       "title": "Insights from Snorkel AI running Azure AI Infrastructure: Humza Iqbal and Lachlan Ainley",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design", "Data & Eval", "Deployment", "Reliability"],
+      "tracks": [
+        "System Design",
+        "Data & Eval",
+        "Deployment",
+        "Reliability"
+      ],
       "themes": [
         "System Design",
         "Data & Eval",
@@ -21114,7 +23585,11 @@
       "title": "Agentic Workflows on Vertex AI: Rukma Sen",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design", "Deployment", "Developer Workflows"],
+      "tracks": [
+        "System Design",
+        "Deployment",
+        "Developer Workflows"
+      ],
       "themes": [
         "System Design",
         "Data & Eval",
@@ -21135,7 +23610,11 @@
       "title": "GitHub's AI Powered Security Platform: Sarah Khalife",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Safety & Control", "Developer Workflows", "Observability"],
+      "tracks": [
+        "Safety & Control",
+        "Developer Workflows",
+        "Observability"
+      ],
       "themes": [
         "System Design",
         "Data & Eval",
@@ -21156,7 +23635,11 @@
       "title": "[Full Workshop] Llama 3 at 1,000 tok/s on the SambaNova AI Platform",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Deployment", "Reliability", "System Design"],
+      "tracks": [
+        "Deployment",
+        "Reliability",
+        "System Design"
+      ],
       "themes": [
         "System Design",
         "Data & Eval",
@@ -21177,7 +23660,11 @@
       "title": "[Full Workshop from Microsoft] Github Copilot - The World's Most Widely Adopted AI Developer Tool",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Developer Workflows", "Knowledge", "Reliability"],
+      "tracks": [
+        "Developer Workflows",
+        "Knowledge",
+        "Reliability"
+      ],
       "themes": [
         "System Design",
         "Data & Eval",
@@ -21199,7 +23686,12 @@
       "sourceChannel": "Latent Space",
       "track": "Reliability",
       "tracks": [],
-      "themes": ["System Design", "Developer Workflows", "Reliability", "Data & Eval"],
+      "themes": [
+        "System Design",
+        "Developer Workflows",
+        "Reliability",
+        "Data & Eval"
+      ],
       "publishedAt": "2025-02-06T14:58:45-08:00",
       "durationSeconds": 3735,
       "youtubeId": "7wwWRph3Jls",
@@ -21212,7 +23704,9 @@
       "title": "[Full Workshop] How to add secure code interpreting in your AI app: Vasek Mlejnsky",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Safety & Control"],
+      "tracks": [
+        "Safety & Control"
+      ],
       "themes": [
         "System Design",
         "Data & Eval",
@@ -21233,7 +23727,11 @@
       "title": "GitHub Copilot: The World's Most Widely Adopted AI Developer Tool",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Developer Workflows", "Knowledge", "Reliability"],
+      "tracks": [
+        "Developer Workflows",
+        "Knowledge",
+        "Reliability"
+      ],
       "themes": [
         "System Design",
         "Data & Eval",
@@ -21254,7 +23752,11 @@
       "title": "Substrate Launch: the API for modular AI",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design", "Deployment", "Developer Workflows"],
+      "tracks": [
+        "System Design",
+        "Deployment",
+        "Developer Workflows"
+      ],
       "themes": [
         "System Design",
         "Data & Eval",
@@ -21275,7 +23777,11 @@
       "title": "Build, Evaluate and Deploy a RAG-Based Retail Copilot with Azure AI: Cedric Vidal and David Smith",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Data & Eval", "Reliability", "Deployment"],
+      "tracks": [
+        "Data & Eval",
+        "Reliability",
+        "Deployment"
+      ],
       "themes": [
         "Data & Eval",
         "Reliability",
@@ -21296,7 +23802,9 @@
       "title": "EyeLevel Launch: Your RAG is Tripping, Here's the Real Reason Why",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Reliability"],
+      "tracks": [
+        "Reliability"
+      ],
       "themes": [
         "System Design",
         "Data & Eval",
@@ -21317,7 +23825,11 @@
       "title": "AI Templates: Gabriela and Aishwarya",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Developer Workflows", "Deployment", "Knowledge"],
+      "tracks": [
+        "Developer Workflows",
+        "Deployment",
+        "Knowledge"
+      ],
       "themes": [
         "System Design",
         "Data & Eval",
@@ -21338,7 +23850,12 @@
       "title": "Accelerate your AI journey with Azure AI model catalog: Sharmila Chokalingam",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Deployment", "Data & Eval", "Reliability", "System Design"],
+      "tracks": [
+        "Deployment",
+        "Data & Eval",
+        "Reliability",
+        "System Design"
+      ],
       "themes": [
         "System Design",
         "Data & Eval",
@@ -21359,7 +23876,9 @@
       "title": "Ionic Launch: Opening the economy to AI agents",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design"],
+      "tracks": [
+        "System Design"
+      ],
       "themes": [
         "System Design",
         "Data & Eval",
@@ -21381,7 +23900,12 @@
       "sourceChannel": "AI Engineer",
       "track": "Data & Eval",
       "tracks": [],
-      "themes": ["Data & Eval", "Reliability", "Observability", "System Design"],
+      "themes": [
+        "Data & Eval",
+        "Reliability",
+        "Observability",
+        "System Design"
+      ],
       "publishedAt": "2025-02-06T01:24:01-08:00",
       "durationSeconds": 1129,
       "youtubeId": "nbZzSC5A6hs",
@@ -21394,7 +23918,9 @@
       "title": "Creating and scaling your own custom copilots with Azure AI Studio: Hanchi Wang",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Deployment"],
+      "tracks": [
+        "Deployment"
+      ],
       "themes": [
         "System Design",
         "Data & Eval",
@@ -21436,7 +23962,9 @@
       "title": "Multi model multimodal and multi agent innovations in Azure AI: Cedric Vidal",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design"],
+      "tracks": [
+        "System Design"
+      ],
       "themes": [
         "System Design",
         "Models & Training",
@@ -21478,7 +24006,9 @@
       "title": "Best Practices for Evaluating Large Language Model Applications with llmeval: Niklas Nielsen",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Data & Eval"],
+      "tracks": [
+        "Data & Eval"
+      ],
       "themes": [
         "Data & Eval",
         "Reliability",
@@ -21499,7 +24029,9 @@
       "title": "No-code fine-tuning: Mark Hennings",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Models & Training"],
+      "tracks": [
+        "Models & Training"
+      ],
       "themes": [
         "Models & Training",
         "Data & Eval",
@@ -21520,7 +24052,9 @@
       "title": "Building efficient hybrid context query for LLM grounding: Simrat Hanspal",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Knowledge"],
+      "tracks": [
+        "Knowledge"
+      ],
       "themes": [
         "Knowledge",
         "Data & Eval",
@@ -21541,7 +24075,9 @@
       "title": "How to evaluate a model for your use case: Emmanuel Turlay",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Data & Eval"],
+      "tracks": [
+        "Data & Eval"
+      ],
       "themes": [
         "Data & Eval",
         "Models & Training",
@@ -21562,7 +24098,9 @@
       "title": "BotDojo Launch: Enhancing AI Assistants with Evaluations and Synthetic Data",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Data & Eval"],
+      "tracks": [
+        "Data & Eval"
+      ],
       "themes": [
         "Data & Eval",
         "Knowledge",
@@ -21604,7 +24142,9 @@
       "title": "Scaling AI in Education: A Khanmigo case study: Shawn Jansepar",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Deployment"],
+      "tracks": [
+        "Deployment"
+      ],
       "themes": [
         "Knowledge",
         "Data & Eval",
@@ -21646,7 +24186,9 @@
       "title": "Mastering LLM Inference Optimization From Theory to Cost Effective Deployment: Mark Moyou",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Deployment"],
+      "tracks": [
+        "Deployment"
+      ],
       "themes": [
         "Deployment",
         "Reliability",
@@ -21667,7 +24209,9 @@
       "title": "Navigating Challenges and Technical Debt in LLMs Deployment: Ahmed Menshawy",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Deployment"],
+      "tracks": [
+        "Deployment"
+      ],
       "themes": [
         "Knowledge",
         "System Design",
@@ -21688,7 +24232,10 @@
       "title": "LLM Safeguards: Security Privacy Compliance Anti Hallucination: Daniel Whitenack",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Reliability", "Safety & Control"],
+      "tracks": [
+        "Reliability",
+        "Safety & Control"
+      ],
       "themes": [
         "Reliability",
         "Safety & Control",
@@ -21730,7 +24277,9 @@
       "title": "E-Values Evaluating the Values of AI: Sheila Gulati and Nischal Nadhamuni",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Data & Eval"],
+      "tracks": [
+        "Data & Eval"
+      ],
       "themes": [
         "Data & Eval",
         "Safety & Control",
@@ -21772,7 +24321,9 @@
       "title": "RAG for VPs of AI: Jerry Liu",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Reliability"],
+      "tracks": [
+        "Reliability"
+      ],
       "themes": [
         "Knowledge",
         "Data & Eval",
@@ -21814,7 +24365,9 @@
       "title": "Real ROI: Lessons from Enterprises that have already succeeded with LLMs at Scale: Raza Habib",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Deployment"],
+      "tracks": [
+        "Deployment"
+      ],
       "themes": [
         "Data & Eval",
         "Deployment",
@@ -21835,7 +24388,9 @@
       "title": "Understanding AI Stakes to Break Production Code: Philip Rathle",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Deployment"],
+      "tracks": [
+        "Deployment"
+      ],
       "themes": [
         "Reliability",
         "Data & Eval",
@@ -21856,7 +24411,9 @@
       "title": "The ROI of AI: Why you need Eval Framework - Beyang Liu",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Data & Eval"],
+      "tracks": [
+        "Data & Eval"
+      ],
       "themes": [
         "Data & Eval",
         "Reliability",
@@ -21877,7 +24434,10 @@
       "title": "AI Frontiers in Trust and Safety  Combatting Multifaceted Harm on Tinder at Scale: Vibhor Kumar",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Safety & Control", "Deployment"],
+      "tracks": [
+        "Safety & Control",
+        "Deployment"
+      ],
       "themes": [
         "Safety & Control",
         "Reliability",
@@ -21898,7 +24458,10 @@
       "title": "Enhancing Quality and Security in CI: Gunjan Patel",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Reliability", "Safety & Control"],
+      "tracks": [
+        "Reliability",
+        "Safety & Control"
+      ],
       "themes": [
         "Reliability",
         "Safety & Control",
@@ -21919,7 +24482,9 @@
       "title": "Iterating on LLM apps at scale  Learnings from Discord: Ian Webster",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Deployment"],
+      "tracks": [
+        "Deployment"
+      ],
       "themes": [
         "Data & Eval",
         "Reliability",
@@ -22024,7 +24589,10 @@
       "title": "Navigating RAG Optimization with an Evaluation Driven Compass: Atita Arora and Deanna Emery",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Data & Eval", "Reliability"],
+      "tracks": [
+        "Data & Eval",
+        "Reliability"
+      ],
       "themes": [
         "Data & Eval",
         "Reliability",
@@ -22066,7 +24634,9 @@
       "title": "What It Actually Takes to Deploy GenAI Applications to Enterprises: Arjun Bansal and Trey Doig",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Deployment"],
+      "tracks": [
+        "Deployment"
+      ],
       "themes": [
         "Deployment",
         "Reliability",
@@ -22171,7 +24741,9 @@
       "title": "Build an AI Research Agent: Apoorva Joshi",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design"],
+      "tracks": [
+        "System Design"
+      ],
       "themes": [
         "Developer Workflows",
         "Knowledge",
@@ -22234,7 +24806,9 @@
       "title": "Code Generation and Maintenance at Scale: Morgante Pell",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Deployment"],
+      "tracks": [
+        "Deployment"
+      ],
       "themes": [
         "Developer Workflows",
         "System Design",
@@ -22255,7 +24829,9 @@
       "title": "The Hierarchy of Needs for Training Dataset Development: Chang She and Noah Shpak",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Data & Eval"],
+      "tracks": [
+        "Data & Eval"
+      ],
       "themes": [
         "Data & Eval",
         "Models & Training",
@@ -22318,7 +24894,9 @@
       "title": "Architecting and Testing Controllable Agents: Lance Martin",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design"],
+      "tracks": [
+        "System Design"
+      ],
       "themes": [
         "System Design",
         "Reliability",
@@ -22402,7 +24980,10 @@
       "title": "Building and Scaling an AI Agent Swarm of low latency real time voice bots: Damien Murphy",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design", "Deployment"],
+      "tracks": [
+        "System Design",
+        "Deployment"
+      ],
       "themes": [
         "System Design",
         "Deployment",
@@ -22486,7 +25067,9 @@
       "title": "How to Construct Domain Specific LLM Evaluation Systems: Hamel Husain and Emil Sedgh",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Data & Eval"],
+      "tracks": [
+        "Data & Eval"
+      ],
       "themes": [
         "Data & Eval",
         "Reliability",
@@ -22549,7 +25132,9 @@
       "title": "Going beyond RAG: Extended Mind Transformers - Phoebe Klett",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Reliability"],
+      "tracks": [
+        "Reliability"
+      ],
       "themes": [
         "Reliability",
         "Knowledge",
@@ -22591,7 +25176,9 @@
       "title": "Pydantic is STILL all you need: Jason Liu",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Reliability"],
+      "tracks": [
+        "Reliability"
+      ],
       "themes": [
         "Reliability",
         "Developer Workflows",
@@ -22633,7 +25220,12 @@
       "sourceChannel": "AI Engineer",
       "track": null,
       "tracks": [],
-      "themes": ["Developer Workflows", "Reliability", "Data & Eval", "System Design"],
+      "themes": [
+        "Developer Workflows",
+        "Reliability",
+        "Data & Eval",
+        "System Design"
+      ],
       "publishedAt": "2024-09-04T16:32:49Z",
       "durationSeconds": 348,
       "youtubeId": "-zzP0EUsZz4",
@@ -22646,7 +25238,9 @@
       "title": "GraphRAG: The Marriage of Knowledge Graphs and RAG: Emil Eifrem",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Reliability"],
+      "tracks": [
+        "Reliability"
+      ],
       "themes": [
         "Reliability",
         "Knowledge",
@@ -22730,7 +25324,9 @@
       "title": "Disrupting the $15 Trillion Construction Industry with Autonomous Agents: Dr. Sarah Buchner",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design"],
+      "tracks": [
+        "System Design"
+      ],
       "themes": [
         "System Design",
         "Knowledge",
@@ -22772,7 +25368,9 @@
       "title": "Building Reliable Agentic Systems: Eno Reyes",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Reliability"],
+      "tracks": [
+        "Reliability"
+      ],
       "themes": [
         "Reliability",
         "System Design",
@@ -22856,7 +25454,9 @@
       "title": "Using agents to build an agent company: Joao Moura",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design"],
+      "tracks": [
+        "System Design"
+      ],
       "themes": [
         "System Design",
         "Developer Workflows",
@@ -22898,7 +25498,9 @@
       "title": "How Codeium Breaks Through the Ceiling for Retrieval: Kevin Hou",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Reliability"],
+      "tracks": [
+        "Reliability"
+      ],
       "themes": [
         "Reliability",
         "Knowledge",
@@ -22919,7 +25521,9 @@
       "title": "Emergence Launch: AI Agents and the future enterprise: Dr. Satya Nitta",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design"],
+      "tracks": [
+        "System Design"
+      ],
       "themes": [
         "System Design",
         "Deployment",
@@ -22962,7 +25566,12 @@
       "sourceChannel": "AI Engineer",
       "track": null,
       "tracks": [],
-      "themes": ["Models & Training", "Reliability", "Data & Eval", "Developer Workflows"],
+      "themes": [
+        "Models & Training",
+        "Reliability",
+        "Data & Eval",
+        "Developer Workflows"
+      ],
       "publishedAt": "2024-07-31T17:33:51Z",
       "durationSeconds": 1062,
       "youtubeId": "TKmfBnW0mQA",
@@ -23080,7 +25689,9 @@
       "title": "Llamafile: bringing AI to the masses with fast CPU inference: Stephen Hood and Justine Tunney",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Deployment"],
+      "tracks": [
+        "Deployment"
+      ],
       "themes": [
         "Deployment",
         "Models & Training",
@@ -23185,7 +25796,9 @@
       "title": "AI Engineer World’s Fair 2024 — GPUs & Inference Track",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Deployment"],
+      "tracks": [
+        "Deployment"
+      ],
       "themes": [
         "Deployment",
         "Models & Training",
@@ -23263,7 +25876,12 @@
       "sourceChannel": "Hamel Husain",
       "track": "Reliability",
       "tracks": [],
-      "themes": ["Knowledge", "Data & Eval", "Reliability", "System Design"],
+      "themes": [
+        "Knowledge",
+        "Data & Eval",
+        "Reliability",
+        "System Design"
+      ],
       "publishedAt": "2024-06-15T14:59:49-07:00",
       "durationSeconds": 2925,
       "youtubeId": "0nA5QG3087g",
@@ -23277,7 +25895,12 @@
       "sourceChannel": "AI Engineer",
       "track": null,
       "tracks": [],
-      "themes": ["Developer Workflows", "Reliability", "Data & Eval", "System Design"],
+      "themes": [
+        "Developer Workflows",
+        "Reliability",
+        "Data & Eval",
+        "System Design"
+      ],
       "publishedAt": "2024-02-13T18:13:57Z",
       "durationSeconds": 478,
       "youtubeId": "jpKCIVlS9wM",
@@ -23391,7 +26014,12 @@
       "sourceChannel": "AI Engineer",
       "track": null,
       "tracks": [],
-      "themes": ["Safety & Control", "Reliability", "Data & Eval", "System Design"],
+      "themes": [
+        "Safety & Control",
+        "Reliability",
+        "Data & Eval",
+        "System Design"
+      ],
       "publishedAt": "2023-11-25T17:21:18Z",
       "durationSeconds": 1181,
       "youtubeId": "9-vGxMoUM9Y",
@@ -23467,7 +26095,13 @@
       "sourceChannel": "AI Engineer",
       "track": "Reliability",
       "tracks": [],
-      "themes": ["Knowledge", "Data & Eval", "Reliability", "System Design", "Deployment"],
+      "themes": [
+        "Knowledge",
+        "Data & Eval",
+        "Reliability",
+        "System Design",
+        "Deployment"
+      ],
       "publishedAt": "2023-11-15T11:46:23-08:00",
       "durationSeconds": 1114,
       "youtubeId": "TRjq7t2Ms5I",
@@ -23480,8 +26114,16 @@
       "title": "Retrieval Augmented Generation in the Wild: Anton Troynikov",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Reliability"],
-      "themes": ["Knowledge", "Data & Eval", "Reliability", "System Design", "Observability"],
+      "tracks": [
+        "Reliability"
+      ],
+      "themes": [
+        "Knowledge",
+        "Data & Eval",
+        "Reliability",
+        "System Design",
+        "Observability"
+      ],
       "publishedAt": "2023-11-15T18:20:31Z",
       "durationSeconds": 740,
       "youtubeId": "FDEmbYPgG-s",
@@ -23576,7 +26218,12 @@
       "sourceChannel": "AI Engineer",
       "track": null,
       "tracks": [],
-      "themes": ["Developer Workflows", "Reliability", "Data & Eval", "System Design"],
+      "themes": [
+        "Developer Workflows",
+        "Reliability",
+        "Data & Eval",
+        "System Design"
+      ],
       "publishedAt": "2023-11-08T13:41:58Z",
       "durationSeconds": 781,
       "youtubeId": "oJz4wveQ4oM",
@@ -23629,7 +26276,9 @@
       "title": "[Workshop] AI Engineering 201: Inference",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["Deployment"],
+      "tracks": [
+        "Deployment"
+      ],
       "themes": [
         "Deployment",
         "Models & Training",
@@ -23692,7 +26341,13 @@
       "sourceChannel": "AI Engineer",
       "track": null,
       "tracks": [],
-      "themes": ["Knowledge", "Data & Eval", "System Design", "Deployment", "Reliability"],
+      "themes": [
+        "Knowledge",
+        "Data & Eval",
+        "System Design",
+        "Deployment",
+        "Reliability"
+      ],
       "publishedAt": "2023-11-03T19:14:14Z",
       "durationSeconds": 965,
       "youtubeId": "MDxEXKkxf2Q",
@@ -23706,7 +26361,12 @@
       "sourceChannel": "AI Engineer",
       "track": null,
       "tracks": [],
-      "themes": ["System Design", "Developer Workflows", "Knowledge", "Data & Eval"],
+      "themes": [
+        "System Design",
+        "Developer Workflows",
+        "Knowledge",
+        "Data & Eval"
+      ],
       "publishedAt": "2023-11-03T17:57:18Z",
       "durationSeconds": 1007,
       "youtubeId": "PAy_GHUAICw",
@@ -23720,7 +26380,12 @@
       "sourceChannel": "AI Engineer",
       "track": null,
       "tracks": [],
-      "themes": ["System Design", "Developer Workflows", "Knowledge", "Safety & Control"],
+      "themes": [
+        "System Design",
+        "Developer Workflows",
+        "Knowledge",
+        "Safety & Control"
+      ],
       "publishedAt": "2023-11-02T14:11:42Z",
       "durationSeconds": 1136,
       "youtubeId": "ieWT6X2Yh_g",
@@ -23755,7 +26420,12 @@
       "sourceChannel": "AI Engineer",
       "track": "Reliability",
       "tracks": [],
-      "themes": ["Reliability", "Developer Workflows", "Data & Eval", "System Design"],
+      "themes": [
+        "Reliability",
+        "Developer Workflows",
+        "Data & Eval",
+        "System Design"
+      ],
       "publishedAt": "2023-11-01T09:27:08-07:00",
       "durationSeconds": 1075,
       "youtubeId": "yj-wSRJwrrc",
@@ -23769,7 +26439,13 @@
       "sourceChannel": "AI Engineer",
       "track": null,
       "tracks": [],
-      "themes": ["System Design", "Knowledge", "Reliability", "Developer Workflows", "Data & Eval"],
+      "themes": [
+        "System Design",
+        "Knowledge",
+        "Reliability",
+        "Developer Workflows",
+        "Data & Eval"
+      ],
       "publishedAt": "2023-11-01T15:15:07Z",
       "durationSeconds": 1134,
       "youtubeId": "cwjs1WAG9CM",
@@ -23802,7 +26478,9 @@
       "title": "The Age of the Agent: Flo Crivello",
       "sourceChannel": "AI Engineer",
       "track": null,
-      "tracks": ["System Design"],
+      "tracks": [
+        "System Design"
+      ],
       "themes": [
         "System Design",
         "Developer Workflows",
@@ -23863,7 +26541,12 @@
       "sourceChannel": "AI Engineer",
       "track": null,
       "tracks": [],
-      "themes": ["Developer Workflows", "Models & Training", "System Design", "Data & Eval"],
+      "themes": [
+        "Developer Workflows",
+        "Models & Training",
+        "System Design",
+        "Data & Eval"
+      ],
       "publishedAt": "2023-10-23T21:27:46Z",
       "durationSeconds": 567,
       "youtubeId": "qaJXBMwUkoE",
@@ -23953,7 +26636,12 @@
       "sourceChannel": "MLOps.community",
       "track": "Data & Eval",
       "tracks": [],
-      "themes": ["Data & Eval", "Reliability", "Observability", "System Design"],
+      "themes": [
+        "Data & Eval",
+        "Reliability",
+        "Observability",
+        "System Design"
+      ],
       "publishedAt": "2023-07-12T02:55:55-07:00",
       "durationSeconds": 2990,
       "youtubeId": "r-HUnht-Gns",

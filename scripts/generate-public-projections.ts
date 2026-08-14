@@ -36,20 +36,17 @@ function publicInsightProjection() {
   return { records };
 }
 
-const outputs = [
-  {
-    path: resolve("public/atlas-public-catalog.json"),
-    payload: publicCatalog,
-  },
-  {
-    path: resolve("public/talk-insights.json"),
-    payload: publicInsightProjection(),
-  },
-];
-
-for (const output of outputs) {
-  await mkdir(dirname(output.path), { recursive: true });
-  await writeFile(output.path, `${JSON.stringify(output.payload)}\n`);
+export async function generatePublicProjections() {
+  const outputs = [
+    { path: resolve("public/atlas-public-catalog.json"), payload: publicCatalog },
+    { path: resolve("public/talk-insights.json"), payload: publicInsightProjection() },
+  ];
+  for (const output of outputs) {
+    await mkdir(dirname(output.path), { recursive: true });
+    await writeFile(output.path, `${JSON.stringify(output.payload)}\n`);
+  }
+  return outputs.length;
 }
 
-console.log(`Generated ${outputs.length} public Atlas projections.`);
+if (import.meta.main)
+  console.log(`Generated ${await generatePublicProjections()} public Atlas projections.`);

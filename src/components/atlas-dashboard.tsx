@@ -649,7 +649,7 @@ export function AtlasDashboard() {
             </picture>
           </div>
           <div className="mt-4 rounded-xl border border-[color:var(--track-4)]/45 bg-card px-4 py-3 font-sans text-sm leading-relaxed text-muted-foreground">
-            Source catalog was checked against YouTube on 4 Aug 2026. All rights belong to the
+            Source catalog was checked against YouTube on 15 Aug 2026. All rights belong to the
             respective owners.
           </div>
         </section>

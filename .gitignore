@@ -39,6 +39,7 @@ data/rejected-youtube-sources.json
 data/transcript-evidence/
 data/youtube-discovery-candidates.json
 data/youtube-discovery-state.json
+var/atlas-state/
 
 # Wrangler / Cloudflare
 .wrangler/
