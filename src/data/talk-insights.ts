@@ -21,6 +21,697 @@ export type TalkInsight = {
 };
 
 export const TALK_INSIGHTS: Partial<Record<Video["id"], TalkInsight>> = {
+  "youtube-lyL5QhgIOxc": { claim: "Arek Borucki explains that a model hub becomes a search and infrastructure problem at extreme catalogue scale. As public models and datasets multiplied, the platform had to keep them stored, indexed and discoverable rather than assuming the search approach that worked for tens of thousands of models would remain adequate (00:49, 01:57, 02:48, 03:49, 04:02).", implication: "Design catalogue growth as a systems problem with explicit search and operational limits. 1. Measure the growth of records, artefacts and users that each service must support rather than only the headline model count (01:44). 2. Keep storage, indexing and search as separately observable capabilities because a healthy upload path does not guarantee a useful discovery experience (03:49). 3. Revisit architectural assumptions as the catalogue crosses orders of magnitude, not only after incidents occur (04:09). 4. Test popular release events and new artefact types because they can create uneven load and different query patterns.", whenToUse: "1. A platform hosts rapidly growing model, dataset or package catalogues. 2. Search quality and speed are becoming more important to users than adding another upload feature. 3. Engineers need to plan for large release-driven spikes in content and discovery traffic.", caveat: "The speaker's scale figures describe the platform at the time of the talk and are not a generic capacity recipe. Different catalogues have different access patterns, ranking needs and cost constraints. Profile your own traffic, set service objectives and test migration paths before changing infrastructure.", example: { situation: "An internal ML platform grows from thousands to hundreds of thousands of model artefacts after several teams adopt it.", application: "Instrument upload, indexing and search latency separately, model a release spike and replace the search design that no longer meets relevance or response-time targets before users lose trust in discovery.", observableOutcome: "The catalogue remains usable as its contents grow instead of treating scale as a storage-only concern." }, contentBasis: "transcript_backed", timestampSeconds: 57, reviewedAt: "2026-08-18T00:00:00+08:00" },
+  "youtube-7wu2hsRfvV0": { claim: "Sunny Rekhi describes forward-deployed engineering as an evolving delivery model for a 24/7, multilingual and omnichannel customer-service agent. Its operating shape changes both as the vendor scales and as the customer moves from a mid-market context to a large enterprise, so teams need an explicit model rather than a single universal playbook (00:28, 00:37, 00:46, 01:04).", implication: "Adapt the deployment model to customer complexity while preserving reusable product foundations. 1. Separate core agent capability from the integration, policy and service requirements that differ by customer. 2. Make enterprise size and operating maturity inputs to scoping instead of assuming the same deployment process fits every account. 3. Track which customer adaptations expose recurring product needs. 4. Keep channel, language and service-quality requirements testable across the actual support journey.", whenToUse: "1. A customer-service agent must operate across channels and geographies. 2. A vendor is scaling forward-deployed delivery across customers with very different complexity. 3. Product leaders need to decide which implementation lessons should become core capability.", caveat: "The opening establishes the deployment context rather than proving that one FDE model produces better customer outcomes. Larger customers can also introduce governance and integration costs that exceed the benefit of customisation. Define safe scope, quality metrics and handover responsibilities per deployment.", example: { situation: "A support-agent provider serves a mid-market retailer and a global enterprise with different languages and service policies.", application: "Use a shared core for routing and response quality, then scope separate integration and policy work with explicit ownership and regression tests for each customer.", observableOutcome: "The provider can support legitimate differences without forking the entire product for each account." }, contentBasis: "transcript_backed", timestampSeconds: 37, reviewedAt: "2026-08-18T00:00:00+08:00" },
+  "youtube-1OMHGsUZiqA": { claim: "Vinoo Ganesh presents forward-deployed engineering as an early product strategy, not merely a later go-to-market function. The account traces how putting engineers into critical environments helped shape a data platform that others could build on, with a rotation programme turning software engineers into field practitioners (00:21, 00:30, 01:09, 01:24).", implication: "Use field deployment to discover product primitives while resisting the pull toward permanent bespoke work. 1. Send engineers into important operating contexts when product assumptions need direct testing. 2. Convert field discoveries into horizontal platform capabilities so later teams can build on them (00:30). 3. Create rotations or structured learning paths that combine engineering depth with customer context (01:24). 4. Treat acute environment constraints as product inputs, not merely implementation obstacles.", whenToUse: "1. A data or AI platform needs to prove usefulness in complex operational environments. 2. Product teams lack direct understanding of the settings where their abstractions break down. 3. Leaders want a deliberate way to develop engineers who can translate field needs into platform design.", caveat: "The historical example comes from unusually demanding contexts and does not justify unrestricted deployment access or customer experimentation. A field programme needs security boundaries, welfare safeguards and a clear route from learning to maintainable product work.", example: { situation: "A platform team is building workflow automation for emergency operations but its designers have only test data.", application: "Run tightly governed field discovery with accountable partners, identify durable data and workflow primitives, then build reusable components rather than leaving the solution embedded in one engagement.", observableOutcome: "Field work improves the platform's fit while the resulting capability can be maintained beyond the original deployment." }, contentBasis: "transcript_backed", timestampSeconds: 30, reviewedAt: "2026-08-18T00:00:00+08:00" },
+  "youtube-KwhgfwOSToQ": { claim: "Kevin Bai introduces forward-deployed engineering as a distinct organisational function with a history, a role design and a relationship to go-to-market. The practical question is not whether to copy a title, but how to apply the function's customer-embedded learning and implementation strengths to a particular organisation (00:23, 00:32, 01:04, 01:12).", implication: "Define FDE by its purpose, interfaces and outcomes before scaling headcount. 1. Clarify whether the function exists to validate product fit, implement complex customers, accelerate adoption or inform go-to-market. 2. Build the team around cross-functional work, not a vague hybrid of engineering and sales. 3. Establish a feedback mechanism that turns customer observations into product and commercial decisions. 4. Adapt the operating model to the organisation instead of assuming a famous company's structure will transfer directly.", whenToUse: "1. Leaders are considering an FDE function for an AI or enterprise software business. 2. The company wants a shared vocabulary before hiring its first customer-embedded engineers. 3. Product, engineering and go-to-market teams need agreed decision rights for complex deployments.", caveat: "A 101 framing offers useful categories but not a complete operating model. The appropriate structure depends on product maturity, security needs, customer concentration and service economics. Pilot the function with measurable outcomes before treating it as a universal growth lever.", example: { situation: "A young enterprise AI company is receiving more integration-heavy deals than the product team can support.", application: "Define a small FDE pilot with named product and commercial counterparts, limit engagements to a clear customer segment and review which outputs became reusable product improvements after each deployment.", observableOutcome: "The company learns whether FDE creates durable product and customer value before expanding the team." }, contentBasis: "transcript_backed", timestampSeconds: 72, reviewedAt: "2026-08-18T00:00:00+08:00" },
+  "youtube-RVxym6mmIns": { claim: "Jia Wu describes deployed engineering as the function that makes an AI engineering product real in a customer's environment. The job connects a broad product surface such as a CLI, IDE and cloud agent to the practical requirements of deployment, helping the product become useful beyond benchmark performance (00:12, 01:08, 01:17).", implication: "Evaluate an agent through the whole adoption path rather than one interface or benchmark. 1. Identify which product surface and integration path match the customer's workflow. 2. Use deployed engineers to expose gaps between a promising agent capability and the operational context where it must run. 3. Feed repeated deployment lessons into the shared product so later customers do not need the same bespoke repair. 4. Define evidence of usefulness in the customer environment before treating a capability as ready.", whenToUse: "1. A developer agent offers multiple surfaces but enterprise adoption is inconsistent. 2. A team needs structured customer feedback on deployment constraints rather than generic usability comments. 3. Leaders are deciding whether field engineering should influence core product priorities.", caveat: "The early transcript focuses on the speaker's product framing and does not establish that any particular deployment method succeeds universally. Customer-specific work can still conceal product gaps. Track repeatability, handover quality and customer outcomes before scaling the model.", example: { situation: "An enterprise wants to use a coding agent across a cloud environment and an existing IDE workflow.", application: "Have a deployed engineer map the developer journey, validate permissions and integration points, then turn recurring fixes into documented product capability.", observableOutcome: "The agent is assessed by whether it works in the real development environment, not only by a generic demonstration." }, contentBasis: "transcript_backed", timestampSeconds: 12, reviewedAt: "2026-08-18T00:00:00+08:00" },
+  "youtube-ITMXwI6QL6A": { claim: "Leo Mehr positions Ramp's forward-deployed work inside engineering rather than as a separate technical sales layer. Its mandate is to help the core product and agentic features work well for larger enterprises, which makes customer-facing scope and product ownership central design choices (00:40, 01:13, 01:35, 01:44).", implication: "Give forward-deployed teams a clear product connection and explicit enterprise mandate. 1. Place the team where it can influence core engineering decisions instead of only implementing bespoke requests (01:35). 2. Scope each engagement against a concrete enterprise outcome and the product changes needed to support it. 3. Distinguish reusable platform work from customer-specific delivery early, then fund and measure them differently. 4. Keep the team accountable for learning that improves the next deployment, not merely closing the current one.", whenToUse: "1. A growing product needs to serve larger customers with deeper integration and agentic workflows. 2. A company is deciding whether forward-deployed engineers belong in engineering, sales or a hybrid model. 3. Customer delivery is uncovering product requirements faster than normal roadmap research.", caveat: "Organisation placement alone does not ensure productive collaboration. If priorities, escalation rights or roadmap ownership are unclear, the team can still become an expensive custom-services buffer. Set boundaries and success metrics that include both customer value and reusable product progress.", example: { situation: "A spend-management platform receives several enterprise requests for a new approvals agent.", application: "Assign an engineering-aligned deployed team to validate the shared workflow with early customers, contribute the reusable primitives to the core product and leave customer-specific configuration with the implementation plan.", observableOutcome: "Enterprise learning improves the platform rather than producing a sequence of disconnected custom builds." }, contentBasis: "transcript_backed", timestampSeconds: 95, reviewedAt: "2026-08-18T00:00:00+08:00" },
+  "youtube-Byv311hdoHE": { claim: "Natalie Meurer situates forward-deployed engineering in a history of infrastructure, privacy and high-consequence customer work, rather than reducing it to a fashionable technical go-to-market title. Her opening frames the discipline as a practical bridge between what an organisation can build and the environments where customers must operate it (00:28, 01:16, 01:24, 01:32).", implication: "Design FDE with the same seriousness as an operational and governance function. 1. Give deployed engineers enough technical depth to work with real systems and enough domain awareness to understand customer constraints. 2. Treat privacy, infrastructure and implementation risks as part of delivery, especially in sensitive customer environments (01:24). 3. Learn from the discipline's history when defining roles, because the same title can hide very different responsibilities. 4. Create clear handoffs among customer, product and engineering owners so field knowledge does not remain personal experience.", whenToUse: "1. A company is hiring or redesigning a forward-deployed engineering function. 2. Deployments involve sensitive data, infrastructure integration or regulated customers. 3. Leaders want to avoid using a broad FDE label without defining authority and responsibility.", caveat: "The transcript segment is historical and perspective-led rather than a comparative study of team models. A strong individual background does not substitute for process controls, customer consent or accountable ownership. Define role boundaries and delivery safeguards in the local context.", example: { situation: "A public-sector customer needs an agentic workflow deployed against controlled data systems.", application: "Staff the engagement with engineers who understand the infrastructure and privacy constraints, document who may change the workflow and establish a handoff to the customer's long-term operating team.", observableOutcome: "The deployment treats customer context and safety obligations as core engineering work rather than afterthoughts." }, contentBasis: "transcript_backed", timestampSeconds: 84, reviewedAt: "2026-08-18T00:00:00+08:00" },
+  "youtube-BInpv7lGp1o": { claim: "Vinoth Govindarajan argues that many apparent agent failures are really harness failures: the interface can report success even when the durable state was never committed. His proposed production boundary is explicit: the model proposes, the harness authorises and commits the change, then a receipt proves what occurred (00:32, 01:32, 02:38, 03:07).", implication: "Make the harness responsible for truth, ordering and evidence. 1. Treat an acknowledgement from the model or UI as provisional until the underlying state transition succeeds (00:59). 2. Give each fact one durable owner and a replayable recovery path rather than relying on conversational memory (03:16). 3. Apply authority checks and ordered commits around every mutating tool action (02:54). 4. Emit a receipt that operations can inspect when a user asks what actually happened.", whenToUse: "1. An agent writes memories, sends messages or changes records across unreliable services. 2. A user-visible success can diverge from the persisted system state. 3. Teams need to investigate failures without treating a coherent next response as evidence of a completed action.", caveat: "The model-versus-harness distinction is a useful reliability lens, not proof that all failures lie outside the model. Durable writes can still carry wrong intent or unsafe content. Combine transactional controls with input validation, policy enforcement and evaluations of the decision itself.", example: { situation: "A service agent promises that it has recorded a customer's refund preference.", application: "Allow the response only after an authorised, idempotent write commits and return a durable receipt identifier that can be replayed or checked by support.", observableOutcome: "The system makes a failed persistence visible instead of silently building later answers on missing history." }, contentBasis: "transcript_backed", timestampSeconds: 32, reviewedAt: "2026-08-18T00:00:00+08:00" },
+  "youtube-wpOA-UXynoM": { claim: "Eno Reyes presents forward-deployed engineering as embedding strong engineers with customers to implement and adapt a platform around the customer's real operating conditions. The work is not a uniform job description: teams decide how closely it connects to product engineering, how much is done with customers versus for them and how much work becomes reusable product capability (00:25, 01:19, 01:50, 02:01).", implication: "Design forward-deployed work as a learning loop between customer reality and the core product. 1. Define the customer problem, access boundary and success measure before embedding an engineer. 2. Make the relationship with product engineering explicit so recurring fixes and patterns can return to the platform rather than remaining bespoke services. 3. Decide which delivery responsibilities stay with the customer to preserve ownership and enable adoption. 4. Track the work that remains one-off against the work that becomes a scalable capability.", whenToUse: "1. An enterprise AI product needs deep implementation support because every customer has distinct processes and data. 2. A team is choosing whether a customer integration belongs in services, product or a shared delivery model. 3. Leaders need a way to learn from bespoke deployments without permanently increasing service effort.", caveat: "The talk describes an operating model, not a fixed organisation chart. Embedding engineers can create dependency, blur accountability or turn the product roadmap into a set of loud customer requests. Protect product priorities, security boundaries and handover criteria from the outset.", example: { situation: "A manufacturer needs an agent integrated with its custom maintenance workflow.", application: "Pair a deployed engineer with the customer's operational lead, validate the workflow in production-like conditions and feed common integration needs into a reusable product roadmap after the engagement.", observableOutcome: "The customer receives context-aware implementation support while the product team captures patterns that can benefit later deployments." }, contentBasis: "transcript_backed", timestampSeconds: 25, reviewedAt: "2026-08-18T00:00:00+08:00" },
+  "youtube-l0FLhNqBOic": { claim: "Vasuman Moza frames the next challenge in enterprise agent delivery as business understanding rather than raw execution. Bespoke deployments require forward-deployed engineers to learn a customer's actual process and build internal tools that deepen that understanding without scaling delivery headcount one-for-one (00:27, 00:35, 00:50, 01:52).", implication: "Treat customer context as a managed asset that tools and delivery practice must make reusable. 1. Start with the end-to-end business process and its constraints, not a generic claim that an agent can execute tasks (01:07). 2. Capture implementation knowledge in repeatable tools, connectors and playbooks so later engagements do not start from zero (00:42). 3. Measure depth of understanding and adoption alongside task completion because a technically successful workflow can still miss the customer's operating reality (01:52). 4. Use secure, permissioned interfaces to business systems rather than giving a general agent broad and unexplained access.", whenToUse: "1. An AI provider repeatedly builds highly customised enterprise deployments. 2. Leaders want to increase delivery capacity without losing the detailed discovery that makes deployments valuable. 3. An agent's apparent execution capability is strong but adoption stalls because it does not reflect local business practice.", caveat: "The speaker's claim that execution is no longer the main bottleneck is a business perspective, not an assurance that agent actions are reliable. Customer knowledge can be incomplete or sensitive. Validate workflows with accountable owners and keep least-privilege access, auditability and human escalation in place.", example: { situation: "A sales-operations agent must coordinate several teams whose deal approvals differ by region and product.", application: "Map the real approval paths with customer owners, encode reusable checks and connectors, then let the delivery team focus on the remaining local exceptions rather than rebuilding the common core.", observableOutcome: "The provider improves deployment leverage while the customer receives an agent grounded in its actual operating model." }, contentBasis: "transcript_backed", timestampSeconds: 27, reviewedAt: "2026-08-18T00:00:00+08:00" },
+  "youtube-KMR_RBoCa4M": {
+    claim:
+      "Aman Gupta and Shreya Rajpal present simulation as a way to make multi-turn agent evaluation faster to iterate on. Their core observation is that an agent test case is a trajectory with state and tool calls, so waiting for enough production examples and annotations can become the limiting factor in improving the system (01:19, 02:34, 03:47, 04:27).",
+    implication:
+      "Use simulation to create a disciplined experimental loop, not to replace production evidence. 1. Define the customer goals, environment state, tool responses and success rubric that a realistic trajectory must contain (04:27). 2. Align automated evaluation with sampled human judgement before using it to choose between agent versions (03:24). 3. Generate simulations for sparse or costly edge cases, then compare results with held-out real interactions to detect where the environment is unrealistic. 4. Track customer and operational metrics after release, because a simulation can accelerate learning without proving production quality.",
+    whenToUse:
+      "1. A team needs to test a multi-step support or operations agent before enough representative production data exists. 2. The agent's failures depend on tool state and sequence, not only on the final text answer. 3. Engineers can articulate a realistic environment and obtain human review for the evaluation rubric.",
+    caveat:
+      "The speed claim is a case study from the speakers, not a guarantee for every agent programme. Simulators can reward behaviours that look good in the constructed world but fail with messy customers and systems. Keep production holdouts, failure monitoring and escalation paths alongside simulated testing.",
+    example: { situation: "A support agent must resolve card-payment disputes across several tool calls but live cases are infrequent and sensitive.", application: "Create a simulator with approved account states, merchant responses and customer goals, evaluate candidate workflows against a human-calibrated rubric, then validate the selected design on a controlled real-traffic sample.", observableOutcome: "The team can iterate on realistic trajectories quickly while keeping release decisions tied to observed customer outcomes." },
+    contentBasis: "transcript_backed", timestampSeconds: 79, reviewedAt: "2026-08-18T00:00:00+08:00",
+  },
+  "youtube-7jjudsEhBtM": {
+    claim:
+      "Yogendra Miraje reframes an agent product's features as reusable skills: prompts define who an agent is, tools define what it can access and skills define how a task should be done. That moves the engineering focus from building every workflow screen-by-screen to providing a harness where authorised product expertise can become maintainable operational behaviour (03:26, 03:42, 03:49, 04:45).",
+    implication:
+      "Make skills a governed product layer with a stable execution harness. 1. Express a repeatable workflow as an explicit skill so the behaviour can be reviewed and reused instead of rediscovered on every request (00:49). 2. Separate identity prompts, tool permissions and task instructions to make changes easier to inspect and test (03:42). 3. Give domain experts a contribution path while engineers own the harness, lifecycle controls and observable runtime behaviour (04:31). 4. Evaluate skills as product features, including their tool use, failure handling and user-facing result.",
+    whenToUse:
+      "1. An agent product has recurring workflows that should behave consistently across sessions and users. 2. Domain specialists know the steps of a task but engineers need to retain control of execution, permissions and observability. 3. A team wants to scale beyond one large prompt without duplicating business logic in many surfaces.",
+    caveat:
+      "Calling a workflow a skill does not automatically make it safe, composable or maintainable. Skills can conflict, rely on hidden tool assumptions or drift as products change. Version them, test them against representative trajectories and apply access controls before broad rollout.",
+    example: { situation: "A financial-research assistant must produce both equity research and wealth-management outputs.", application: "Package each approved workflow as a separately versioned skill, attach only the tools and policies it needs and run the same harness-level logging and evaluation before publication.", observableOutcome: "The product can add specialised capabilities without turning each new workflow into an opaque new agent." },
+    contentBasis: "transcript_backed", timestampSeconds: 206, reviewedAt: "2026-08-18T00:00:00+08:00",
+  },
+  "youtube-kiqubc5b5Yo": {
+    claim:
+      "Brendan Rappazzo describes an automated quantitative-research system as a bridge between long-horizon coding agents and an existing research stack. The system needs to work across both open-ended research, where it receives a dataset and prediction target, and tightly scaffolded work that already has data scripts, backtests and evaluation controls (01:35, 02:38, 03:12, 03:35).",
+    implication:
+      "Place research agents inside the organisation's existing data, backtesting and evaluation discipline. 1. Start with well-posed problems that have a measurable target and a calibration requirement before attempting unconstrained discovery (00:56). 2. Reuse validated data access and backtesting scaffolding so an agent's experiments can be compared with established methods (03:12). 3. Support different autonomy levels, from proposing experiments around an existing evaluation to constructing an initial research plan from a defined dataset (03:20). 4. Measure transfer across desks or domains rather than assuming an algorithm will generalise because the agent can write code.",
+    whenToUse:
+      "1. A research organisation has reproducible datasets and evaluation infrastructure but limited capacity to explore hypotheses. 2. Teams want an agent to accelerate experiment design, tuning or method transfer without giving it uncontrolled production authority. 3. The target outcome can be measured through a known backtest or calibrated prediction task.",
+    caveat:
+      "The talk outlines a research programme, not proof that an autonomous agent discovers profitable or transferable strategies. Backtests can leak information and optimise to historical quirks. Preserve independent validation, domain review and deployment controls before treating an experiment as a production candidate.",
+    example: { situation: "A quant team has a time-series dataset, a target definition and a verified backtesting framework but a long queue of modelling ideas.", application: "Let the agent propose and run bounded experiments through the existing framework, record data versions and metrics, then ask researchers to review the strongest candidates on an untouched validation period.", observableOutcome: "The team explores more hypotheses while retaining the controls needed to distinguish a useful result from a backtest artefact." },
+    contentBasis: "transcript_backed", timestampSeconds: 95, reviewedAt: "2026-08-18T00:00:00+08:00",
+  },
+  "youtube-Tt2kX2sgQio": {
+    claim:
+      "Vinoo Ganesh argues that, as AI makes producing financial work faster, verification becomes the real bottleneck. He separates a citation, which identifies a source after an answer exists, from a repeatable check that can prove the numbers and transformations in a work product are correct enough for review (02:14, 05:07, 06:14, 06:22).",
+    implication:
+      "Build a verification path into the product rather than adding references at the end. 1. Identify the regulated or business decisions that need a reproducible chain from source data to calculation and conclusion (04:51). 2. Treat source curation as a control because a well-formatted citation can still point to material that is not approved for the decision (05:42). 3. Make important transformations numerically testable and rerunnable, then present the result with the underlying evidence for human review (06:22). 4. Use model output to accelerate drafting and analysis while reserving deterministic systems for the claims that must be checked.",
+    whenToUse:
+      "1. An AI system produces investment, compliance or operational work that a reviewer must be able to reconstruct. 2. Teams are relying on citations but cannot show whether the calculation or source selection was valid. 3. A high-stakes workflow needs more than a plausible explanation before a human signs off.",
+    caveat:
+      "The talk gives a strong product thesis, not a universal definition of verifiability. Some judgement-based claims cannot be reduced to one deterministic calculation, and a passing check only proves what the check covers. Define the boundary of each verification, retain reviewer accountability and test the system against genuine failure cases.",
+    example: {
+      situation:
+        "An analyst uses an AI assistant to prepare a valuation memo from filings and internal assumptions.",
+      application:
+        "Require the assistant to link every key figure to an approved source, run the valuation calculation through a controlled implementation and attach the inputs, outputs and exceptions to the draft for review.",
+      observableOutcome:
+        "The memo can be produced faster while a reviewer can inspect and rerun the material claims instead of trusting fluent prose.",
+    },
+    contentBasis: "transcript_backed",
+    timestampSeconds: 134,
+    reviewedAt: "2026-08-18T00:00:00+08:00",
+  },
+  "youtube-YnNF55QV0zs": {
+    claim:
+      "Ishan Anand frames synthetic personas as forecasts with a limited operating regime, not miniature customers whose opinions can be treated as ground truth. The method can simulate structured responses from research-derived profiles, but its value depends on measuring agreement against real people, accounting for human noise and understanding where the simulation stops being reliable (01:03, 02:27, 04:04, 04:39).",
+    implication:
+      "Use synthetic respondents to sharpen questions and prioritise research, then test consequential conclusions with people. 1. Define the population, behaviour and decision the persona is meant to represent before choosing a model or prompt (00:48). 2. Compare its responses with a real panel using the same survey or task, and report the metric with the human baseline rather than a single headline score (04:04). 3. Stress-test prompt wording and product conditions because apparently small framing changes can affect simulated choices (05:06). 4. Treat failure modes and uncertainty as part of the output so users know whether the result is exploratory or decision-grade.",
+    whenToUse:
+      "1. A research team needs a fast way to explore possible reactions before commissioning or narrowing a human study. 2. Product teams want to compare messaging or concept variants without claiming that a simulation replaces customer evidence. 3. Researchers can define a matched real-world benchmark for the persona's intended regime.",
+    caveat:
+      "A synthetic persona inherits gaps, stereotypes and prompt sensitivity from its underlying model and profile. Even reported alignment can be misleading if it is measured on a narrow population or normalised against noisy human answers. Do not use it as the sole evidence for pricing, eligibility or decisions that materially affect people.",
+    example: {
+      situation:
+        "A product team has five onboarding messages and needs to decide which two deserve a costly customer study.",
+      application:
+        "Use carefully specified personas to identify contrasting reactions and hypotheses, run a matched small human panel on the shortlist and compare where the simulated and observed responses diverge.",
+      observableOutcome:
+        "The team uses simulation to focus its research budget without presenting a generated response as customer consent or proof.",
+    },
+    contentBasis: "transcript_backed",
+    timestampSeconds: 63,
+    reviewedAt: "2026-08-18T00:00:00+08:00",
+  },
+  "youtube-Owb8g3yDyzo": {
+    claim:
+      "Udi Menkes shows why a fluent general model can give dangerous financial advice even when it has access to a business's facts. In the examples, generic revenue-growth advice ignored cash-flow and concentration constraints, while an outcome-grounded approach considered what comparable businesses did and how those decisions actually performed (01:42, 03:04, 03:21, 04:41).",
+    implication:
+      "Financial assistance should reason from constraints and verified outcomes, not only descriptive context. 1. Convert a broad question such as improving profit into the business state, constraints and feasible actions that determine whether an answer is safe (02:48). 2. Evaluate advice over realistic long horizons because a locally plausible action can cause harm when downstream effects accumulate (06:44). 3. Compare agent recommendations against simple rules-based baselines rather than assuming a more capable model automatically makes better decisions (07:13). 4. Use a human review or a constrained recommendation interface for actions that could materially change cash flow, credit or customer treatment.",
+    whenToUse:
+      "1. A financial assistant proposes operational advice from accounting data, customer data or market conditions. 2. A team is tempted to improve financial answers merely by adding more documents to the prompt. 3. Product owners need to distinguish useful explanation from an action recommendation that requires outcome-based validation.",
+    caveat:
+      "The business examples and performance claims are presented by the speaker and should not be treated as independent financial advice. Similar historical situations can still differ in timing, regulation and customer behaviour. Keep data permissions, scenario assumptions and accountability explicit, and require qualified review for consequential recommendations.",
+    example: {
+      situation:
+        "A small-business assistant is asked how to improve profit while the company has negative cash flow and a highly concentrated customer base.",
+      application:
+        "Generate a constrained set of options, test each against cash-flow and concentration rules, show comparable outcome evidence where it is permitted and route the final recommendation to a qualified adviser.",
+      observableOutcome:
+        "The system avoids turning an appealing generic answer into an unreviewed high-risk business decision.",
+    },
+    contentBasis: "transcript_backed",
+    timestampSeconds: 102,
+    reviewedAt: "2026-08-18T00:00:00+08:00",
+  },
+  "youtube-o6U_2vd967Y": {
+    claim:
+      "Divakar Kumar shows how an agent can extend, rather than replace, an established event-driven system. In the fraud example, deterministic rules and a conventional risk model handle clear cases, while an agent receives only the ambiguous middle band and gathers real-time context from separate bounded domains before making a recommendation (03:08, 05:07, 05:40, 05:53).",
+    implication:
+      "Introduce an agent as a bounded escalation path with a clear contract to the existing system. 1. Keep rule-based and machine-learning controls for the high-confidence decisions they already make well (04:38). 2. Route only defined grey-zone cases to the agent, so latency, cost and non-determinism remain proportional to the uncertainty being resolved (05:07). 3. Give the agent permissioned, asynchronous access to the transaction, account and device contexts it needs rather than breaking domain boundaries for a single prompt (05:53). 4. Record the evidence and recommended decision so operations staff can explain or challenge an outcome.",
+    whenToUse:
+      "1. An existing event-driven workflow has a small but meaningful set of cases that defeat fixed rules. 2. A team can define the escalation threshold, permitted data sources and safe fallback before introducing an agent. 3. A decision must become more contextual without removing the dependable controls already in production.",
+    caveat:
+      "The fraud scenario is an architectural illustration, not evidence that an agent improves detection rates in every setting. Real-time data access can create privacy, consistency and latency risks. Validate false approvals and false declines separately, retain human escalation for consequential decisions and make the agent's evidence trail auditable.",
+    example: {
+      situation:
+        "A payment platform's rules correctly decide most transactions but repeatedly sends borderline cases to manual support.",
+      application:
+        "Route only the borderline cases to an agent that reads approved account and device events, produces a structured recommendation with its supporting signals and falls back to the existing review queue when confidence is low.",
+      observableOutcome:
+        "The platform adds contextual analysis to uncertain cases without destabilising its established decision path.",
+    },
+    contentBasis: "transcript_backed",
+    timestampSeconds: 307,
+    reviewedAt: "2026-08-18T00:00:00+08:00",
+  },
+  "youtube-s67bE2Ur3bY": {
+    claim:
+      "Sai Krishna Rallabandi argues that agents designed for one person need a different operating model when they join a group or become an always-on wearable. A production group-chat agent had to decide not only what to answer, but which person should receive it, where it should be delivered and what shared history was relevant to the group (01:31, 02:33, 03:14, 04:14).",
+    implication:
+      "Treat audience, delivery surface and memory selection as first-class policy decisions. 1. Model the group as more than a list of users because a useful response for one participant can expose another person's information (03:14). 2. Route an answer to a private channel or wearable surface when the context is personal, even if the request began in a shared chat (04:00). 3. Curate long-running group memory so the agent retrieves the decisions and context that still matter instead of replaying every message (04:14). 4. Secure tools, browsing and actions at the agent level because a group setting expands the number of people and sources that can influence behaviour (06:02).",
+    whenToUse:
+      "1. A team is moving a personal assistant into chat rooms, shared workspaces or a wearable interface. 2. The same request may need different answers, recipients or levels of detail depending on group membership. 3. Product owners need explicit privacy and memory rules before allowing proactive assistance.",
+    caveat:
+      "The examples are a practitioner's account of a group deployment rather than a general safety guarantee. Private routing can still be wrong if identity, consent or device ownership is unclear. Test policies with realistic group scenarios, expose why a channel was selected and give people a way to correct memory and notification preferences.",
+    example: {
+      situation:
+        "A project-chat assistant sees a request for a travel plan that includes one attendee's private accessibility needs.",
+      application:
+        "Keep the shared itinerary response general, send sensitive follow-up only to the authorised participant and retain only the group decisions needed for later planning.",
+      observableOutcome:
+        "The assistant remains helpful to the group while reducing unnecessary disclosure and irrelevant memory retention.",
+    },
+    contentBasis: "transcript_backed",
+    timestampSeconds: 151,
+    reviewedAt: "2026-08-18T00:00:00+08:00",
+  },
+  "youtube-iKQ78wyJEXU": {
+    claim:
+      "Lucas Palma describes AI skills, plugins, MCP servers and agent rules as a new software supply-chain layer, not harmless configuration. Nubank placed a review step in front of its internal skill marketplace, using deterministic checks for obvious risks and an LLM-assisted assessment when the context needs interpretation before a skill reaches other developers (01:35, 02:30, 06:24, 07:34, 07:48).",
+    implication:
+      "Govern reusable agent capabilities as deployable dependencies with a release gate. 1. Inventory skills, plugins, MCP servers and agent rules alongside packages and containers because each can shape code generation or tool access (02:12). 2. Scan for credentials, unsafe shell behaviour and excessive permissions before publication, then use contextual review for risks that simple pattern matching cannot assess (04:44, 05:27). 3. Require the same checks after upload so the marketplace validates the published artifact rather than trusting a developer's local result (07:16). 4. Classify findings and request remediation through the contribution workflow instead of relying on informal warnings (06:42).",
+    whenToUse:
+      "1. An organisation wants engineers to share agent skills or tool configurations through an internal marketplace. 2. A regulated or security-sensitive team needs an auditable decision before a reusable capability becomes broadly available. 3. Developers need fast iteration but the organisation cannot treat prompt and tool configuration as unreviewed text.",
+    caveat:
+      "The approach is a concrete organisational pattern, not proof that any one scanner or LLM reviewer catches every issue. Detection logic can be bypassed and reviewers can misclassify intent. Apply least privilege, preserve review evidence, test the tool in a sandbox and retain a fast revoke path for published skills.",
+    example: {
+      situation:
+        "A developer submits a database-migration skill for use by hundreds of engineers.",
+      application:
+        "Run deterministic checks for embedded secrets and shell commands, assess requested database permissions and data-flow instructions with contextual review, then publish only the approved revision with its findings attached.",
+      observableOutcome:
+        "The marketplace makes a useful capability discoverable while giving security teams a repeatable path to block or remediate risky changes.",
+    },
+    contentBasis: "transcript_backed",
+    timestampSeconds: 95,
+    reviewedAt: "2026-08-18T00:00:00+08:00",
+  },
+  "youtube-ZTA0GwpAUak": {
+    claim:
+      "Samuel Denton frames enterprise continual learning as a spectrum, not a single capability. Teams can learn from a one-off set of production traces, move to scheduled batches or join serving and training in one feedback loop. The right starting point depends on the quality of the traces, the availability of reliable feedback and the organisation's appetite for updating a live model (01:30, 01:58, 02:21).",
+    implication:
+      "Choose the learning loop that the operational environment can actually support, then make it more frequent only when the feedback signal is trustworthy. 1. Start with a bounded batch of production traces when the team needs to understand recurring failures before it changes a deployed agent (01:30). 2. Use a scheduled trace-review cadence when feedback arrives regularly but the model should not update while it is serving users (01:58). 3. Treat online learning as a combined serving, trace, feedback and update system rather than simply frequent fine-tuning (02:21). 4. Build teacher signals from privileged information such as rubrics, known policy failures or targeted examples instead of assuming the existing model can label its own mistakes correctly (03:48, 04:19).",
+    whenToUse:
+      "1. A production agent produces useful traces but repeats failures that are difficult to diagnose from aggregate metrics. 2. A team is choosing between offline fine-tuning, daily retraining and a more ambitious live-learning loop. 3. Product or policy owners can define the behaviours that should improve, such as an overly permissive refund agent.",
+    caveat:
+      "The talk describes Applied Compute's framing and enterprise experience, not a controlled comparison of these approaches. A faster update loop can reinforce noisy labels, expose regressions more quickly or make failures harder to roll back. Validate trace quality, hold out an evaluation set and keep a rollback path before connecting training changes to live serving.",
+    example: {
+      situation:
+        "A customer-support agent handles thousands of conversations each week but is too likely to issue a refund in ambiguous cases.",
+      application:
+        "Review a sample of traces against a refund rubric, train or prompt against the confirmed failure pattern, evaluate on held-out conversations and promote updates on a controlled cadence before considering live adaptation.",
+      observableOutcome:
+        "The team learns from real customer interactions while keeping policy changes explainable and reversible.",
+    },
+    contentBasis: "transcript_backed",
+    timestampSeconds: 82,
+    reviewedAt: "2026-08-18T00:00:00+08:00",
+  },
+  "youtube-I3bpdgFJCUY": {
+    claim:
+      "Ben Holmes presents a personal knowledge base as a pipeline that first captures raw notes, then enriches them with links and tags before exposing a navigable wiki. The practical point is that an LLM can help turn unstructured material into a useful knowledge surface, but it needs a durable source format and a clear organisation step between capture and search (01:42, 02:09, 02:24).",
+    implication:
+      "Separate fast capture from later organisation so an assistant improves recall without becoming the only place where knowledge lives. 1. Keep raw notes in a portable, readable format such as Markdown so people can inspect and move their material without depending on one assistant or viewer (01:42). 2. Use enrichment to create related links and category tags that help both people and agents find relevant context (02:09). 3. Treat a wiki as a browsable view over people, concepts and sources rather than an opaque answer generator (02:24). 4. Reduce the friction of capture before optimising retrieval, because a neat knowledge base that misses the original context cannot recover it later (03:08). 5. Consider local dictation when privacy, offline use or lower recurring cost matters, but review the transcribed text before it becomes a trusted record (03:34, 04:14).",
+    whenToUse:
+      "1. A team or individual has useful notes spread across chat, documents and voice memos but cannot reliably find them later. 2. An internal assistant needs a readable knowledge source instead of a collection of disconnected uploads. 3. People want a practical workflow for preserving research context without requiring everyone to maintain a complex graph manually.",
+    caveat:
+      "This is a personal knowledge-management workflow, not evidence that automated linking or tagging is correct. Generated links can create false relationships, and speech capture can introduce errors or sensitive material. Keep the underlying notes reviewable, expose provenance and avoid treating an attractive graph as validation of the facts it connects.",
+    example: {
+      situation:
+        "A product manager records research ideas, meeting notes and voice memos but later cannot reconstruct why a decision was made.",
+      application:
+        "Store the raw material as Markdown, run an enrichment pass that proposes links and fixed tags, review material relationships and publish a wiki view that points back to the original notes.",
+      observableOutcome:
+        "The knowledge base becomes easier to navigate while the original context remains available for checking.",
+    },
+    contentBasis: "transcript_backed",
+    timestampSeconds: 102,
+    reviewedAt: "2026-08-18T00:00:00+08:00",
+  },
+  "youtube-XEd_SRVHBgU": {
+    claim:
+      "Sara Hooker argues that the cost of frontier training concentrates discovery inside a small number of labs, then proposes continual adaptation as a way to give more builders influence over model behaviour. Her AutoScientist example focuses on automating parts of the model-training process so practitioners can direct systems toward their own questions instead of receiving one general model for every context (03:15, 04:15, 05:08, 05:24).",
+    implication:
+      "Treat adaptation as a product and research capability with its own data and quality controls, not as a shortcut around scientific judgement. 1. Recognise that one broadly trained model spends a similar amount of compute on easy and hard tasks even when organisations need different expertise (04:15). 2. Use continual adaptation to make a model responsive to a bounded domain or question, while keeping the base model's limitations visible (05:08). 3. Automate repeatable training work only after defining the task, the data boundary and the evaluation that will tell you whether the change helped (05:24). 4. Measure whether a smaller or tailored system produces a better outcome for the target workflow rather than treating access to frontier-scale training as the only route to progress.",
+    whenToUse:
+      "1. A general-purpose model performs adequately but fails in a well-defined organisational or scientific context. 2. A team is exploring continual learning or automated training workflows but needs a reason to prefer them over a prompt or retrieval change. 3. Leaders are deciding how to broaden participation in model development without making unsupported claims about frontier capability.",
+    caveat:
+      "The talk is a forward-looking research and product vision. Automating training does not remove the need for representative data, robust evaluation, compute governance or expert review. Tailoring a model can also overfit a narrow environment, so compare against a stable baseline and test for regressions outside the target cases.",
+    example: {
+      situation:
+        "A research group needs a model that reasons over a specialised experimental workflow where a general assistant regularly misses important constraints.",
+      application:
+        "Define the workflow and its verified success criteria, prepare a reviewed data slice, test a targeted adaptation against the unchanged model and retain a human review step for high-consequence outputs.",
+      observableOutcome:
+        "The group can establish whether adaptation improves the specific workflow without confusing a tailored result with universal intelligence.",
+    },
+    contentBasis: "transcript_backed",
+    timestampSeconds: 315,
+    reviewedAt: "2026-08-18T00:00:00+08:00",
+  },
+  "youtube-I6aiEf3aEFQ": {
+    claim:
+      "Yu Su distinguishes broad model intelligence from the specialised expertise needed to operate in a real organisation. Coding agents have an unusually favourable environment because code, tests and rewards are already symbolic and structured. Outside code, agents must learn each company's local constraints, tools and conventions, which is why apparently simple digital work can remain brittle (03:23, 03:42, 05:34, 05:55).",
+    implication:
+      "Assess an agent by the structure and feedback available in its operating environment, not by a general claim of intelligence. 1. Start with tasks that expose symbolic state, executable tests or clear success signals because the model can observe and correct its work more reliably (03:23, 03:42). 2. Expect performance to drop when a workflow depends on local practices, custom software configurations or tacit human judgement (05:34, 05:55). 3. Make expertise explicit through task context, tools, memory and verified feedback rather than relying on a general model to infer a company's local rules. 4. Measure token use and recovery behaviour in representative workflows because a successful demonstration can conceal a brittle or expensive execution path.",
+    whenToUse:
+      "1. A team wants to move a successful coding agent pattern into operations, finance or another less structured domain. 2. Leaders need a way to explain why an agent is strong on benchmark-style tasks but fragile in everyday work. 3. A product team is deciding which workflows have enough observable state and feedback to automate first.",
+    caveat:
+      "The talk advances a conceptual explanation rather than a controlled study across domains. Coding also contains hidden organisational constraints, and non-code work can be made more tractable with better tools and process design. Validate task fit with real examples before assuming that a domain is either inherently easy or unsuitable for agents.",
+    example: {
+      situation:
+        "An operations team wants an agent to update customer records across several customised internal systems.",
+      application:
+        "Expose the permitted system actions, encode local business rules, provide test cases and audit trails, then compare the agent's completion and recovery rate with a human baseline before expanding scope.",
+      observableOutcome:
+        "The team learns whether the workflow can be made observable and verifiable enough for reliable agent assistance.",
+    },
+    contentBasis: "transcript_backed",
+    timestampSeconds: 203,
+    reviewedAt: "2026-08-18T00:00:00+08:00",
+  },
+  "youtube-WiqDvX6isc4": {
+    claim:
+      "Jack Morris describes scaling compute on context as a way to give models depth in private, recent or long-tail knowledge that pre-training cannot supply. A broadly trained model can connect many public ideas, but it cannot know what happened after its cutoff, the rare skills absent from public data or a user's private history without an additional context-learning mechanism (01:28, 02:32, 03:03, 04:03).",
+    implication:
+      "Treat domain context as a distinct resource that needs its own learning and evaluation loop. 1. Separate broad pre-trained knowledge from current and organisation-specific knowledge so product teams do not promise a general model knows private facts it has never received (02:32, 03:48). 2. Identify long-tail skills where public examples are sparse, then decide whether retrieval, tool use, adaptation or human handoff is the most defensible response (03:03). 3. Keep private context governed and revocable because personal or company data cannot be handled as if it were public training data (04:03). 4. Describe this area as an early design space rather than a settled technique, because labels such as continual learning, neural memory and sleep-time compute refer to overlapping but not identical approaches (04:33, 04:57).",
+    whenToUse:
+      "1. A general assistant needs to reason over recent internal information or individual preferences. 2. A team is deciding whether a retrieval system is sufficient or whether the task needs an adapted model, memory or a specialised tool. 3. Product messaging risks implying that a model has learned private context when it is only reading it at request time.",
+    caveat:
+      "The talk provides a high-level framing, not a production comparison between retrieval, fine-tuning and memory systems. Context can be stale, incomplete or sensitive, while adaptation can introduce contamination and forgetting. Establish access controls, deletion semantics and task-level evaluations before using private context to drive consequential outputs.",
+    example: {
+      situation:
+        "A relationship-management assistant must answer questions about a customer's latest contract, preferred writing style and a niche technical implementation.",
+      application:
+        "Classify which facts require fresh retrieval, which skills need a specialist workflow and which decisions must stay with a human, then test the combined system on time-bounded, permissioned customer cases.",
+      observableOutcome:
+        "The assistant gains relevant depth without pretending that private and changing information is permanently embedded in the base model.",
+    },
+    contentBasis: "transcript_backed",
+    timestampSeconds: 98,
+    reviewedAt: "2026-08-18T00:00:00+08:00",
+  },
+  "youtube-R3-anFK1YM8": {
+    claim:
+      "Stefania Druga treats memory for long-running agents as a control loop for writing, managing and reading information, not as a vector database alone. Her research-agent harness keeps a core trace visible, tests different recall strategies and stores information across sessions so the agent is less likely to contradict itself, repeat work or drift from the original question (00:42, 03:44, 04:07, 04:21).",
+    implication:
+      "Design memory as an observable system whose retrieval choices can be compared against a known baseline. 1. Detect context rot through behaviours such as repeated work, contradictions and loss of the task goal instead of assuming a longer context window solves the problem (00:42, 00:59). 2. Keep durable memory outside the model so it can be inspected, updated and carried across sessions (03:59, 04:21). 3. Compare no-memory, similarity retrieval and decision-ledger strategies with the same model and task before attributing improvement to a particular memory design (04:29, 04:50, 05:18). 4. Use an oracle or ground-truth retrieval reference during evaluation to reveal whether a failure comes from poor recall or from the model's reasoning after recall (05:05).",
+    whenToUse:
+      "1. A research or workflow agent runs across many steps and begins to lose earlier decisions. 2. A team is adding memory and needs to know whether vector retrieval actually improves the work. 3. Local execution, routing, caching and context hygiene matter for cost or data-residency reasons.",
+    caveat:
+      "The harness is an experimental research setup and its local-model observations do not guarantee that the same components will work for another task or model. A decision ledger can also preserve a bad early choice. Test memory quality, stale information and correction flows alongside answer quality and cost.",
+    example: {
+      situation:
+        "A literature-review agent reads papers over several sessions and later cites a major claim that has been retracted.",
+      application:
+        "Store a durable decision record, retrieve it alongside relevant evidence, compare this design with vector retrieval and use a labelled reference set to check whether the retraction is recalled at the right step.",
+      observableOutcome:
+        "The team can tell whether the agent failed to retrieve the important correction or failed to reason correctly after seeing it.",
+    },
+    contentBasis: "transcript_backed",
+    timestampSeconds: 224,
+    reviewedAt: "2026-08-18T00:00:00+08:00",
+  },
+  "youtube-zL1kLftVTlo": {
+    claim:
+      "Ronak Malde argues that production inference generates a valuable but underused learning signal: traces reveal where agents succeed, fail and encounter real task distributions. He contrasts that signal with increasingly costly benchmarks that may no longer resemble deployment, while warning that continual learning still needs algorithms, rewards and infrastructure that cope with noisy, on-policy reality (01:05, 01:48, 02:54, 03:28).",
+    implication:
+      "Use deployment traces as a measured training input instead of treating benchmark progress as the only evidence of capability. 1. Compare the benchmark task distribution with the tasks users actually give the agent before using a score as a deployment proxy (01:29, 02:54). 2. Capture production traces with enough context to identify both good and bad behaviour, then review the signal before turning it into training data (01:48, 01:56). 3. Preserve the difference between on-policy behaviour and a synthetic rollout, because an environment that is not faithful to production can add systematic bias (03:03, 03:12). 4. Avoid collapsing all feedback into one coarse reward when a workflow contains multiple steps, constraints and local trade-offs (03:28).",
+    whenToUse:
+      "1. A model team is spending heavily on benchmark environments but has little evidence that they resemble production. 2. An agent produces high-volume traces that could inform post-deployment improvement. 3. Engineers need to decide whether a continual-learning pipeline can preserve the real task and reward structure.",
+    caveat:
+      "The talk is a founder's argument for a particular direction in continual learning. Production traces can contain private data, user mistakes and feedback loops that amplify a model's existing behaviour. Set data permissions, sample reviews, held-out evaluations and rollback criteria before using them for training.",
+    example: {
+      situation:
+        "A coding assistant receives thousands of internal requests but its public benchmark gains do not predict whether developers accept its patches.",
+      application:
+        "Collect permissioned task traces and outcomes, compare them with the benchmark distribution, label representative failures and evaluate any learning change against a fixed production-like holdout.",
+      observableOutcome:
+        "The team can use real work as feedback without mistaking unreviewed production activity for a reliable reward signal.",
+    },
+    contentBasis: "transcript_backed",
+    timestampSeconds: 105,
+    reviewedAt: "2026-08-18T00:00:00+08:00",
+  },
+  "youtube-iqloyWCGYQQ": {
+    claim:
+      "Parth Asawa argues that standard model leaderboards measure independent task performance, which makes them poorly suited to measuring whether a system learns over time. He defines continual learning as sample-efficient online learning that remains stable over long horizons, requiring a model both to retain prior knowledge and to update when new information arrives (00:43, 01:17, 01:53, 02:27).",
+    implication:
+      "Evaluate learning as a trajectory across experience, not as a sequence of isolated scores. 1. Add repeated or sequential tasks when the product claim is that an agent learns from prior work, because independent evaluations deliberately reset its memory (00:43, 01:17). 2. Track both improvement on new data and retention of earlier capabilities so a gain does not hide catastrophic forgetting (01:53, 02:01). 3. Make the mechanism being tested explicit: in-context information, an external memory store and online parameter updates produce different forms of adaptation (02:36, 03:08). 4. Treat sample efficiency as a first-order requirement because a system that needs enormous new data to improve is not useful continual learning in most deployments (01:53).",
+    whenToUse:
+      "1. A product or research team claims that an agent becomes better through repeated use. 2. A benchmark suite reports point-in-time capability but not retention, adaptation or data efficiency. 3. Engineers are comparing memory, context and parameter-update approaches under a single term such as continual learning.",
+    caveat:
+      "This is a measurement framework, not proof that any adaptation method delivers stable learning in production. Sequential tests can still fail to represent a real task stream, and improvements may reflect leakage or memorisation. Use time-ordered data, strict separation of evaluation cases and regression checks across both old and new tasks.",
+    example: {
+      situation:
+        "A customer-support agent is updated weekly and the team wants to know whether it learns new policies without losing earlier support knowledge.",
+      application:
+        "Run a time-ordered evaluation that measures improvement on the new policy cases, retention on prior cases and the quantity of reviewed examples needed for each update.",
+      observableOutcome:
+        "The team can distinguish genuine adaptation from a one-off score increase or regression hidden by an aggregate leaderboard.",
+    },
+    contentBasis: "transcript_backed",
+    timestampSeconds: 113,
+    reviewedAt: "2026-08-18T00:00:00+08:00",
+  },
+  "youtube-K0X9QDRkIdg": {
+    claim:
+      "Anthropic's Applied AI team describes agent development as an evolution from text-in, text-out APIs to full outcome ownership. As task complexity rises, a product must manage the loop that calls the model, runs tools and maintains context, along with practical concerns such as session state, isolation, credentials and observability. Managed agent infrastructure can reduce that repeated work, but it does not remove product responsibility for the task and context (02:26, 02:45, 03:09, 05:30).",
+    implication:
+      "Choose an agent surface based on the operational work the product is ready to own. 1. Use a simple model API for contained generation tasks where the application can supply context and validate the output directly (02:26). 2. Treat a hand-built agent loop as a real subsystem with tools, context management and failure modes, not as a prompt wrapped in a loop (02:45, 03:01). 3. Design hosting, session persistence, file access, execution isolation, credentials and observability before expanding an agent into sensitive or long-running work (04:31, 05:14). 4. When adopting a managed harness, retain ownership of the task definition and proprietary context rather than assuming the infrastructure layer determines product quality (05:30, 05:37).",
+    whenToUse:
+      "1. A team is deciding whether to call a model directly, embed an agent SDK or use a managed agent service. 2. A prototype works in a demo but lacks a plan for sessions, sandboxing or credential handling. 3. Leaders need a clear explanation of why production agents require more than a capable model.",
+    caveat:
+      "The presentation represents one provider's product architecture and does not replace a threat model or service design. Managed infrastructure can reduce operational effort while introducing provider dependence, cost and shared-responsibility gaps. Validate the current service contract, security controls and recovery behaviour for the intended workflow.",
+    example: {
+      situation:
+        "A document-analysis product wants its agent to search files, run code and prepare a recommendation for an analyst.",
+      application:
+        "Define the tool permissions and session lifecycle, isolate execution, keep credentials behind a broker, record traces and choose the lightest agent surface that can meet those requirements.",
+      observableOutcome:
+        "The product can expand beyond a chat demo while preserving a clear ownership boundary for sensitive actions.",
+    },
+    contentBasis: "transcript_backed",
+    timestampSeconds: 146,
+    reviewedAt: "2026-08-18T00:00:00+08:00",
+  },
+  "youtube-aeTb5BdmTTc": {
+    claim:
+      "Aditya Khandelwal argues that advice for a single developer using an agent often fails when a whole team shares a production codebase. Mandating usage or maximising token consumption can produce expensive, low-confidence work. Sustainable adoption instead depends on a codebase and workflow where people can delegate meaningful work without babysitting the agent or burning context on avoidable confusion (00:24, 01:20, 03:14, 04:22).",
+    implication:
+      "Treat team adoption as a codebase and operating-model problem rather than a tool-usage target. 1. Do not use token volume as a proxy for engineering value because a team can consume more capacity while shipping less reliable work (01:20, 01:47). 2. Watch for agents that require constant supervision, unusually long sessions or unexplained context consumption, because these are symptoms of an unclear harness or repository setup (04:22, 04:50, 05:05). 3. Give agents stable project instructions, relevant skills and bounded tasks, then iterate on the shared environment instead of relying on each developer's personal prompt craft. 4. Pair adoption with quality signals so teams can recognise and correct low-value generated changes before confidence collapses (03:14, 03:30).",
+    whenToUse:
+      "1. An engineering organisation is moving from individual agent experiments to team-wide use. 2. Leaders are considering mandatory usage targets or measuring success through tokens. 3. Developers report that agents are expensive, unpredictable or need frequent rescue despite simple tasks.",
+    caveat:
+      "The talk is a practitioner account of one team's approach, not proof that any particular project-instruction file or skill setup will work everywhere. Higher agent autonomy can create new review and security risks. Keep normal code review, tests, repository access boundaries and cost monitoring in place while improving the shared harness.",
+    example: {
+      situation:
+        "A ten-person product team has adopted coding agents, but every engineer maintains separate instructions and spends time correcting the same mistakes.",
+      application:
+        "Create shared repository guidance and scoped task patterns, measure intervention frequency and context use, then use failed runs to improve the common setup rather than asking individuals to consume more tokens.",
+      observableOutcome:
+        "The team can reduce repeated agent confusion and judge adoption by reliable delivered work rather than visible activity.",
+    },
+    contentBasis: "transcript_backed",
+    timestampSeconds: 24,
+    reviewedAt: "2026-08-18T00:00:00+08:00",
+  },
+  "youtube-maRzp4kImJ4": {
+    claim:
+      "Nan Jiang explains why reinforcement-learning post-training does not need to force every component into one tightly coupled GPU cluster. The trainer's backpropagation and collective communication need fast local fabric, while rollout workers mainly need a policy version, tools or environments, and a way to return trajectories. Separating those roles can let teams use distributed capacity without moving the most communication-sensitive work (01:19, 02:33, 03:22, 03:52).",
+    implication:
+      "Partition a training system by communication pattern before deciding what may run across regions or providers. 1. Keep the trainer and its collectives on tightly connected infrastructure because model-parallel updates depend on low-latency communication (01:34, 03:22). 2. Treat rollout generation as a serving fleet when it can operate with lighter coordination and return trajectories plus metadata to the trainer (03:37, 03:44). 3. Use a simple cross-site contract such as policy version out and trajectories in, so remote rollout islands do not require global all-reduce operations (04:20, 04:52). 4. Avoid repeatedly shipping full checkpoints when synchronisation cost dominates the available distributed capacity (05:01, 05:27).",
+    whenToUse:
+      "1. A reinforcement-learning or post-training run is constrained by scarce large GPU clusters while smaller distributed capacity is available. 2. Infrastructure teams need to distinguish the work that requires high-speed fabric from the work that can be elastically placed. 3. A platform is evaluating cross-region rollout workers or several compute providers.",
+    caveat:
+      "The talk describes an architectural direction for a particular RL workload. Network cost, checkpoint size, policy staleness, failure recovery and data-governance rules can overturn the expected benefit. Benchmark throughput, training quality and recovery behaviour under realistic cross-site failures before moving production rollouts.",
+    example: {
+      situation:
+        "A post-training team can reserve one fast GPU cluster for the trainer but cannot obtain enough nodes there to scale its rollout generation.",
+      application:
+        "Keep backpropagation and collectives in the reserved cluster, run versioned rollout islands near available capacity, return trajectories with metadata and test how update delays affect learning quality.",
+      observableOutcome:
+        "The team can use more available compute while preserving the communication pattern that the trainer actually requires.",
+    },
+    contentBasis: "transcript_backed",
+    timestampSeconds: 79,
+    reviewedAt: "2026-08-18T00:00:00+08:00",
+  },
+  "youtube-LZuWZRze3MU": {
+    claim:
+      "Kwindla Kramer describes the shift from standalone agents toward AI-native software built around a harness of models, data and tools. In this view, an agent is not merely a chat interaction: useful products progressively expose tools, supply rich context and coordinate several specialised components so the system can act inside a real workflow (02:21, 02:44, 03:02, 03:10).",
+    implication:
+      "Build the surrounding software deliberately because the harness determines what a capable model can reliably do. 1. Define the model, data and tool boundaries together so the agent has the context and actions needed for the task without receiving unrestricted access (02:44). 2. Use progressive tool disclosure to control context cost and reduce the chance that an agent selects an irrelevant capability (03:02, 03:10). 3. Design agents as one component of a broader application with durable state, interaction design and operational controls rather than as a replacement for product architecture. 4. Start with the workflow users already understand, then add autonomous behaviour only where the feedback and recovery path are clear.",
+    whenToUse:
+      "1. A team has a working agent demo but needs to turn it into a coherent product experience. 2. A voice, multimodal or workflow agent needs several models and tools without exposing all of them on every request. 3. Leaders are defining what AI-native software means beyond putting a chat box into an existing application.",
+    caveat:
+      "The talk is a future-facing product thesis. More tools and models can increase capability while also increasing latency, cost and failure modes. Validate that each component adds measurable value, keep permission boundaries explicit and test the complete user journey instead of only the agent's final text.",
+    example: {
+      situation:
+        "A real-time support application wants an assistant that can listen to a call, search policy documents and prepare a follow-up task.",
+      application:
+        "Use a bounded orchestration layer that selects the appropriate speech, retrieval and task tools only when needed, keeps customer context permissioned and shows the user the proposed action before it is committed.",
+      observableOutcome:
+        "The product becomes more capable without turning every request into an uncontrolled multi-tool workflow.",
+    },
+    contentBasis: "transcript_backed",
+    timestampSeconds: 141,
+    reviewedAt: "2026-08-18T00:00:00+08:00",
+  },
+  "youtube-CoEIs6Xm8m8": {
+    claim:
+      "Saoud Rizwan argues that AI-assisted contribution can weaken the trust and review capacity that open-source projects depend on. Open source helped early coding agents earn trust because developers could inspect the code and choose their model provider, but high-volume generated issues, pull requests and security reports now force maintainers to spend more time filtering noise and defending the supply chain (00:57, 01:48, 02:04, 04:01).",
+    implication:
+      "Treat open-source participation as a trust and maintainer-capacity problem, not only a code-generation opportunity. 1. Preserve inspectability and provider choice when an AI tool asks developers to spend money or grant code access, because transparency can be a prerequisite for adoption (00:57, 01:04). 2. Do not submit generated reports or pull requests without responsible human review, since volume can overwhelm maintainers and crowd out genuine contributors (01:48, 02:04). 3. Strengthen package and publishing controls because AI tooling increases the blast radius of a compromised dependency or credential (04:01, 04:30). 4. Design contribution policies around the community's goal, which may be trusted contributor development rather than maximum patch throughput (02:37, 02:46).",
+    whenToUse:
+      "1. A team is building or deploying an AI coding agent that interacts with public repositories. 2. An open-source project is deciding how to handle AI-generated issues, reports or pull requests. 3. Security owners need to explain why automated contribution volume can become a supply-chain and community risk.",
+    caveat:
+      "This is an impassioned founder perspective and its examples do not establish that all AI assistance is harmful to open source. Well-governed tools can help maintainers and contributors. Apply project-specific contribution policies, provenance checks and security controls rather than adopting a blanket conclusion from any one community's experience.",
+    example: {
+      situation:
+        "A developer-tool company wants its coding assistant to file fixes upstream automatically whenever it detects a dependency problem.",
+      application:
+        "Require a human to verify the issue and patch, disclose AI assistance, respect each repository's policy and run dependency provenance and credential checks before any contribution is submitted.",
+      observableOutcome:
+        "The tool can support open-source maintenance without creating unreviewed noise or bypassing the trust model that projects rely on.",
+    },
+    contentBasis: "transcript_backed",
+    timestampSeconds: 57,
+    reviewedAt: "2026-08-18T00:00:00+08:00",
+  },
+  "youtube-FWMJQDH3iK0": {
+    claim:
+      "This panel frames local models as a control, cost and ownership choice that spans models, training infrastructure and deployment hardware. The speakers argue that organisations may need domain-specific models they can inspect or customise, while recognising that local and open-model strategies introduce real trade-offs in capability, operating cost and provenance (00:28, 01:22, 02:25, 03:29).",
+    implication:
+      "Choose local or open models for a concrete operational reason rather than as an ideological default. 1. Define whether the benefit is data control, offline operation, predictable cost, customisation or supply-chain independence before comparing model options (00:28). 2. Separate openness of weights from the ability to reproduce or govern the full training stack, because enterprises may need evidence about data, recipes and infrastructure as well as the model file (01:22, 01:29). 3. Evaluate domain-specific ownership against the cost and skill required to train, adapt and operate the model (02:25, 02:49). 4. Include origin, licensing and geopolitical constraints in the procurement decision instead of treating model quality as the only criterion (03:20, 03:29).",
+    whenToUse:
+      "1. An organisation is deciding whether to use a hosted frontier model, a local model or a customised open-weight model. 2. Product requirements include data residency, disconnected operation or deep domain adaptation. 3. Leaders need a structured explanation of why model provenance matters beyond benchmark score.",
+    caveat:
+      "This is a panel of organisations invested in open-model infrastructure. Local deployment can increase operational burden and does not automatically deliver privacy, security or lower total cost. Benchmark the intended workload, validate the licence and maintain an update and incident-response process before claiming control benefits.",
+    example: {
+      situation:
+        "A regulated manufacturer wants an assistant to work on internal engineering documents in a facility with restricted connectivity.",
+      application:
+        "Define the data and availability requirements, compare local and hosted models on representative tasks, document the model's provenance and create a managed update process for the chosen local deployment.",
+      observableOutcome:
+        "The organisation can make a defensible deployment decision instead of assuming that local execution alone solves trust and cost concerns.",
+    },
+    contentBasis: "transcript_backed",
+    timestampSeconds: 28,
+    reviewedAt: "2026-08-18T00:00:00+08:00",
+  },
+  "youtube-J4_jCrTxMkk": {
+    claim:
+      "The edge-compression panel treats quantisation as a practical way to run larger models on smaller machines, but not as a free reduction in cost. Compression trades memory, latency and sometimes quality. The engineering task is to select precision and layer-level treatment that preserves enough task performance for the target device rather than assuming every weight can be reduced equally (01:26, 01:55, 03:12, 03:34).",
+    implication:
+      "Measure compression on the intended workload and hardware before declaring a model edge-ready. 1. Use quantisation when memory limits prevent the chosen model from running locally, then verify its actual task quality rather than relying on file size alone (01:34, 01:42). 2. Make the cost of compression explicit because gains in footprint can move the constraint to latency or quality (01:55, 02:02). 3. Allocate precision deliberately because some layers can be reduced more aggressively than others without the same quality loss (03:34, 03:43). 4. Treat local viability as a system outcome that also depends on device memory, runtime and request shape, not just a model's quantisation label.",
+    whenToUse:
+      "1. A team wants to run a capable model on a laptop, edge device or constrained on-premise server. 2. An application needs lower memory use or private local execution but cannot accept an unmeasured quality drop. 3. Engineers are comparing quantised variants and need a principled experiment rather than a generic compression claim.",
+    caveat:
+      "Panel examples and quoted compression figures are model-specific and may not transfer to a different architecture, runtime or task. Quality loss can appear in long-context, multilingual or tool-use behaviour that a simple benchmark misses. Test accuracy, latency, energy use and failure modes on realistic inputs before deploying a compressed variant.",
+    example: {
+      situation:
+        "A field-service application needs an offline assistant on technicians' laptops but the preferred model does not fit in available memory.",
+      application:
+        "Evaluate several quantisation levels on the laptop hardware, retain higher precision for sensitive layers when supported and compare repair-task accuracy, latency and memory use against the original model.",
+      observableOutcome:
+        "The application can choose the smallest variant that still meets the service workflow's quality threshold.",
+    },
+    contentBasis: "transcript_backed",
+    timestampSeconds: 86,
+    reviewedAt: "2026-08-18T00:00:00+08:00",
+  },
+  "youtube-QHBjufYK8TA": {
+    claim:
+      "The model-routing panel presents production AI as a multi-model allocation problem. Teams want frontier capability for difficult tasks but cannot use the most expensive model everywhere. A router needs empirical knowledge of model quality, cost and behaviour so it can select a suitable model for a task rather than relying on a single default (01:19, 02:21, 02:36, 02:59).",
+    implication:
+      "Build routing around measured task value and safe fallbacks, not a static list of model tiers. 1. Identify the tasks that truly require a high-cost model and the tasks where a smaller or local model meets the acceptance threshold (01:19, 01:27). 2. Collect evaluation data that covers quality, efficiency and cost so routing decisions reflect the behaviour of each model on the actual workload (02:21, 02:44). 3. Treat routing as an evolving system because the available models and their performance change faster than a fixed policy can remain accurate (02:59, 03:07). 4. Keep route selection observable so engineers can audit why a request used a particular provider, model and cost band.",
+    whenToUse:
+      "1. An application has varied requests and one frontier model makes the cost or latency unacceptable. 2. A product can use local, open and hosted models but needs a defensible way to allocate work. 3. Engineering leaders want to connect AI spend to the quality improvement users actually receive.",
+    caveat:
+      "The panel treats routing as an emerging practice and does not establish a universal algorithm. A cheaper route can create hidden support cost or safety risk, while routing itself adds observability and evaluation work. Run controlled comparisons, establish fallbacks and avoid using sensitive prompt contents as ungoverned routing features.",
+    example: {
+      situation:
+        "A software assistant handles simple repository questions, medium-complexity change requests and rare security-sensitive investigations.",
+      application:
+        "Create task-level evaluation bands, send routine work to a lower-cost model, reserve the strongest verified route for difficult cases and log the route, result and user correction for future analysis.",
+      observableOutcome:
+        "The team can control spend while making routing quality visible and improvable.",
+    },
+    contentBasis: "transcript_backed",
+    timestampSeconds: 79,
+    reviewedAt: "2026-08-18T00:00:00+08:00",
+  },
+  "youtube-RmS5s6Wbin4": {
+    claim:
+      "Kenton Varda argues that personal AI-generated features challenge the usual cloud model, where one team centrally ships a shared product. If users can generate features for their own instance, the platform must isolate custom behaviour, constrain permissions and preserve a maintainable core rather than letting unreviewed code modify shared infrastructure (00:38, 02:10, 02:35, 03:36).",
+    implication:
+      "Make user-specific generated code a bounded extension of the product, not a change to common production state. 1. Separate the stable core from user-specific features so one person's customisation does not add complexity or risk for everyone else (02:10, 02:35). 2. Give generated features a constrained runtime and permissions boundary before allowing them to access user data or external services. 3. Treat custom code as an operational workload with storage, versioning, rollback and support requirements rather than a one-off chat output. 4. Preserve a reviewable explanation of what the generated feature does when it changes important behaviour.",
+    whenToUse:
+      "1. A product wants users to create personalised workflows or features with an agent. 2. Platform engineers are deciding whether generated extensions can run in the shared application environment. 3. A team is considering an AI alternative to a long plugin-system rewrite.",
+    caveat:
+      "The talk presents an architectural vision and does not prove that user-generated code is safe by default. Customisations can still create data leakage, runaway cost and maintenance obligations. Use sandboxing, quotas, approval paths and clear support boundaries before exposing generated extensions to real users.",
+    example: {
+      situation:
+        "A scheduling application wants each customer to create a custom report and notification rule without waiting for the vendor's roadmap.",
+      application:
+        "Generate the feature into the customer's isolated namespace, restrict it to an approved data API, enforce runtime and spend limits and let the customer inspect or revert the saved version.",
+      observableOutcome:
+        "Customers receive useful personalisation while the shared product remains stable and supportable.",
+    },
+    contentBasis: "transcript_backed",
+    timestampSeconds: 38,
+    reviewedAt: "2026-08-18T00:00:00+08:00",
+  },
+  "youtube-2aS7aKoXn64": {
+    claim:
+      "Rayan Garg argues that long-horizon agent work should be measured as a relative and moving property, not a fixed label. Human-time thresholds can be useful, but token count, tool calls and step count vary by model and harness. A credible environment therefore needs a clear success threshold, controlled variables and a definition that stays meaningful as agent capability changes (01:13, 01:30, 02:02, 02:38).",
+    implication:
+      "Design long-horizon evaluations around the work and outcome, not the raw amount of agent activity. 1. Describe horizon as a scale of task difficulty or duration rather than a binary category that will quickly become outdated (01:22, 01:38). 2. Use human effort as one reference point only when the task definition and success threshold are rigorous enough to make the comparison meaningful (01:54, 02:11). 3. Do not use token count or tool calls as direct measures of task complexity because model choice and harness design can change them substantially (02:38, 02:56). 4. Hold key variables constant when comparing environments so a result is not driven by a different agent loop or tool configuration (03:02).",
+    whenToUse:
+      "1. A team is creating an environment to evaluate a long-running agent. 2. Stakeholders quote autonomy-duration metrics without explaining the success threshold or task definition. 3. Engineers need to compare agents that use different models, contexts or tool harnesses.",
+    caveat:
+      "The talk focuses on the conceptual measurement problem. Human-time estimates, even when carefully gathered, can vary by person and task familiarity. Supplement horizon metrics with task success, cost, safety and recovery evidence before using them in product decisions.",
+    example: {
+      situation:
+        "A company wants to compare two agents on software maintenance tasks that range from a small bug fix to a multi-system migration.",
+      application:
+        "Define success criteria for each task, record the human-effort reference, standardise the tools and permission set, then report completion, recovery and cost alongside any autonomy-horizon figure.",
+      observableOutcome:
+        "The comparison shows what each agent achieved instead of rewarding the one that merely used more tokens or steps.",
+    },
+    contentBasis: "transcript_backed",
+    timestampSeconds: 73,
+    reviewedAt: "2026-08-18T00:00:00+08:00",
+  },
+  "youtube-cJ0EOzey--o": {
+    claim:
+      "Diogo Almeida argues that the question after RLHF is broader than the next coding-agent product. He frames the current debate between rapid capability progress and disappointing product value as a sign that benchmark gains and chat interfaces do not by themselves explain whether systems are learning, autonomous or useful in real work (00:40, 01:41, 02:30, 03:23).",
+    implication:
+      "Separate model-training progress from product-value claims and test each at the level where it matters. 1. Do not treat a new interface such as a coding agent as proof of a new learning paradigm when it may rely on the same underlying post-training assumptions (00:40, 00:47). 2. Interpret benchmark and autonomy claims alongside the task, environment and user outcome that produced them instead of accepting an aggregate trend as deployment evidence (02:05, 02:30). 3. Make room for mixed evidence: systems can improve rapidly on measurable tasks while still failing to create dependable value in many workflows (02:37, 03:08). 4. Define the next research or product bet in terms of the limitation it addresses rather than the label attached to the current model era.",
+    whenToUse:
+      "1. A leadership team is deciding whether a model trend justifies a product or infrastructure investment. 2. Analysts are treating benchmark growth, coding-agent adoption and general autonomy as interchangeable signals. 3. A model team is revisiting what post-training should optimise for beyond chatbot preference.",
+    caveat:
+      "The presentation is deliberately provocative and reflects one researcher's interpretation of the field. It does not supply a single alternative to RLHF or a controlled evaluation of every competing view. Use it to sharpen hypotheses, then validate them with task-specific data and independent technical evidence.",
+    example: {
+      situation:
+        "A product group sees strong benchmark headlines and wants to replace a regulated workflow with a general-purpose agent.",
+      application:
+        "Identify the real user outcome, build representative tasks and safeguards, compare the agent with the existing process and treat the result as evidence about that workflow rather than a verdict on AI progress overall.",
+      observableOutcome:
+        "The group can invest in useful capability without confusing public excitement with proven operational value.",
+    },
+    contentBasis: "transcript_backed",
+    timestampSeconds: 40,
+    reviewedAt: "2026-08-18T00:00:00+08:00",
+  },
+  "youtube-_PdK6x7PQNM": {
+    claim:
+      "Ari Morcos argues that data quality is a compute multiplier: better examples can steepen the learning curve, allowing a model to reach the same performance with less compute or to gain more from a fixed budget. The practical aim is to maximise the useful information each token and batch contributes, especially as inference and training capacity become costly constraints (01:59, 02:07, 02:32, 02:56).",
+    implication:
+      "Treat data work as a first-class efficiency investment rather than a cleanup task after compute is allocated. 1. Compare data interventions by the improvement they produce at a fixed compute budget, not only by dataset size (02:07, 02:32). 2. Look for marginal information gain per example or batch instead of assuming more tokens are automatically better training signal (02:56, 03:04). 3. Use the same evaluation harness to judge data quality and model changes so a data gain is not confused with a changed benchmark or serving configuration. 4. Reserve expensive computation for data that addresses a demonstrated failure mode rather than indiscriminately increasing training or reasoning tokens.",
+    whenToUse:
+      "1. A model programme is compute-constrained and needs to decide whether to buy more capacity or improve its data. 2. Teams are collecting large volumes of synthetic or production data without a clear measure of usefulness. 3. Leaders need to connect data curation spending to a measurable training or serving outcome.",
+    caveat:
+      "The compute-multiplier framing is directionally useful but not a universal ratio. Data quality depends on the task, model, training procedure and evaluation, while aggressive filtering can reduce coverage or introduce bias. Use reproducible ablations and retain representative holdouts before discarding or prioritising large portions of a corpus.",
+    example: { situation:"A domain model is expensive to improve and its team has a large pool of candidate support conversations.", application:"Label recurring failures, construct comparable curated and uncurated training slices, train under the same budget and evaluate both on held-out customer cases.", observableOutcome:"The team can decide whether curation delivers more useful improvement than another increment of compute." },
+    contentBasis: "transcript_backed", timestampSeconds: 127, reviewedAt: "2026-08-18T00:00:00+08:00",
+  },
+  "youtube-k35LeKZEhiE": {
+    claim:
+      "Raymond Feng frames post-training as learning from work after a model has been deployed, rather than treating a released checkpoint as fixed. The approach depends on capturing task traces, identifying reliable feedback and deciding which experience should change the system, so that learning on the job improves a target workflow without blindly absorbing every interaction.",
+    implication:
+      "Build a governed feedback loop before claiming that a product learns from use. 1. Capture traces with the task context, outcome and permissions needed to understand what the model actually did. 2. Separate trusted feedback from noisy user activity before it becomes a training or optimisation signal. 3. Evaluate updates on held-out work and monitor prior capabilities so new learning does not create hidden regressions. 4. Keep a rollback path and a clear decision record for each promoted change.",
+    whenToUse:
+      "1. A deployed agent encounters recurring task patterns that the base model handles poorly. 2. A team wants to turn real work into post-training evidence. 3. Product owners need to distinguish useful learning from unsupervised data accumulation.",
+    caveat:
+      "Post-deployment learning can amplify bias, policy mistakes and self-generated errors if feedback is not validated. The talk's framing does not remove privacy, consent or model-governance obligations. Start with a bounded workflow and auditable review before using live traces to alter behaviour.",
+    example: { situation:"A claims assistant repeatedly misclassifies a small class of exception cases.", application:"Review the affected traces with experts, create a permissioned training and evaluation slice, test the update against both exception and ordinary claims, then promote only with rollback monitoring.", observableOutcome:"The assistant can improve a real failure pattern without treating all production traffic as correct supervision." },
+    contentBasis: "transcript_backed", timestampSeconds: 20, reviewedAt: "2026-08-18T00:00:00+08:00",
+  },
+  "youtube-ewtOo0scUh0": {
+    claim:
+      "Mahesh Sathiamoorthy emphasises that post-training quality depends on both the data and the environment in which an LLM acts. Strong examples are not enough when the model must use tools, receive feedback and work through a realistic task state. Curation therefore includes selecting the problems, actions, observations and verifiers that make learning signals meaningful.",
+    implication:
+      "Treat an agent environment as part of the training dataset and evaluation contract. 1. Curate tasks that resemble the workflow the model will face, including the relevant tools and intermediate state. 2. Use verifiers or reviewed outcomes that reward the real objective rather than superficial text patterns. 3. Inspect failure trajectories to discover whether the weak link is data, environment design, tools or reward. 4. Version environments with data and evaluation results so a training improvement remains reproducible.",
+    whenToUse:
+      "1. A team is preparing an LLM for tool use or multi-step work. 2. Synthetic data produces good offline results but agents fail in the deployed environment. 3. Researchers need to improve a post-training loop without confusing environment drift with model improvement.",
+    caveat:
+      "The right environment is task-specific and expensive to build. A highly curated sandbox can overstate readiness if it misses production ambiguity, permissions or failure modes. Test against representative workflows and update the environment from reviewed real-world failures.",
+    example: { situation:"A coding agent solves isolated exercises but fails when it must modify a real repository and run its test suite.", application:"Create a versioned environment with the repository, allowed tools and deterministic tests, curate tasks from actual failure categories and evaluate the agent's whole trajectory.", observableOutcome:"Post-training feedback rewards useful repository work instead of only plausible-looking code." },
+    contentBasis: "transcript_backed", timestampSeconds: 45, reviewedAt: "2026-08-18T00:00:00+08:00",
+  },
+  "youtube-2bvtay8wGYI": {
+    claim:
+      "Ross Taylor argues that long-horizon agents need algorithms, environments and compute to advance together. He uses the difference between a raw base-model demo and an RLHF-trained product to show that model capability alone is not enough: post-training and environment design turn latent ability into behaviour users can rely on (00:27, 02:28, 02:42, 02:50).",
+    implication:
+      "Treat long-horizon progress as an end-to-end systems problem. 1. Evaluate a base model and its post-training stack separately because a capable pre-trained model may still be unsafe, unhelpful or unreliable in product use (02:28, 02:50). 2. Scale the task environment with the intended horizon so agents learn from realistic state, tools and feedback rather than isolated prompts. 3. Balance algorithm choice, environment fidelity and available compute when diagnosing a failed long-horizon run. 4. Keep a focused team and a narrow measurable target when experimenting, because long-horizon research has many moving parts and unclear success criteria.",
+    whenToUse:
+      "1. A team is planning agent work beyond single-turn assistance. 2. Leaders want to explain why model scale does not automatically produce a useful product. 3. Researchers are choosing whether their next investment is in post-training, environment design or infrastructure.",
+    caveat:
+      "The talk is a strategic framing from a reinforcement-learning company. Long-horizon benchmarks can overstate practical autonomy when the environment is too clean or the evaluator is weak. Validate with real workflow failures, human oversight and recovery metrics before expanding an agent's authority.",
+    example: { situation:"A technical-support agent can answer FAQs but fails when a case requires several tool calls and a policy exception.", application:"Build a representative environment with the necessary tools and verifiers, train or prompt against the full trajectory and compare the base model with the post-trained system on recovery and final resolution.", observableOutcome:"The team can locate whether the limiting factor is model behaviour, missing feedback or an unrealistic environment." },
+    contentBasis: "transcript_backed", timestampSeconds: 27, reviewedAt: "2026-08-18T00:00:00+08:00",
+  },
+  "youtube-zkX03APVj0M": {
+    claim:
+      "Joseph Wang argues that agents will need richer data and environments to do useful work over long horizons, particularly in mission-critical infrastructure. His example is a simulated company or multi-node sandbox where agents can practise reasoning about distributed systems and their long-term consequences instead of only manipulating application-layer code (00:35, 00:52, 01:41, 02:26).",
+    implication:
+      "Use realistic, safely isolated environments to generate the feedback that complex agents are missing. 1. Define the operational capability gap precisely, such as database consistency or distributed-system recovery, instead of treating all software work as equivalent (01:41, 02:10). 2. Build sandboxed systems that preserve meaningful dependencies and failure modes when an agent must reason beyond a single file or service (00:52, 00:58). 3. Treat environment-derived data as a quality asset that needs curation, verification and versioning. 4. Keep high-consequence training and evaluation isolated from live infrastructure until the agent demonstrates reliable behaviour under simulated faults.",
+    whenToUse:
+      "1. An agent is strong at application coding but weak on distributed systems, operations or multi-service work. 2. A team is designing post-training data for complex infrastructure tasks. 3. Researchers need a safe way to test autonomy without giving models access to production systems.",
+    caveat:
+      "A simulated company can still omit the rare conditions that make real operations hard. Its results should not be read as permission to automate mission-critical changes. Include chaos cases, access controls, human approvals and comparison with production incident evidence before transferring a learned policy.",
+    example: { situation:"An operations agent must diagnose a database issue that interacts with service retries and a queue backlog.", application:"Run it in a reproducible multi-service sandbox with versioned faults, safe tools and verifiable recovery conditions, then analyse the trajectory before considering any live use.", observableOutcome:"The team gets training and evaluation data that reflects system interactions without risking customer infrastructure." },
+    contentBasis: "transcript_backed", timestampSeconds: 35, reviewedAt: "2026-08-18T00:00:00+08:00",
+  },
+  "youtube-xbPriQWXtWM": {
+    claim:
+      "Varun Singh argues that the traditional picture of a base model as a broad reflection of web knowledge is changing. As instruction data and later-stage training become more central, organisations should think less in terms of one finished base model and more in terms of a pipeline that combines general pre-training with targeted behaviour, skills and domain adaptation (00:24, 01:09, 02:31, 02:56).",
+    implication:
+      "Plan model strategy as a sequence of data and behaviour decisions rather than a choice of one foundation checkpoint. 1. Recognise what broad web pre-training can provide and what it cannot, especially current, private and domain-specific knowledge (01:09, 02:31). 2. Use post-training to shape how knowledge is surfaced and applied, not as proof that the model has acquired every needed fact (02:56, 03:03). 3. Keep training-data provenance and domain adaptation explicit because a general model's apparent competence can hide gaps in the underlying corpus. 4. Evaluate each stage against the intended user task so a change in base-model scale is not confused with an improvement in instruction following or tool use.",
+    whenToUse:
+      "1. A product team is choosing between a general base model, fine-tuning and a custom post-training programme. 2. Leaders need to explain why a newer or larger checkpoint may still need domain-specific adaptation. 3. Model developers are defining data provenance and evaluation requirements across the training pipeline.",
+    caveat:
+      "The title is intentionally provocative and the talk does not make general pre-training obsolete. Strong post-training cannot compensate for absent knowledge, poor data rights or a weak evaluation plan. Choose the smallest intervention that addresses the demonstrated task gap and verify it against a stable baseline.",
+    example: { situation:"A compliance assistant needs reliable behaviour on a narrow internal policy corpus.", application:"Start from a capable general model, use governed retrieval or targeted post-training for the policy workflow, preserve source provenance and compare performance against the unchanged model on held-out policy cases.", observableOutcome:"The team can show what the adaptation contributed instead of attributing all behaviour to the base model." },
+    contentBasis: "transcript_backed", timestampSeconds: 24, reviewedAt: "2026-08-18T00:00:00+08:00",
+  },
+  "youtube-3ZMUiFaQ3qg": {
+    claim:"Kenny Workman shows why biology agents need verifiable environments: experimental outputs are huge, specialised and consequential. A useful agent must work over structured scientific tasks with observable checks, not merely produce plausible explanations from papers or raw data (00:36, 01:34, 01:52).",
+    implication:"Build scientific-agent evaluations around real tasks and verifiers. 1. Decompose a research workflow into steps whose inputs, tools and success conditions can be inspected. 2. Keep data handling and analysis reproducible because experimental runs can exceed ordinary local storage and contain specialised context (01:34, 01:52). 3. Require evidence for a scientific action or claim rather than accepting fluent narrative. 4. Separate low-risk analysis assistance from decisions that require a domain expert.",
+    whenToUse:"1. A team is building an agent for biology, chemistry or another evidence-heavy scientific domain. 2. A benchmark needs to test workflow competence rather than literature recall. 3. Researchers must handle large experimental datasets safely.",
+    caveat:"A simulated environment cannot capture all laboratory and biological uncertainty. Verify any consequential result with accepted scientific controls, data governance and expert review.",
+    example:{situation:"A research agent is asked to analyse a spatial-biology experiment and recommend the next step.",application:"Give it a versioned dataset, bounded analysis tools and checks for each intermediate result, then require a scientist to approve the recommended experiment.",observableOutcome:"The agent accelerates analysis without converting an unverified narrative into a scientific conclusion."},contentBasis:"transcript_backed",timestampSeconds:36,reviewedAt:"2026-08-18T00:00:00+08:00",
+  },
+  "youtube-lCBf9slCanI": {
+    claim:"Thais Castello Branco argues that subjective domains such as design, writing, personality and emotional intelligence need a different improvement loop from coding or mathematics. Ending low-quality AI output requires decomposing taste into observable judgements, then deciding whether the gap belongs in foundation-model training, an RL environment, post-training data or application context (00:26, 00:35, 01:08, 01:25).",
+    implication:"Choose the intervention that matches the source of the subjective-quality failure. 1. Define the user and context before declaring an output poor, because taste is not one universal label (00:26, 00:44). 2. Evaluate subjective work with representative human judgement and error categories rather than a generic benchmark alone (01:08). 3. Use an RL environment or post-training data only when the desired preference can be made observable and repeatable (01:16). 4. Prefer context and intent modelling when a quality difference belongs to the application or individual user rather than the base model (01:25, 01:33).",
+    whenToUse:"1. A creative or product application produces technically correct but unconvincing output. 2. Teams are deciding whether to fix a quality gap with model training, evaluation, context or UX. 3. Product leaders need to turn the vague label of AI slop into testable failure modes.",
+    caveat:"Subjective evaluation can reproduce reviewer bias and may not generalise across audiences. Use diverse reviewers, clear consent and regular calibration rather than treating a small taste panel as ground truth.",
+    example:{situation:"A writing assistant produces accurate drafts that users describe as generic and tone-deaf.",application:"Collect consented examples and reviewer rationales, identify whether failures come from intent capture or phrasing, then test contextual guidance before considering post-training.",observableOutcome:"The team can improve a specific quality dimension without assuming every style preference requires a new foundation model."},contentBasis:"transcript_backed",timestampSeconds:26,reviewedAt:"2026-08-18T00:00:00+08:00",
+  },
+  "youtube-jWq-aZIU0kM": {
+    claim:"Ali Khial argues that a benchmark is only useful if its tasks resemble the work it claims to measure. His engineers rejected an unnatural prompt that appeared in a benchmark, illustrating how a well-instrumented score can still be weak evidence when task construction and verifier assumptions are detached from real practice (01:12, 01:23, 01:31).",
+    implication:"Audit benchmark task realism before using a leaderboard to make product or model decisions. 1. Ask practitioners whether a task prompt, tool setup and success condition reflect the actual work they perform (01:12, 01:31). 2. Document graders and verifiers so a score can be interpreted rather than treated as a magic number. 3. Use a small number of representative real tasks alongside public benchmarks. 4. Analyse failed tasks individually, because an aggregate score can hide invalid prompts or a mismatch between the test and user workflow.",
+    whenToUse:"1. A team is selecting a public benchmark for a coding or agent product. 2. A high or low score conflicts with experienced practitioners' judgement. 3. Leaders need to decide whether a leaderboard result is enough to justify deployment.",
+    caveat:"Practitioner realism is necessary but not sufficient: real tasks can be inconsistent, sensitive or difficult to grade. Combine expert review with transparent verification and repeatable execution.",
+    example:{situation:"A coding assistant scores well on a benchmark but senior engineers say its task prompts do not resemble their repository work.",application:"Review the benchmark prompts with engineers, create a governed internal task set and compare both systems using disclosed tools and verifiers.",observableOutcome:"The team can tell whether the public score predicts useful engineering performance."},contentBasis:"transcript_backed",timestampSeconds:72,reviewedAt:"2026-08-18T00:00:00+08:00",
+  },
+  "youtube-AQv3qRCG6Gw": {
+    claim: "Will Brown explains why real-world reinforcement learning often lacks a fully verifiable reward. An agent can act in a messy environment and reviewers may only judge its outcome in hindsight, so the training problem becomes designing trustworthy feedback without pretending every desirable behaviour has a simple rule (00:21, 00:37, 00:45, 00:53).",
+    implication: "Use partial feedback carefully when the real objective cannot be encoded as one deterministic scorer. 1. Model the agent as a model plus harness operating in a task and world, because reward quality depends on both the action and the environment (01:23, 01:32). 2. Collect expert or outcome-based feedback after a run when a rule cannot be specified upfront. 3. Separate the evidence that a result was good from the mechanism that generated it, then test for reward hacking. 4. Keep human approval for consequential tasks whose quality remains subjective or ambiguous.",
+    whenToUse: "1. An agent operates in a domain where success is real but difficult to verify automatically. 2. A team is extending RL beyond code and mathematics. 3. Researchers need to turn retrospective judgement into a governed learning signal.",
+    caveat: "Non-verifiable rewards create scope for biased labels, leakage and optimisation of a proxy rather than the intended outcome. Use independent review, audit samples and strong safety boundaries before training against them.",
+    example: { situation: "A research agent proposes experiments where scientific value cannot be reduced to a single string match.", application: "Record the full trajectory, gather structured expert assessments, test the feedback model against withheld reviews and require approval before executing a recommendation.", observableOutcome: "The system can learn from judgement while keeping the uncertainty and human authority visible." },
+    contentBasis: "transcript_backed", timestampSeconds: 21, reviewedAt: "2026-08-18T00:00:00+08:00",
+  },
+  "youtube-AVMr9PMINyo": {
+    claim: "This discussion connects model development and deployment infrastructure: a model is not ready for broad use when training finishes. It must be packaged, optimised for GPU inference, released with a clear openness strategy and supported by the systems that let builders serve it at useful cost and latency (00:33, 00:40, 01:01, 01:29).",
+    implication: "Plan model release as a handoff between research, inference engineering and the developer ecosystem. 1. Include serving efficiency and hardware fit in release readiness, not only training metrics (00:33, 00:40). 2. Treat final RL or post-training and infrastructure optimisation as linked stages because changes to the model can alter serving behaviour (01:01, 01:09). 3. Decide what open weights or open source means for the release, including artefacts, documentation and support expectations (01:19, 01:29). 4. Measure cost, latency and reliability after the model enters real traffic.",
+    whenToUse: "1. A company is preparing to ship a large model to external developers. 2. Research and platform teams are handing over a new checkpoint. 3. Leaders need to understand why model availability depends on more than the training run.",
+    caveat: "The panel represents particular vendor perspectives and open release does not guarantee easy or safe deployment. Validate licences, capacity, security and operational ownership before committing to a distribution model.",
+    example: { situation: "A lab has completed RL training for a new model and wants customers to use it through an API.", application: "Run compatibility and throughput tests on target GPUs, document serving limits and weights, coordinate a monitored rollout and feed production incidents back to both model and platform teams.", observableOutcome: "Customers receive a model that is operable as well as capable." },
+    contentBasis: "transcript_backed", timestampSeconds: 33, reviewedAt: "2026-08-18T00:00:00+08:00",
+  },
+  "youtube-AMiyLItEtLA": {
+    claim: "Vaibhav Gupta argues that AI-assisted development needs stronger invariants, not less discipline. His provocative claim that the team does no conventional code review rests on building a programming language where correctness properties can be checked consistently, so generated or parallel changes are constrained by a system that makes unread code less dangerous (00:24, 00:46, 00:55, 01:28).",
+    implication: "Replace manual review only where deterministic guarantees genuinely cover the risk. 1. Identify the invariants that must hold for every change before increasing AI-generated code volume (00:46, 00:55). 2. Treat unread code as a risk signal and use tooling that makes essential behaviour verifiable (01:28). 3. Run parallel work only when merge, testing and ownership boundaries are explicit. 4. Keep human review for product judgement, security and any property the automated system cannot prove.",
+    whenToUse: "1. A team wants to reduce manual review load while adopting agents. 2. Engineering work has strong language, type or formal invariant support. 3. Leaders are considering whether an AI workflow can safely rely on automated checks.",
+    caveat: "The approach is specialised and does not justify dropping review in ordinary application code. Test suites and type systems can miss security, user-experience and integration failures. Keep risk-based review until coverage is demonstrated.",
+    example: { situation: "A compiler-tooling team uses agents to implement transformations governed by strict type and semantic rules.", application: "Encode the invariants in the compiler and test harness, require every generated change to satisfy them and route changes outside the proved boundary to human review.", observableOutcome: "The team gains speed where automated evidence is strong without claiming that all generated code is safe." },
+    contentBasis: "transcript_backed", timestampSeconds: 24, reviewedAt: "2026-08-18T00:00:00+08:00",
+  },
+  "youtube-pWXUkLP9uWM": { claim:"Richard Socher presents automated research as a long-term system goal inspired by open-ended evolution. The useful near-term lesson is not that an agent will replace science overnight but that research automation needs mechanisms for generating hypotheses, running tests and selecting results against evidence rather than confident language (00:25, 00:33, 00:41, 00:50).", implication:"Treat automated research as an experimental loop with falsifiable outputs. 1. Break discovery into hypothesis generation, experiment execution, measurement and selection instead of evaluating only a final written claim. 2. Use automated search to broaden candidate ideas while preserving verification by tools, data and experts. 3. Track provenance from each result back to the model, data and environment that produced it. 4. Keep high-stakes scientific decisions under review until results are reproducible.", whenToUse:"1. A research team is exploring agent support for discovery or experimentation. 2. Leaders need a concrete definition of what automated research must prove. 3. A system generates many hypotheses but lacks an evidence-selection loop.", caveat:"Evolution is a useful metaphor but scientific progress depends on experimental validity, safety and governance. Automated systems can generate large volumes of weak or unsafe candidates. Start in a bounded domain with strong measurements and human oversight.", example:{situation:"A materials group wants an agent to propose candidates for a new coating.",application:"Let it generate candidates, evaluate them in a constrained simulator or lab workflow, record measurements and promote only reproducible results for expert review.",observableOutcome:"The group can use automation to explore more hypotheses without treating a generated idea as a discovery."},contentBasis:"transcript_backed",timestampSeconds:25,reviewedAt:"2026-08-18T00:00:00+08:00" },
+  "youtube-z0sh8HyTrDo": { claim:"Ramana Siddanth Emani argues that a finance agent's bottleneck is often the developer harness that takes it from a polished demo to a customer pilot and then production. New customer data and real operational bugs expose gaps that the original demonstration never encountered, so productivity depends on finding and removing those harness bottlenecks (00:21, 00:58, 01:10, 01:25).", implication:"Instrument the path from demo to production and improve the harness where it blocks safe learning. 1. Test agents on future customer data and realistic workflow variation before assuming a pilot generalises (01:10, 01:25). 2. Identify the developer steps that repeatedly slow debugging, context assembly or evaluation, then improve those before adding more model capability (00:50, 00:58). 3. Treat production bugs as structured feedback rather than isolated incidents. 4. Preserve financial controls and approvals because a faster harness does not make a sensitive action safe.", whenToUse:"1. A finance or enterprise agent works in a demo but struggles during onboarding. 2. Developers spend disproportionate time debugging or correcting the agent. 3. A team is designing internal harnesses for a high-consequence workflow.", caveat:"The talk reflects an applied finance perspective and does not replace domain controls. Customer data may be sensitive and production feedback can be biased. Use permissioned datasets, audit trails and risk-based human approval.", example:{situation:"An invoice agent handles a curated pilot but fails when a new customer has unusual payment terms.",application:"Reproduce the failure in a governed harness, capture the missing context, add representative tests and require approval for any payment-impacting recommendation.",observableOutcome:"The team improves the agent's operational fit without learning directly from uncontrolled financial actions."},contentBasis:"transcript_backed",timestampSeconds:21,reviewedAt:"2026-08-18T00:00:00+08:00" },
+  "youtube-tJFjeMBKbIY": { claim:"Shawn Chan argues that finance AI should be built for the scrutiny of an investment or decision memo, not for a five-minute demo. A fluent chatbot can be confident, well-formatted and wrong, so a production system must help reviewers challenge claims, trace evidence and decide whether a recommendation survives the people accountable for the money (00:38, 00:50, 01:14, 01:38).", implication:"Design high-stakes AI around reviewability and evidence, not presentation quality. 1. Separate confidence from correctness and require sources, assumptions and uncertainty to be inspectable (01:07, 01:14). 2. Test the output with the skeptical reviewers who would own the decision, not only with friendly demo audiences (01:38, 01:45). 3. Make it easy to ask follow-up questions and trace a conclusion back to evidence. 4. Keep final decision authority with accountable humans when errors carry financial or legal consequences.", whenToUse:"1. An AI system produces recommendations for investments, finance or executive decisions. 2. Stakeholders are impressed by a polished demo but have not reviewed its evidence. 3. A team needs a better release gate for consequential assistant outputs.", caveat:"A transparent memo view helps review but does not validate the underlying data, model or assumptions. Combine it with independent source verification, conflict checks and appropriate approvals.", example:{situation:"An investment assistant recommends a large capital allocation based on market and internal data.",application:"Generate a decision memo with linked evidence, assumptions, uncertainty and counterarguments, then subject it to the same challenge process as a human-authored proposal.",observableOutcome:"The assistant supports decision quality rather than merely producing persuasive prose."},contentBasis:"transcript_backed",timestampSeconds:38,reviewedAt:"2026-08-18T00:00:00+08:00" },
   "youtube-jQDXzEVHMSE": {
     claim:
       "Simon Eskildsen explains how Turbopuffer made vector search economical by keeping durable data in object storage, then controlling the latency cost with clustered files, fewer remote round trips and a deliberately simple cache. The first production version was a single server behind Nginx, which let the team validate demand and pricing before building a more elaborate distributed system (24:37, 27:04, 28:23, 30:29).",
