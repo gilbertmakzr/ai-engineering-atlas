@@ -9,6 +9,7 @@ import {
 const QUERY_TIMEOUT_MS = 900;
 const CIRCUIT_BREAKER_MS = 30_000;
 const MAX_REQUESTS_PER_MINUTE = 20;
+const MAX_MATCHES_PER_TALK = 3;
 
 let circuitOpenUntil = 0;
 const requestWindows = new Map<string, { startedAt: number; count: number }>();
@@ -39,8 +40,14 @@ function allowRequest(): boolean {
 
 function parseMatches(payload: PineconeSearchResponse, catalogContentHash: string): PineconeTalkMatch[] {
   const seen = new Set<string>();
+  const matchesPerTalk = new Map<string, number>();
   const matches: PineconeTalkMatch[] = [];
-  for (const hit of payload.result?.hits ?? []) {
+  const hits = [...(payload.result?.hits ?? [])].sort(
+    (left, right) =>
+      (typeof right._score === "number" ? right._score : -Infinity) -
+      (typeof left._score === "number" ? left._score : -Infinity),
+  );
+  for (const hit of hits) {
     const fields = hit.fields;
     const talkId = fields?.talk_id;
     const field = fields?.field;
@@ -55,11 +62,13 @@ function parseMatches(payload: PineconeSearchResponse, catalogContentHash: strin
       typeof text !== "string" ||
       typeof score !== "number" ||
       contentHash !== catalogContentHash ||
-      seen.has(talkId)
+      seen.has(`${talkId}:${field}:${ordinal}`) ||
+      (matchesPerTalk.get(talkId) ?? 0) >= MAX_MATCHES_PER_TALK
     ) {
       continue;
     }
-    seen.add(talkId);
+    seen.add(`${talkId}:${field}:${ordinal}`);
+    matchesPerTalk.set(talkId, (matchesPerTalk.get(talkId) ?? 0) + 1);
     matches.push({
       talkId,
       score,
@@ -101,7 +110,9 @@ export async function searchPineconeApprovedInsights(query: string) {
           "X-Pinecone-Api-Version": "2025-04",
         },
         body: JSON.stringify({
-          query: { inputs: { text: query }, top_k: 20 },
+          // Ask for enough candidates to retain three matching approved
+          // bullets for each talk after grouping in the client.
+          query: { inputs: { text: query }, top_k: 60 },
           fields: ["talk_id", "field", "ordinal", "text", "catalog_content_hash"],
         }),
         signal: controller.signal,

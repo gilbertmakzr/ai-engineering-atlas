@@ -1,102 +1,219 @@
-import { VIDEOS } from "../src/data/videos";
+import { mkdir, readFile, rename, writeFile } from "node:fs/promises";
+import { dirname, resolve } from "node:path";
+import { execFileSync } from "node:child_process";
 
-type Candidate = {
-  youtubeId: string;
-  title: string;
-  channel: string;
-  score: number;
+export const YOUTUBE_DISCOVERY_BATCH_SIZE = 10;
+export const MIN_DISCOVERY_PACE_MS = 250;
+
+export type DiscoveryState = {
+  version: 1;
+  uploadsPlaylistId: string;
+  highWater: { youtubeId: string; publishedAt: string } | null;
+  updatedAt: string;
+  lastRun: { id: string; responseHash: string };
 };
 
-const stopwords = new Set([
-  "a",
-  "an",
-  "and",
-  "at",
-  "for",
-  "from",
-  "how",
-  "in",
-  "of",
-  "on",
-  "the",
-  "to",
-  "with",
-]);
+export type DiscoveryCandidate = {
+  youtubeId: string;
+  title: string;
+  channelTitle: string;
+  publishedAt: string;
+  sourceUrl: string;
+  discoveredAt: string;
+  source: "youtube_data_api";
+  reviewStatus: "review_required";
+  acquisitionStatus: "not_requested";
+  runId: string;
+  responseHash: string;
+};
 
-function tokens(value: string) {
-  return value
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, " ")
-    .trim()
-    .split(/\s+/)
-    .filter((token) => token.length > 1 && !stopwords.has(token));
+export type DiscoveryResult = {
+  status: "disabled" | "completed";
+  uploadsPlaylistId?: string;
+  fetched: number;
+  candidatesAdded: number;
+};
+
+type PlaylistItem = {
+  contentDetails?: { videoId?: string; videoPublishedAt?: string };
+  snippet?: { title?: string; channelTitle?: string; publishedAt?: string };
+};
+type FetchResponse = Pick<Response, "ok" | "status" | "json">;
+type FetchLike = (input: string | URL, init?: RequestInit) => Promise<FetchResponse>;
+
+function requireValue(value: string | undefined, name: string) {
+  if (!value?.trim()) throw new Error(`${name} is required for the enabled daily discovery run.`);
+  return value.trim();
 }
 
-function candidateScore(targetTitle: string, speaker: string, title: string, channel: string) {
-  const targetTokens = new Set(tokens(targetTitle));
-  const candidateTokens = new Set(tokens(title));
-  const overlap = [...targetTokens].filter((token) => candidateTokens.has(token)).length;
-  const titleScore = targetTokens.size === 0 ? 0 : overlap / targetTokens.size;
-  const speakerTokens = tokens(speaker).filter((token) => !["team", "independent"].includes(token));
-  const speakerScore = speakerTokens.some((token) => candidateTokens.has(token)) ? 0.2 : 0;
-  const channelScore = channel.toLowerCase() === "ai engineer" ? 0.15 : 0;
-  return Number(Math.min(1, titleScore + speakerScore + channelScore).toFixed(3));
+function localKeychainApiKey() {
+  if (process.platform !== "darwin") return undefined;
+  try {
+    return execFileSync(
+      "security",
+      [
+        "find-generic-password",
+        "-s",
+        "AI Engineer Atlas YouTube Discovery",
+        "-a",
+        "youtube-data-api-key",
+        "-w",
+      ],
+      { encoding: "utf8", stdio: ["ignore", "pipe", "ignore"] },
+    ).trim();
+  } catch {
+    return undefined;
+  }
 }
 
-async function oembed(youtubeId: string) {
-  const url = new URL("https://www.youtube.com/oembed");
-  url.searchParams.set("url", `https://www.youtube.com/watch?v=${youtubeId}`);
-  url.searchParams.set("format", "json");
-  const response = await fetch(url);
-  if (!response.ok) return null;
-  return (await response.json()) as { title?: string; author_name?: string };
+async function sleep(milliseconds: number) {
+  await new Promise((done) => setTimeout(done, milliseconds));
 }
 
-const requestedCodes = new Set(process.argv.slice(2));
-const catalog =
-  requestedCodes.size === 0 ? VIDEOS : VIDEOS.filter((video) => requestedCodes.has(video.code));
-const discoveries = [];
+async function apiJson<T>(url: URL, fetchFn: FetchLike, paceMs: number): Promise<T> {
+  let failure: Error | undefined;
+  for (let attempt = 0; attempt < 3; attempt += 1) {
+    try {
+      const response = await fetchFn(url, { headers: { accept: "application/json" } });
+      if (!response.ok)
+        throw new Error(`YouTube Data API request failed with HTTP ${response.status}.`);
+      return (await response.json()) as T;
+    } catch (error) {
+      failure = error instanceof Error ? error : new Error(String(error));
+      if (attempt < 2) await sleep(paceMs);
+    }
+  }
+  throw failure;
+}
 
-for (const video of catalog) {
-  const query = encodeURIComponent(`${video.title} ${video.sourceChannel} AI Engineer`);
-  const response = await fetch(`https://www.youtube.com/results?search_query=${query}`, {
-    headers: { "user-agent": "Mozilla/5.0" },
-  });
-  const html = await response.text();
-  const ids = [
-    ...new Set([...html.matchAll(/"videoId":"([A-Za-z0-9_-]{11})"/g)].map((match) => match[1])),
-  ].slice(0, 10);
+async function readJson<T>(path: string, fallback: T): Promise<T> {
+  try {
+    return JSON.parse(await readFile(path, "utf8")) as T;
+  } catch (error) {
+    if ((error as NodeJS.ErrnoException).code === "ENOENT") return fallback;
+    throw error;
+  }
+}
 
-  const candidates = (
-    await Promise.all(
-      ids.map(async (youtubeId): Promise<Candidate | null> => {
-        const metadata = await oembed(youtubeId);
-        if (!metadata?.title || !metadata.author_name) return null;
-        return {
-          youtubeId,
-          title: metadata.title,
-          channel: metadata.author_name,
-          score: candidateScore(
-            video.title,
-            video.sourceChannel,
-            metadata.title,
-            metadata.author_name,
-          ),
-        };
-      }),
+async function writeJsonAtomic(path: string, value: unknown) {
+  await mkdir(dirname(path), { recursive: true });
+  const temporary = `${path}.tmp`;
+  await writeFile(temporary, `${JSON.stringify(value, null, 2)}\n`, "utf8");
+  await rename(temporary, path);
+}
+
+async function sha256(value: string) {
+  const bytes = new TextEncoder().encode(value);
+  const hash = await crypto.subtle.digest("SHA-256", bytes);
+  return Array.from(new Uint8Array(hash), (byte) => byte.toString(16).padStart(2, "0")).join("");
+}
+
+function isAfter(candidate: DiscoveryCandidate, highWater: DiscoveryState["highWater"]) {
+  if (!highWater) return true;
+  const time = Date.parse(candidate.publishedAt);
+  const highWaterTime = Date.parse(highWater.publishedAt);
+  return (
+    time > highWaterTime || (time === highWaterTime && candidate.youtubeId !== highWater.youtubeId)
+  );
+}
+
+export async function runYouTubeMetadataDiscovery(
+  options: {
+    env?: NodeJS.ProcessEnv;
+    fetchFn?: FetchLike;
+    stateDir?: string;
+    now?: () => Date;
+  } = {},
+): Promise<DiscoveryResult> {
+  const env = options.env ?? process.env;
+  // Daily automation needs two affirmative controls: discovery and an operator-authorized schedule.
+  if (env.YOUTUBE_DISCOVERY_ENABLED !== "1" || env.ATLAS_DISCOVERY_SCHEDULE_ENABLED !== "true") {
+    return { status: "disabled", fetched: 0, candidatesAdded: 0 };
+  }
+  const apiKey = requireValue(
+    env.YOUTUBE_DATA_API_KEY ?? (env === process.env ? localKeychainApiKey() : undefined),
+    "YOUTUBE_DATA_API_KEY",
+  );
+  const uploadsPlaylistId = requireValue(
+    env.YOUTUBE_DISCOVERY_UPLOADS_PLAYLIST_ID,
+    "YOUTUBE_DISCOVERY_UPLOADS_PLAYLIST_ID",
+  );
+  const stateDir = resolve(options.stateDir ?? env.ATLAS_STATE_DIR ?? "var/atlas-state");
+  const paceMs = Math.max(
+    MIN_DISCOVERY_PACE_MS,
+    Number(env.YOUTUBE_DISCOVERY_PACE_MS) || MIN_DISCOVERY_PACE_MS,
+  );
+  const url = new URL("https://www.googleapis.com/youtube/v3/playlistItems");
+  url.searchParams.set("part", "snippet,contentDetails");
+  url.searchParams.set("playlistId", uploadsPlaylistId);
+  url.searchParams.set("maxResults", String(YOUTUBE_DISCOVERY_BATCH_SIZE));
+  url.searchParams.set("key", apiKey);
+  const payload = await apiJson<{ items?: PlaylistItem[] }>(url, options.fetchFn ?? fetch, paceMs);
+  const responseHash = await sha256(JSON.stringify(payload));
+  const now = options.now?.() ?? new Date();
+  const discoveredAt = now.toISOString();
+  const runId = `youtube-metadata-${discoveredAt.replace(/[:.]/g, "-")}`;
+  const statePath = resolve(stateDir, "youtube-discovery-state.json");
+  const candidatesPath = resolve(stateDir, "youtube-discovery-candidates.json");
+  const state = await readJson<DiscoveryState | null>(statePath, null);
+  const candidates = await readJson<DiscoveryCandidate[]>(candidatesPath, []);
+  const batch = (payload.items ?? []).flatMap((item): DiscoveryCandidate[] => {
+    const youtubeId = item.contentDetails?.videoId;
+    const publishedAt = item.contentDetails?.videoPublishedAt ?? item.snippet?.publishedAt;
+    const title = item.snippet?.title;
+    const channelTitle = item.snippet?.channelTitle;
+    if (
+      !youtubeId ||
+      !publishedAt ||
+      !title ||
+      !channelTitle ||
+      Number.isNaN(Date.parse(publishedAt))
     )
-  )
-    .filter((candidate): candidate is Candidate => candidate !== null)
-    .sort((left, right) => right.score - left.score)
-    .slice(0, 3);
-
-  discoveries.push({
-    code: video.code,
-    catalogTitle: video.title,
-    catalogChannel: video.sourceChannel,
-    currentYoutubeId: video.youtubeId,
-    candidates,
+      return [];
+    return [
+      {
+        youtubeId,
+        title,
+        channelTitle,
+        publishedAt,
+        sourceUrl: `https://www.youtube.com/watch?v=${youtubeId}`,
+        discoveredAt,
+        source: "youtube_data_api",
+        reviewStatus: "review_required",
+        acquisitionStatus: "not_requested",
+        runId,
+        responseHash,
+      },
+    ];
   });
+  const previousHighWater = state?.uploadsPlaylistId === uploadsPlaylistId ? state.highWater : null;
+  const existingIds = new Set(candidates.map((candidate) => candidate.youtubeId));
+  const additions = batch.filter(
+    (candidate) => !existingIds.has(candidate.youtubeId) && isAfter(candidate, previousHighWater),
+  );
+  const newest = [...batch].sort(
+    (left, right) =>
+      Date.parse(right.publishedAt) - Date.parse(left.publishedAt) ||
+      right.youtubeId.localeCompare(left.youtubeId),
+  )[0];
+  const nextState: DiscoveryState = {
+    version: 1,
+    uploadsPlaylistId,
+    highWater: newest
+      ? { youtubeId: newest.youtubeId, publishedAt: newest.publishedAt }
+      : previousHighWater,
+    updatedAt: discoveredAt,
+    lastRun: { id: runId, responseHash },
+  };
+  // These private files are deliberately never imported by public projection generation.
+  await writeJsonAtomic(candidatesPath, [...candidates, ...additions]);
+  await writeJsonAtomic(statePath, nextState);
+  return {
+    status: "completed",
+    uploadsPlaylistId,
+    fetched: batch.length,
+    candidatesAdded: additions.length,
+  };
 }
 
-console.log(JSON.stringify(discoveries, null, 2));
+if (import.meta.main) console.log(JSON.stringify(await runYouTubeMetadataDiscovery()));

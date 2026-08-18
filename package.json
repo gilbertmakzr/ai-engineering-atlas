@@ -10,6 +10,8 @@
     "preview": "wrangler dev --config .output/server/wrangler.json --compatibility-date 2026-07-08",
     "test": "bun test",
     "typecheck": "tsc --noEmit",
+    "atlas:update": "bun scripts/run-daily-atlas-projections.ts",
+    "atlas:reconcile": "bun scripts/discover-youtube-videos.ts",
     "projections:generate": "bun scripts/generate-public-projections.ts",
     "pinecone:sync": "bun scripts/sync-pinecone-insights.ts",
     "verify:sources": "bun scripts/verify-video-sources.ts",

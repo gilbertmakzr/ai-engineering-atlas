@@ -68,3 +68,18 @@ export function splitInsightSentences(body: string): string[] {
     .map((point) => point.trim())
     .filter(Boolean);
 }
+
+/**
+ * Determines whether an editorial sentence already carries a specific video
+ * timestamp. This prevents the modal from appending a second, identical
+ * citation after generated copy that already includes a timestamp group.
+ */
+export function hasTimestampReference(body: string, timestamp: string): boolean {
+  const [minutes, seconds] = timestamp.split(":");
+  if (!minutes || !seconds) return false;
+
+  // Source copy can use either `01:17` or the equivalent `1:17`.
+  const normalizedMinutes = String(Number(minutes));
+  const escapedSeconds = seconds.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  return new RegExp(`(?:^|[^0-9])0?${normalizedMinutes}:${escapedSeconds}(?![0-9])`).test(body);
+}

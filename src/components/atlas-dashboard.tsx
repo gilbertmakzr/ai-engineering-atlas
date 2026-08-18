@@ -22,6 +22,7 @@ import type { CatalogVideo } from "@/lib/atlas-catalog";
 import { trackEvent, logClientError, perfMark } from "@/lib/analytics";
 import {
   consolidateTimestampGroups,
+  hasTimestampReference,
   parseNumberedInsightText,
   splitInsightSentences,
 } from "@/lib/insight-formatting";
@@ -406,10 +407,15 @@ export function AtlasDashboard() {
     };
   }, [query]);
 
-  const semanticByTalk = useMemo(
-    () => new Map((semanticMatches ?? []).map((match) => [match.talkId, match])),
-    [semanticMatches],
-  );
+  const semanticByTalk = useMemo(() => {
+    const grouped = new Map<string, PineconeTalkMatch[]>();
+    for (const match of semanticMatches ?? []) {
+      const matches = grouped.get(match.talkId) ?? [];
+      matches.push(match);
+      grouped.set(match.talkId, matches);
+    }
+    return grouped;
+  }, [semanticMatches]);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -429,8 +435,8 @@ export function AtlasDashboard() {
     if (q && semanticMatches) {
       return filteredCatalog.sort(
         (left, right) =>
-          (semanticByTalk.get(right.id)?.score ?? -Infinity) -
-          (semanticByTalk.get(left.id)?.score ?? -Infinity),
+          (semanticByTalk.get(right.id)?.[0]?.score ?? -Infinity) -
+          (semanticByTalk.get(left.id)?.[0]?.score ?? -Infinity),
       );
     }
     return filteredCatalog;
@@ -626,12 +632,8 @@ export function AtlasDashboard() {
           aria-label="AI Engineering Insight Atlas introduction"
           className="mx-auto max-w-[1400px] px-6 pt-4"
         >
-          <div className="crosshair grid overflow-hidden rounded-xl border border-ink/90 bg-paper shadow-[0_20px_60px_-20px_rgba(20,20,40,0.25)] md:grid-cols-[minmax(0,0.8fr)_minmax(0,1.2fr)]">
-            <div className="flex min-h-[220px] items-center border-b border-ink/20 p-8 md:min-h-[310px] md:border-b-0 md:border-r md:p-12 lg:p-16">
-              <h1 className="max-w-[9ch] font-display text-5xl leading-[0.92] tracking-[-0.045em] sm:text-6xl lg:text-7xl">
-                AI Engineering Insights
-              </h1>
-            </div>
+          <h1 className="sr-only">AI Engineering Insights</h1>
+          <div className="crosshair overflow-hidden rounded-xl border border-ink/90 bg-paper shadow-[0_20px_60px_-20px_rgba(20,20,40,0.25)]">
             <picture className="block bg-card">
               <source srcSet="/hero-themes-v2.webp" type="image/webp" />
               <img
@@ -642,12 +644,12 @@ export function AtlasDashboard() {
                 loading="eager"
                 fetchPriority="high"
                 decoding="async"
-                className="block h-full min-h-[240px] w-full object-cover md:min-h-[310px]"
+                className="block h-auto w-full"
               />
             </picture>
           </div>
           <div className="mt-4 rounded-xl border border-[color:var(--track-4)]/45 bg-card px-4 py-3 font-sans text-sm leading-relaxed text-muted-foreground">
-            Source catalog was checked against YouTube on 4 Aug 2026. All rights belong to the
+            Source catalog was checked against YouTube on 15 Aug 2026. All rights belong to the
             respective owners.
           </div>
         </section>
@@ -866,7 +868,7 @@ export function AtlasDashboard() {
       </footer>
 
       {open && (
-        <SummaryModal video={open} match={semanticByTalk.get(open.id) ?? null} onClose={closeSummary} />
+        <SummaryModal video={open} matches={semanticByTalk.get(open.id) ?? []} onClose={closeSummary} />
       )}
     </div>
   );
@@ -1188,11 +1190,11 @@ function EmbeddedPlayer({ video }: { video: Video }) {
 
 function SummaryModal({
   video,
-  match,
+  matches,
   onClose,
 }: {
   video: CatalogVideo;
-  match: PineconeTalkMatch | null;
+  matches: PineconeTalkMatch[];
   onClose: () => void;
 }) {
   const themes = videoThemes(video);
@@ -1216,6 +1218,8 @@ function SummaryModal({
   }, [video]);
   const timestamp = (seconds: number) =>
     new Date(seconds * 1000).toISOString().slice(seconds >= 3600 ? 11 : 14, 19);
+  const matchedTextFor = (field: PineconeTalkMatch["matchedField"]) =>
+    matches.filter((match) => match.matchedField === field).map((match) => match.matchedText);
   return (
     <DialogPrimitive.Root
       open
@@ -1282,12 +1286,13 @@ function SummaryModal({
                 <>
                   <InsightBody
                     body={`${insight.claim}${
-                      insight.timestampSeconds !== null
+                      insight.timestampSeconds !== null &&
+                      !hasTimestampReference(insight.claim, timestamp(insight.timestampSeconds))
                         ? ` (${timestamp(insight.timestampSeconds)})`
                         : ""
                     }`}
                     className="mt-3 font-sans text-[15px] leading-relaxed text-ink"
-                    highlightText={match?.matchedField === "claim" ? match.matchedText : undefined}
+                    highlightTexts={matchedTextFor("claim")}
                   />
                   <div className="mt-5 space-y-5">
                     <ExamplePart
@@ -1295,9 +1300,7 @@ function SummaryModal({
                       body={insight.implication}
                       divider={false}
                       leadOnly
-                      highlightText={
-                        match?.matchedField === "implication" ? match.matchedText : undefined
-                      }
+                      highlightTexts={matchedTextFor("implication")}
                     />
                     <ExamplePart
                       label="Use it when"
@@ -1305,9 +1308,7 @@ function SummaryModal({
                       divider={false}
                       leadOnly
                       hideLead
-                      highlightText={
-                        match?.matchedField === "whenToUse" ? match.matchedText : undefined
-                      }
+                      highlightTexts={matchedTextFor("whenToUse")}
                     />
                   </div>
                   <div className="mt-5 border-t border-ink/10 pt-4">
@@ -1317,9 +1318,7 @@ function SummaryModal({
                     <InsightBody
                       body={insight.caveat}
                       className="mt-1 font-sans text-sm leading-relaxed text-muted-foreground"
-                      highlightText={
-                        match?.matchedField === "caveat" ? match.matchedText : undefined
-                      }
+                      highlightTexts={matchedTextFor("caveat")}
                     />
                   </div>
                 </>
@@ -1372,14 +1371,14 @@ function ExamplePart({
   divider = true,
   leadOnly = false,
   hideLead = false,
-  highlightText,
+  highlightTexts,
 }: {
   label: string;
   body: string;
   divider?: boolean;
   leadOnly?: boolean;
   hideLead?: boolean;
-  highlightText?: string;
+  highlightTexts?: string[];
 }) {
   return (
     <div className={divider ? "border-t border-ink/10 pt-3" : "pt-0"}>
@@ -1391,7 +1390,7 @@ function ExamplePart({
         className="mt-1 font-sans text-sm leading-relaxed text-ink"
         leadOnly={leadOnly}
         hideLead={hideLead}
-        highlightText={highlightText}
+        highlightTexts={highlightTexts}
       />
     </div>
   );
@@ -1402,35 +1401,40 @@ function InsightBody({
   className,
   leadOnly = false,
   hideLead = false,
-  highlightText,
+  highlightTexts = [],
 }: {
   body: string;
   className: string;
   leadOnly?: boolean;
   hideLead?: boolean;
-  highlightText?: string;
+  highlightTexts?: string[];
 }) {
   const numbered = parseNumberedInsightText(body);
-  const highlighted = (text: string) =>
-    highlightText !== undefined && text.trim().toLowerCase() === highlightText.trim().toLowerCase();
   const highlightClass = "rounded-md bg-amber-100 px-1.5 py-0.5 box-decoration-clone";
+  const renderedText = (text: string) => (
+    <HighlightedInsightText
+      text={text}
+      highlightTexts={highlightTexts}
+      highlightClass={highlightClass}
+    />
+  );
 
   if (numbered.points.length > 1) {
     if (numbered.lead && leadOnly) {
       return (
         <>
           {!hideLead && (
-            <p className={`${className} ${highlighted(numbered.lead) ? highlightClass : ""}`}>
-              {numbered.lead}
-            </p>
+            <p className={className}>{renderedText(numbered.lead)}</p>
           )}
           <ol
             className={`${className} insight-numbered-list insight-numbered-list--nested space-y-2`}
           >
             {numbered.points.map((point, index) => (
-              <li key={`${index}-${point}`} className={highlighted(point) ? highlightClass : undefined}>
+              <li key={`${index}-${point}`}>
                 <span className="insight-numbered-label">{index + 1}.</span>
-                {capitalizeFirstAlphabet(index === 1 ? consolidateTimestampGroups(point) : point)}
+                {renderedText(
+                  capitalizeFirstAlphabet(index === 1 ? consolidateTimestampGroups(point) : point),
+                )}
               </li>
             ))}
           </ol>
@@ -1443,12 +1447,14 @@ function InsightBody({
         <ol className={`${className} insight-numbered-list space-y-2`}>
           <li>
             <span className="insight-numbered-label">1.</span>
-            {numbered.lead}
+            {renderedText(numbered.lead)}
             <ol className="insight-numbered-list insight-numbered-list--nested mt-2 space-y-2">
               {numbered.points.map((point, index) => (
-                <li key={`${index}-${point}`} className={highlighted(point) ? highlightClass : undefined}>
+                <li key={`${index}-${point}`}>
                   <span className="insight-numbered-label">1.{index + 1}</span>
-                  {capitalizeFirstAlphabet(index === 1 ? consolidateTimestampGroups(point) : point)}
+                  {renderedText(
+                    capitalizeFirstAlphabet(index === 1 ? consolidateTimestampGroups(point) : point),
+                  )}
                 </li>
               ))}
             </ol>
@@ -1460,9 +1466,11 @@ function InsightBody({
     return (
       <ol className={`${className} insight-numbered-list space-y-2`}>
         {numbered.points.map((point, index) => (
-          <li key={`${index}-${point}`} className={highlighted(point) ? highlightClass : undefined}>
+          <li key={`${index}-${point}`}>
             <span className="insight-numbered-label">{index + 1}.</span>
-            {capitalizeFirstAlphabet(index === 1 ? consolidateTimestampGroups(point) : point)}
+            {renderedText(
+              capitalizeFirstAlphabet(index === 1 ? consolidateTimestampGroups(point) : point),
+            )}
           </li>
         ))}
       </ol>
@@ -1475,16 +1483,45 @@ function InsightBody({
     return (
       <ol className={`${className} insight-numbered-list space-y-2`}>
         {points.map((point, index) => (
-          <li key={`${index}-${point}`} className={highlighted(point) ? highlightClass : undefined}>
+          <li key={`${index}-${point}`}>
             <span className="insight-numbered-label">{index + 1}.</span>
-            {capitalizeFirstAlphabet(point)}
+            {renderedText(capitalizeFirstAlphabet(point))}
           </li>
         ))}
       </ol>
     );
   }
 
-  return <p className={`${className} ${highlighted(body) ? highlightClass : ""}`}>{body}</p>;
+  return <p className={className}>{renderedText(body)}</p>;
+}
+
+function HighlightedInsightText({
+  text,
+  highlightTexts,
+  highlightClass,
+}: {
+  text: string;
+  highlightTexts: string[];
+  highlightClass: string;
+}) {
+  const normalizedHighlights = new Set(highlightTexts.map((value) => value.trim().toLowerCase()));
+  const sentences = splitInsightSentences(text);
+  const isHighlighted = (value: string) => normalizedHighlights.has(value.trim().toLowerCase());
+
+  if (sentences.length <= 1) {
+    return <>{isHighlighted(text) ? <span className={highlightClass}>{text}</span> : text}</>;
+  }
+
+  return (
+    <>
+      {sentences.map((sentence, index) => (
+        <span key={`${index}-${sentence}`} className={isHighlighted(sentence) ? highlightClass : undefined}>
+          {index > 0 ? " " : ""}
+          {sentence}
+        </span>
+      ))}
+    </>
+  );
 }
 
 function capitalizeFirstAlphabet(text: string): string {
