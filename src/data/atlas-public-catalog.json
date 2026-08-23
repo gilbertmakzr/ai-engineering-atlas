@@ -1,16 +1,196 @@
 {
   "manifest": {
     "projectionVersion": "atlas-transcript-projection-2026-08-15",
-    "generatedAt": "2026-08-14T17:27:39.235Z",
-    "sourceCatalogVerifiedAt": "2026-08-14T17:27:39.235Z",
+    "generatedAt": "2026-08-23T00:00:00.000Z",
+    "sourceCatalogVerifiedAt": "2026-08-23T00:00:00.000Z",
     "contentScope": "mixed_approved_metadata",
     "publicationStatus": "published",
     "reviewStatus": "mixed",
-    "recordCount": 1060,
-    "contentHash": "fnv1a64:6a6694c9da0ac557",
+    "recordCount": 1069,
+    "contentHash": "fnv1a64:faa1902ce499afe1",
     "lastKnownGood": true
   },
   "records": [
+    {
+      "id": "youtube-yqF6XhzbWBk",
+      "code": "src-yqf6xhzbwbk",
+      "title": "Inside 847 Production Clinical AI Notes — Sebastian Fox, Composo",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": ["Safety & Control", "Data & Eval", "Reliability"],
+      "themes": ["Safety & Control", "Data & Eval", "Reliability"],
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-23T00:00:00Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      },
+      "publishedAt": "2026-08-22T17:00:32Z",
+      "durationSeconds": 1188,
+      "youtubeId": "yqF6XhzbWBk",
+      "contentStatus": "transcript_reviewed",
+      "insightReviewStatus": "approved"
+    },
+    {
+      "id": "youtube-KHudyx5wW3U",
+      "code": "src-khudyx5ww3u",
+      "title": "Agent Frameworks Considered Harmful — Rémi Louf, .txt",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": ["System Design", "Developer Workflows", "Knowledge"],
+      "themes": ["System Design", "Developer Workflows", "Knowledge"],
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-23T00:00:00Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      },
+      "publishedAt": "2026-08-22T16:30:39Z",
+      "durationSeconds": 1229,
+      "youtubeId": "KHudyx5wW3U",
+      "contentStatus": "transcript_reviewed",
+      "insightReviewStatus": "approved"
+    },
+    {
+      "id": "youtube-zCJtYuqwm7E",
+      "code": "src-zcjtyuqwm7e",
+      "title": "Coding Agents Don't Scale Themselves. Neither Do Your Teams. — Patrick Debois, Tessl",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": ["Developer Workflows", "System Design", "Deployment"],
+      "themes": ["Developer Workflows", "System Design", "Deployment"],
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-23T00:00:00Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      },
+      "publishedAt": "2026-08-22T16:00:06Z",
+      "durationSeconds": 1326,
+      "youtubeId": "zCJtYuqwm7E",
+      "contentStatus": "transcript_reviewed",
+      "insightReviewStatus": "approved"
+    },
+    {
+      "id": "youtube-FvxY8oPoI8o",
+      "code": "src-fvxy8opoi8o",
+      "title": "Preferences Over Benchmarks: Model Routing — Archana Kamath & Tyler Gillam, DigitalOcean",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": ["System Design", "Deployment", "Data & Eval"],
+      "themes": ["System Design", "Deployment", "Data & Eval"],
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-23T00:00:00Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      },
+      "publishedAt": "2026-08-22T15:30:18Z",
+      "durationSeconds": 954,
+      "youtubeId": "FvxY8oPoI8o",
+      "contentStatus": "transcript_reviewed",
+      "insightReviewStatus": "approved"
+    },
+    {
+      "id": "youtube-0I6aoPSRzVc",
+      "code": "src-0i6aopsrzvc",
+      "title": "What If Your Chip Design Team Moved Like a Single Body? — Abduallah Mohamed, AIDAChip",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": ["System Design", "Knowledge", "Developer Workflows"],
+      "themes": ["System Design", "Knowledge", "Developer Workflows"],
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-23T00:00:00Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      },
+      "publishedAt": "2026-08-22T15:00:25Z",
+      "durationSeconds": 1006,
+      "youtubeId": "0I6aoPSRzVc",
+      "contentStatus": "transcript_reviewed",
+      "insightReviewStatus": "approved"
+    },
+    {
+      "id": "youtube-GJX19pNhmSw",
+      "code": "src-gjx19pnhmsw",
+      "title": "FinOps for AI Agents: Who Spent All the Tokens? — Tisha Chawla & Susheem Koul, Microsoft",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": ["Observability", "Deployment", "Safety & Control"],
+      "themes": ["Observability", "Deployment", "Safety & Control"],
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-23T00:00:00Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      },
+      "publishedAt": "2026-08-22T14:30:07Z",
+      "durationSeconds": 1284,
+      "youtubeId": "GJX19pNhmSw",
+      "contentStatus": "transcript_reviewed",
+      "insightReviewStatus": "approved"
+    },
+    {
+      "id": "youtube-rbjWzZK2LU0",
+      "code": "src-rbjwzzk2lu0",
+      "title": "Give the Agent a Budget, Not a Token — Sachin Malhotra, Anthropic",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": ["Safety & Control", "Deployment", "Observability"],
+      "themes": ["Safety & Control", "Deployment", "Observability"],
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-23T00:00:00Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      },
+      "publishedAt": "2026-08-22T14:00:06Z",
+      "durationSeconds": 1193,
+      "youtubeId": "rbjWzZK2LU0",
+      "contentStatus": "transcript_reviewed",
+      "insightReviewStatus": "approved"
+    },
+    {
+      "id": "youtube-HvMyYLTfvhg",
+      "code": "src-hvmyyltfvhg",
+      "title": "Building Agents Is Trivial Now, Context Is the Next Frontier — Jeff Ng, Unblocked",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": ["System Design", "Reliability", "Knowledge"],
+      "themes": ["System Design", "Reliability", "Knowledge"],
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-23T00:00:00Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      },
+      "publishedAt": "2026-08-21T17:00:30Z",
+      "durationSeconds": 802,
+      "youtubeId": "HvMyYLTfvhg",
+      "contentStatus": "transcript_reviewed",
+      "insightReviewStatus": "approved"
+    },
+    {
+      "id": "youtube-7GMKdpLsxwU",
+      "code": "src-7gmkdplsxwu",
+      "title": "The Missing Layer: Design Taste in AI Agents — Hassan El Mghari, Together AI",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": ["Developer Workflows", "System Design"],
+      "themes": ["Developer Workflows", "System Design"],
+      "themeClassification": {
+        "source": "metadata_taxonomy",
+        "basis": "title_and_context_review",
+        "classifiedAt": "2026-08-23T00:00:00Z",
+        "classifierVersion": "atlas-metadata-taxonomy-2026-08-15"
+      },
+      "publishedAt": "2026-08-21T15:00:06Z",
+      "durationSeconds": 850,
+      "youtubeId": "7GMKdpLsxwU",
+      "contentStatus": "transcript_reviewed",
+      "insightReviewStatus": "approved"
+    },
     {
       "id": "youtube-1UmZHb_E_SM",
       "code": "src-1umzhb_e_sm",
