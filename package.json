@@ -11,6 +11,7 @@
     "test": "bun test",
     "typecheck": "tsc --noEmit",
     "atlas:update": "bun scripts/run-daily-atlas-projections.ts",
+    "atlas:insights:update": "bun scripts/run-update-insights.ts",
     "atlas:reconcile": "bun scripts/discover-youtube-videos.ts",
     "projections:generate": "bun scripts/generate-public-projections.ts",
     "pinecone:sync": "bun scripts/sync-pinecone-insights.ts",
