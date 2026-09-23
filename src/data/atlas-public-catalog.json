@@ -1,16 +1,32 @@
 {
   "manifest": {
     "projectionVersion": "atlas-transcript-projection-2026-08-15",
-    "generatedAt": "2026-09-06T01:07:00.388Z",
-    "sourceCatalogVerifiedAt": "2026-09-06T01:07:00.388Z",
+    "generatedAt": "2026-09-23T12:45:55.082Z",
+    "sourceCatalogVerifiedAt": "2026-09-23T12:45:55.082Z",
     "contentScope": "mixed_approved_metadata",
     "publicationStatus": "published",
     "reviewStatus": "mixed",
-    "recordCount": 1120,
-    "contentHash": "fnv1a64:11a3ccc09bfa9ae7",
+    "recordCount": 1121,
+    "contentHash": "fnv1a64:f36aeeb38cdab0aa",
     "lastKnownGood": true
   },
   "records": [
+    {
+      "id": "youtube-xs-ob87TTzg",
+      "code": "src-xs-ob87ttzg",
+      "title": "Total Recall: Agent Memory and Harness Engineering — Ignacio Martinez, Oracle",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": ["System Design", "Knowledge", "Reliability", "Developer Workflows"],
+      "themes": ["System Design", "Knowledge", "Reliability", "Developer Workflows"],
+      "tags": ["system-architecture", "memory", "context-engineering", "reliability-engineering", "developer-tools"],
+      "themeClassification": { "source": "transcript_review", "basis": "transcript_and_context_review", "classifiedAt": "2026-09-23T12:45:55Z", "classifierVersion": "atlas-transcript-review-2026-09-23" },
+      "publishedAt": "2026-09-18T01:00:00-07:00",
+      "durationSeconds": 3646,
+      "youtubeId": "xs-ob87TTzg",
+      "contentStatus": "transcript_reviewed",
+      "insightReviewStatus": "approved"
+    },
     {
       "id": "youtube-5Cxe5dv2Xlw",
       "code": "src-5cxe5dv2xlw",

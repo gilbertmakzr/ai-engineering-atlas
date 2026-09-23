@@ -21,6 +21,16 @@ export type TalkInsight = {
 };
 
 export const TALK_INSIGHTS: Partial<Record<Video["id"], TalkInsight>> = {
+  "youtube-xs-ob87TTzg": {
+    claim: "Ignacio Martinez frames agent engineering as the work around a model rather than the model itself. Because model behaviour is nondeterministic and mostly rented, a harness makes outcomes repeatable by controlling memory, retrieval, tools, context and execution rules (10:10, 11:25, 13:43).",
+    implication: "Build the parts of an agent you can actually govern. 1. Treat the model as a replaceable reasoning component and put reliability rules in the harness. 2. Use a database where concurrent updates, backups and hybrid search matter, while retaining files where their simple authoring model is useful (16:34). 3. Keep the working context small and relevant, then promote repeatable successful workflows into maintained skills instead of repeatedly rediscovering them (39:31).",
+    whenToUse: "1. A team is turning a model prototype into an agent that must behave consistently. 2. Multiple agents share memory or update the same operational state. 3. Engineers are deciding whether to store agent knowledge in files, a database or both.",
+    caveat: "The architecture and examples are presented through Oracle products and a workshop implementation. Test storage, retrieval and retry choices against the workload, security boundary and operating cost of your own system.",
+    example: { situation: "A support agent must read incident records, select approved runbooks and update a shared action log while other agents work on the same case.", application: "Use files for editable runbook material, store shared state and retrieval indexes in a transactional database, limit the agent's context to the active case and turn a successful remediation workflow into a reviewed skill.", observableOutcome: "Agents can collaborate without silently overwriting shared state, while recurring operational work becomes easier to repeat and audit." },
+    contentBasis: "transcript_backed",
+    timestampSeconds: 610,
+    reviewedAt: "2026-09-23T20:45:55+08:00",
+  },
   "youtube-5Cxe5dv2Xlw": {
     claim: "Olive Song frames long context as an agent-runtime capability, not a headline context-window number. MiniMax's M3 needs to retain multi-round conversation, tool returns and multimodal evidence long enough for work to remain coherent, while an index selects relevant blocks before sparse attention processes them (04:37, 05:26).",
     implication: "Treat long context as a system budget that must earn its cost. 1. Measure whether a task fails because necessary state falls out of the working window before increasing the context limit. 2. Design retrieval, selection and attention together so the model processes relevant evidence instead of blindly expanding every turn (05:26). 3. Evaluate long-horizon tool use separately from single-turn benchmark scores, including latency, stale context and attention failures.",
