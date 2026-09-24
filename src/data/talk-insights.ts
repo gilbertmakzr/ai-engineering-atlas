@@ -21,6 +21,16 @@ export type TalkInsight = {
 };
 
 export const TALK_INSIGHTS: Partial<Record<Video["id"], TalkInsight>> = {
+  "youtube-T72nqdC92PM": {
+    claim: "Krishna Prasad Srinivasan argues that document intelligence can be designed around the characteristics of the data rather than the largest available model. Sarvam combines block-level OCR with separate layout and reading-order harnesses, then uses a state-space model to make long visual sequences cheaper to process (03:55, 04:18, 05:23).",
+    implication: "Build document intelligence as a measurable system, not a monolithic OCR call. 1. Split layout, reading order and recognition into inspectable components so failure patterns are visible. 2. Choose an architecture against document length and inference cost, not parameter count alone (05:23). 3. Treat data generation and task-specific evaluation as a continuing loop, especially for low-resource languages and complex document formats (08:13).",
+    whenToUse: "1. A team is extracting structured information from long, mixed-layout or multilingual documents. 2. A document model's cost rises sharply as visual-token count grows. 3. Engineers can define automatic checks for outputs such as character accuracy, table structure or grammar.",
+    caveat: "The reported benchmark and production results are Sarvam's own claims. State-space models trade full token-to-token attention for lower cost, so teams should measure extraction quality on their document mix before changing architecture.",
+    example: { situation: "An insurer needs to digitise long policy forms that mix printed text, tables and handwritten annotations in several regional languages.", application: "First separate page layout, reading order and block-level recognition, then evaluate each stage with representative documents and machine-checkable accuracy tests. Use the results to target new real and synthetic training examples.", observableOutcome: "The team can pinpoint whether errors come from page structure, language recognition or downstream extraction instead of treating every failure as a generic model problem." },
+    contentBasis: "transcript_backed",
+    timestampSeconds: 235,
+    reviewedAt: "2026-09-24T09:00:21+08:00",
+  },
   "youtube-xs-ob87TTzg": {
     claim: "Ignacio Martinez frames agent engineering as the work around a model rather than the model itself. Because model behaviour is nondeterministic and mostly rented, a harness makes outcomes repeatable by controlling memory, retrieval, tools, context and execution rules (10:10, 11:25, 13:43).",
     implication: "Build the parts of an agent you can actually govern. 1. Treat the model as a replaceable reasoning component and put reliability rules in the harness. 2. Use a database where concurrent updates, backups and hybrid search matter, while retaining files where their simple authoring model is useful (16:34). 3. Keep the working context small and relevant, then promote repeatable successful workflows into maintained skills instead of repeatedly rediscovering them (39:31).",

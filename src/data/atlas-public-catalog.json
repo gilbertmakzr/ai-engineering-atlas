@@ -1,16 +1,32 @@
 {
   "manifest": {
     "projectionVersion": "atlas-transcript-projection-2026-08-15",
-    "generatedAt": "2026-09-23T12:45:55.082Z",
-    "sourceCatalogVerifiedAt": "2026-09-23T12:45:55.082Z",
+    "generatedAt": "2026-09-24T01:00:21.427Z",
+    "sourceCatalogVerifiedAt": "2026-09-24T01:00:21.427Z",
     "contentScope": "mixed_approved_metadata",
     "publicationStatus": "published",
     "reviewStatus": "mixed",
-    "recordCount": 1121,
-    "contentHash": "fnv1a64:f36aeeb38cdab0aa",
+    "recordCount": 1122,
+    "contentHash": "fnv1a64:923ef96ba80196ed",
     "lastKnownGood": true
   },
   "records": [
+    {
+      "id": "youtube-T72nqdC92PM",
+      "code": "src-t72nqdc92pm",
+      "title": "From Scratch to SOTA: Training a 3B State-Space Vision Model — Krishna Prasad Srinivasan, Sarvam",
+      "sourceChannel": "AI Engineer",
+      "track": null,
+      "tracks": ["Models & Training", "Data & Eval", "System Design"],
+      "themes": ["Models & Training", "Data & Eval", "System Design"],
+      "tags": ["model-training", "multimodal", "synthetic-data", "evals-benchmarks", "system-architecture"],
+      "themeClassification": { "source": "transcript_review", "basis": "transcript_and_context_review", "classifiedAt": "2026-09-24T01:00:21Z", "classifierVersion": "atlas-transcript-review-2026-09-24" },
+      "publishedAt": "2026-09-24T00:00:00-07:00",
+      "durationSeconds": 1267,
+      "youtubeId": "T72nqdC92PM",
+      "contentStatus": "transcript_reviewed",
+      "insightReviewStatus": "approved"
+    },
     {
       "id": "youtube-xs-ob87TTzg",
       "code": "src-xs-ob87ttzg",
